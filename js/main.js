@@ -151,7 +151,9 @@ $App.word12a = "H.T.F.F.P.O.M.";
 $App.word14 = "RULES";
 $App.word15 = "DOLLY";
 $App.word16 = "THUNDERBOLT";
-$App.word17 = "THUNDERBIRD";};
+$App.word17 = "THUNDERBIRD";
+$App.word18 = "Spare";
+$App.word19 = "Spare";};
 });
 NeoApp.controller("W1-DECISION_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
