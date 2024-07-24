@@ -11,7 +11,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #word16:hover {color:#0040D3;font-weight:700}
 #word05 {position:absolute;left:9.66183574879227%;width:83.3333333333333%;top:156px;height:342px;margin:0;color:#C0C0C0;font-family:Times New Roman,Times,serif;font-size:15pt;font-weight:700;transform:rotateZ(270deg)}
 #word05:hover {color:#0040D3;font-weight:700}
-#word11b {position:absolute;left:16.6666666666667%;width:76.8115942028986%;top:263px;height:316px;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:22pt;font-weight:700;text-align:right;transform:rotateZ(90deg)}
+#word11b {position:absolute;left:15.4589371980676%;width:76.8115942028986%;top:263px;height:316px;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:22pt;font-weight:700;text-align:right;transform:rotateZ(90deg)}
 #word11b:hover {color:#0040D3;font-weight:700}
 #word01 {position:absolute;left:7.2463768115942%;width:46.3768115942029%;top:90px;height:39px;margin:0;color:white;font-family:Arial,Helvetica,sans-serif;font-size:22pt;font-weight:700;text-shadow:2px 2px 5px red}
 #word01:hover {color:#0040D3;font-weight:700}
@@ -55,11 +55,11 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline10:hover {color:#0040D3;font-weight:700}
 #Headline11 {position:absolute;left:14.975845410628%;width:72.463768115942%;top:663px;height:46px;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:29pt;font-weight:700;text-align:center}
 #Headline11:hover {color:#0040D3;font-weight:700}
-#Headline466 {position:absolute;left:37.9227053140097%;width:33.3333333333333%;top:126px;height:121px;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:30pt;font-weight:700;transform:rotateZ(270deg)}
+#Headline466 {position:absolute;left:38.4057971014493%;width:33.3333333333333%;top:126px;height:121px;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:30pt;font-weight:700;transform:rotateZ(270deg)}
 #Headline466:hover {color:#0040D3;font-weight:700}
 #PushButton7 {position:absolute;left:3.14009661835749%;width:11.1111111111111%;top:223px;height:278px;margin:0;opacity:0}
-#PushButton10 {position:absolute;left:40.5797101449275%;width:9.66183574879227%;top:118px;height:135px;margin:0;opacity:0}
-#word11 {position:absolute;left:81.6425120772947%;width:17.1497584541063%;top:350px;height:283px;margin:0;opacity:0}
+#PushButton10 {position:absolute;left:40.3381642512077%;width:9.66183574879227%;top:123px;height:135px;margin:0;opacity:0}
+#word11 {position:absolute;left:82.1256038647343%;width:17.1497584541063%;top:367px;height:283px;margin:0;opacity:0}
 #PushButton16 {position:absolute;left:81.6425120772947%;width:17.1497584541063%;top:75px;height:287px;margin:0;opacity:0}
 #PushButton21 {position:absolute;left:59.9033816425121%;width:12.56038647343%;top:84px;height:247px;margin:0;opacity:0}
 #PushButton22 {position:absolute;left:71.0144927536232%;width:11.1111111111111%;top:84px;height:174px;margin:0;opacity:0}
