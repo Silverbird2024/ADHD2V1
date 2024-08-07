@@ -9,9 +9,9 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #word10:hover {color:#0040D3;font-weight:700}
 #word16 {position:absolute;left:6.76328502415459%;width:76.8115942028986%;top:11.1413043478261%;height:42.9347826086957%;margin:0;color:#2F4F4F;font-family:Courier New,Courier,monospace;font-size:22pt;font-weight:700;text-align:left;transform:rotateZ(90deg)}
 #word16:hover {color:#0040D3;font-weight:700}
-#word05 {position:absolute;left:7.0048309178744%;width:80.9178743961353%;top:13.8586956521739%;height:46.4673913043478%;margin:0;color:#C0C0C0;font-family:Times New Roman,Times,serif;font-size:12pt;font-weight:700;transform:rotateZ(270deg)}
+#word05 {position:absolute;left:8.93719806763285%;width:80.9178743961353%;top:13.8586956521739%;height:46.4673913043478%;margin:0;color:#C0C0C0;font-family:Times New Roman,Times,serif;font-size:12pt;font-weight:700;transform:rotateZ(270deg)}
 #word05:hover {color:#0040D3;font-weight:700}
-#word11b {position:absolute;left:18.1159420289855%;width:76.8115942028986%;top:31.5217391304348%;height:42.9347826086957%;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:18pt;font-weight:700;text-align:right;transform:rotateZ(90deg)}
+#word11b {position:absolute;left:14.975845410628%;width:76.8115942028986%;top:31.5217391304348%;height:42.9347826086957%;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:18pt;font-weight:700;text-align:right;transform:rotateZ(90deg)}
 #word11b:hover {color:#0040D3;font-weight:700}
 #word01 {position:absolute;left:7.2463768115942%;width:46.3768115942029%;top:12.2282608695652%;height:5.29891304347826%;margin:0;color:white;font-family:Arial,Helvetica,sans-serif;font-size:22pt;font-weight:700;text-shadow:2px 2px 5px red}
 #word01:hover {color:#0040D3;font-weight:700}
@@ -39,9 +39,9 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline493:hover {color:#0040D3;font-weight:700}
 #Headline497 {position:absolute;left:12.8019323671498%;width:69.5652173913043%;top:60.4619565217391%;height:7.33695652173913%;margin:0;color:#708090;font-family:Arial,Helvetica,sans-serif;font-size:27pt;font-weight:700;text-align:right}
 #Headline497:hover {color:#0040D3;font-weight:700}
-#Timeb {position:absolute;left:59.9033816425121%;width:10.8695652173913%;top:10.7336956521739%;height:39.8097826086957%;margin:0;font-size:37pt;font-weight:600;line-height:130%;text-align:center;text-shadow:3px 3px 3px Silver}
+#Timeb {position:absolute;left:61.1111111111111%;width:10.8695652173913%;top:10.7336956521739%;height:39.8097826086957%;margin:0;font-size:37pt;font-weight:600;line-height:130%;text-align:center;text-shadow:3px 3px 3px Silver}
 #PushButton2 {position:absolute;left:77.7777777777778%;width:16.4251207729469%;top:1.6304347826087%;height:4.6195652173913%;margin:0;color:#C0C0C0;background-color:#000000}
-#Headline1 {position:absolute;left:10.3864734299517%;width:66.9082125603865%;top:2.30978260869565%;height:3.66847826086957%;margin:0;color:silver;font-size:17pt}
+#Headline1 {position:absolute;left:10.3864734299517%;width:66.9082125603865%;top:2.30978260869565%;height:3.66847826086957%;margin:0;color:silver;font-size:15pt}
 #Container1 {position:absolute;left:7.48792270531401%;width:37.1980676328502%;top:11.4130434782609%;height:5.84239130434783%;margin:0;background-color:#fff;border-style:solid;border-width:1px;opacity:0;overflow-x:hidden;overflow-y:hidden}
 #Container2 {position:absolute;left:1.2987012987013%;width:100%;top:297.674418604651%;height:100%;margin:0;background-color:#fff;border-style:solid;border-width:1px;opacity:0;overflow-x:hidden;overflow-y:hidden}
 #Container3 {position:absolute;left:0px;width:20.7792207792208%;top:293.023255813953%;height:646.511627906977%;margin:0;background-color:#fff;border-style:solid;border-width:1px;opacity:0;overflow-x:hidden;overflow-y:hidden}
@@ -81,10 +81,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline11:hover {font-weight:700;text-shadow:2px 2px 5px Red}
 #Headline466 {position:absolute;left:38.4057971014493%;width:33.3333333333333%;top:17.1195652173913%;height:16.4402173913043%;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:30pt;font-weight:700;transform:rotateZ(270deg)}
 #Headline466:hover {color:#0040D3;font-weight:700}
-#PushButton7 {position:absolute;left:2.65700483091787%;width:9.42028985507246%;top:29.2119565217391%;height:37.3641304347826%;margin:0;opacity:0}
+#PushButton7 {position:absolute;left:1.93236714975845%;width:9.42028985507246%;top:29.4836956521739%;height:37.3641304347826%;margin:0;opacity:0}
 #PushButton10 {position:absolute;left:40.3381642512077%;width:9.66183574879227%;top:16.7119565217391%;height:18.3423913043478%;margin:0;opacity:0}
 #PushButton16 {position:absolute;left:84.5410628019324%;width:10.6280193236715%;top:10.1902173913043%;height:39.2663043478261%;margin:0;opacity:0}
-#PushButton21 {position:absolute;left:59.9033816425121%;width:12.56038647343%;top:11.4130434782609%;height:33.5597826086957%;margin:0;opacity:0}
+#PushButton21 {position:absolute;left:61.1111111111111%;width:12.56038647343%;top:11.5489130434783%;height:33.5597826086957%;margin:0;opacity:0}
 #PushButton22 {position:absolute;left:73.4299516908213%;width:11.1111111111111%;top:11.1413043478261%;height:23.6413043478261%;margin:0;opacity:0}
 #PushButton48 {position:absolute;left:6.52173913043478%;width:31.1594202898551%;top:18.75%;height:4.7554347826087%;margin:0;font-size:15pt;opacity:0}
 #PushButton49 {position:absolute;left:6.76328502415459%;width:29.2270531400966%;top:23.5054347826087%;height:6.11413043478261%;margin:0;font-size:15pt;opacity:0}
@@ -98,12 +98,41 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline24:hover {font-weight:700;text-shadow:2px 2px 5px Red}
 #Headline35 {position:absolute;left:38.1642512077295%;width:51.4492753623188%;top:88.5869565217391%;height:6.25%;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:25pt;font-weight:700;text-align:right}
 #Headline35:hover {font-weight:700;text-shadow:2px 2px 5px Yellow}
-#word11 {position:absolute;left:83.0917874396135%;width:15.7004830917874%;top:51.2228260869565%;height:26.7663043478261%;margin:0;opacity:0}
+#word11 {position:absolute;left:83.5748792270531%;width:11.5942028985507%;top:51.2228260869565%;height:26.7663043478261%;margin:0;opacity:0}
 #PushButton198 {position:absolute;left:59.6618357487923%;width:16.4251207729469%;top:1.76630434782609%;height:4.6195652173913%;margin:0;color:#C0C0C0;background-color:#000000}
 #Headline44 {position:absolute;left:8.69565217391304%;width:51.6908212560386%;top:93.3423913043478%;height:6.25%;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:25pt;font-weight:700}
 #Headline44:hover {font-weight:700;text-shadow:2px 2px 5px Red}
 #Headline75 {position:absolute;left:38.1642512077295%;width:51.4492753623188%;top:93.3423913043478%;height:6.25%;margin:0;color:#C0C0C0;font-family:Arial,Helvetica,sans-serif;font-size:25pt;font-weight:700;text-align:right}
 #Headline75:hover {font-weight:700;text-shadow:2px 2px 5px Yellow}
+#PushButton262 {position:absolute;left:59.6618357487923%;width:34.2995169082126%;top:6.65760869565217%;height:3.39673913043478%;margin:0;color:#C0C0C0;font-size:8pt;font-weight:500;background-color:#000000}
+#Timers {position:relative;width:100%;height:100%;overflow:auto;;background-color:#696969}
+#Headline111 {position:absolute;left:5.07246376811594%;width:70.048309178744%;top:0.543478260869565%;height:7.20108695652174%;margin:0;color:#DCDCDC;font-size:36pt}
+#Headline100 {position:absolute;left:5.31400966183575%;width:65.7004830917874%;top:8.28804347826087%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#PushButton258 {position:absolute;left:77.536231884058%;width:16.4251207729469%;top:1.6304347826087%;height:4.6195652173913%;margin:0;color:#C0C0C0;background-color:#696969}
+#Headline84 {position:absolute;left:4.83091787439614%;width:70.048309178744%;top:0.407608695652174%;height:7.20108695652174%;margin:0;color:#2F4F4F;font-size:36pt}
+#speak6 {position:absolute;left:6.28019323671498%;width:14.975845410628%;top:87.3641304347826%;height:4.07608695652174%;margin:0;font-size:8pt}
+#speakt2 {position:absolute;left:60.6280193236715%;width:12.3188405797101%;top:87.3641304347826%;height:4.07608695652174%;margin:0;color:#707070;font-size:8pt}
+#speakt1 {position:absolute;left:73.1884057971014%;width:18.8405797101449%;top:87.3641304347826%;height:4.07608695652174%;margin:0;font-size:8pt}
+#speak3 {position:absolute;left:47.5845410628019%;width:12.3188405797101%;top:87.3641304347826%;height:4.07608695652174%;margin:0;font-size:8pt}
+#speak4 {position:absolute;left:35.024154589372%;width:12.3188405797101%;top:87.3641304347826%;height:4.07608695652174%;margin:0;font-size:8pt}
+#speak5 {position:absolute;left:21.9806763285024%;width:12.3188405797101%;top:87.3641304347826%;height:4.07608695652174%;margin:0;font-size:8pt}
+#Headline88 {position:absolute;left:4.83091787439614%;width:70.048309178744%;top:0.407608695652174%;height:7.20108695652174%;margin:0;color:#2F4F4F;font-size:36pt}
+#speakt130 {position:absolute;left:7.2463768115942%;width:85.9903381642512%;top:10.5978260869565%;height:6.79347826086957%;margin:0;}
+#Headline103 {position:absolute;left:5.55555555555556%;width:65.7004830917874%;top:18.3423913043478%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#speakt260 {position:absolute;left:7.48792270531401%;width:85.9903381642512%;top:20.6521739130435%;height:6.79347826086957%;margin:0;}
+#Headline107 {position:absolute;left:5.55555555555556%;width:65.7004830917874%;top:28.5326086956522%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#speakt310 {position:absolute;left:7.48792270531401%;width:85.9903381642512%;top:30.8423913043478%;height:6.79347826086957%;margin:0;}
+#Headline108 {position:absolute;left:5.07246376811594%;width:65.7004830917874%;top:38.9945652173913%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#speakt420 {position:absolute;left:7.0048309178744%;width:85.9903381642512%;top:41.304347826087%;height:6.79347826086957%;margin:0;}
+#Headline109 {position:absolute;left:5.31400966183575%;width:65.7004830917874%;top:49.0489130434783%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#speakt530 {position:absolute;left:7.2463768115942%;width:85.9903381642512%;top:51.3586956521739%;height:6.79347826086957%;margin:0;}
+#Headline110 {position:absolute;left:5.31400966183575%;width:65.7004830917874%;top:59.2391304347826%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#speakt660 {position:absolute;left:7.2463768115942%;width:85.9903381642512%;top:61.5489130434783%;height:6.79347826086957%;margin:0;}
+#Headline112 {position:absolute;left:5.31400966183575%;width:65.7004830917874%;top:59.2391304347826%;height:3.26086956521739%;margin:0;color:#DCDCDC;font-size:10pt}
+#ev30sec {position:absolute;left:6.52173913043478%;width:85.024154589372%;top:73.7771739130435%;height:4.07608695652174%;margin:0;font-size:9pt}
+#ev1min {position:absolute;left:6.52173913043478%;width:85.024154589372%;top:78.2608695652174%;height:4.07608695652174%;margin:0;font-size:9pt}
+#ev10min {position:absolute;left:6.76328502415459%;width:85.024154589372%;top:82.8804347826087%;height:4.07608695652174%;margin:0;font-size:9pt}
+#ev10sec {position:absolute;left:6.52173913043478%;width:85.024154589372%;top:69.429347826087%;height:4.07608695652174%;margin:0;font-size:9pt}
 #AdhDTest01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#383838}
 #PushButton117 {position:absolute;left:63.768115942029%;width:16.4251207729469%;top:7.7445652173913%;height:3.125%;margin:0;color:#DCDCDC;font-size:7pt;background-color:#696969}
 #whq01 {position:absolute;left:7.0048309178744%;width:88.4057971014493%;top:11.9565217391304%;height:8.42391304347826%;margin:0;color:#B2D0DC;font-size:12pt;font-style:italic;font-weight:600}
@@ -552,14 +581,18 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton32 {position:absolute;left:81.6425120772947%;width:16.4251207729469%;top:1.6304347826087%;height:4.6195652173913%;margin:0;color:#C0C0C0;background-color:#696969}
 #W15-01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#696969}
 #Headline2 {position:absolute;left:4.83091787439614%;width:76.8115942028986%;top:0.407608695652174%;height:7.20108695652174%;margin:0;color:#2F4F4F;font-size:20pt}
-#w15 {position:absolute;left:4.34782608695652%;width:92.512077294686%;top:7.8804347826087%;height:82.3369565217391%;margin:0;color:#2F4F4F;font-size:23pt;background-color:#C0C0C0}
+#w15 {position:absolute;left:4.34782608695652%;width:92.512077294686%;top:7.8804347826087%;height:81.929347826087%;margin:0;color:#2F4F4F;font-size:23pt;background-color:#C0C0C0}
 #PushButton6 {position:absolute;left:81.6425120772947%;width:16.4251207729469%;top:1.6304347826087%;height:4.6195652173913%;margin:0;color:#C0C0C0;background-color:#696969}
 #PushButton5 {position:absolute;left:23.6714975845411%;width:11.3526570048309%;top:92.1195652173913%;height:3.26086956521739%;margin:0;color:#A52A2A;font-size:7pt}
 #PushButton82 {position:absolute;left:9.17874396135266%;width:11.3526570048309%;top:92.1195652173913%;height:3.26086956521739%;margin:0;color:#A52A2A;font-size:7pt}
 #PushButton87 {position:absolute;left:52.1739130434783%;width:11.3526570048309%;top:92.2554347826087%;height:3.26086956521739%;margin:0;color:#A52A2A;font-size:7pt}
 #PushButton88 {position:absolute;left:37.6811594202899%;width:11.3526570048309%;top:92.2554347826087%;height:3.26086956521739%;margin:0;color:#A52A2A;font-size:7pt}
 #PushButton89 {position:absolute;left:66.1835748792271%;width:12.0772946859903%;top:92.2554347826087%;height:3.39673913043478%;margin:0;font-size:7pt}
-#PushButton90 {position:absolute;left:79.7101449275362%;width:12.0772946859903%;top:92.2554347826087%;height:3.39673913043478%;margin:0;color:red;font-size:7pt}
+#PushButton90 {position:absolute;left:79.4685990338164%;width:12.0772946859903%;top:92.3913043478261%;height:3.39673913043478%;margin:0;color:red;font-size:7pt}
+#PushButton246 {position:absolute;left:17.8743961352657%;width:13.0434782608696%;top:89.945652173913%;height:1.90217391304348%;margin:0;}
+#PushButton247 {position:absolute;left:31.6425120772947%;width:13.0434782608696%;top:89.945652173913%;height:1.90217391304348%;margin:0;}
+#PushButton248 {position:absolute;left:46.3768115942029%;width:13.0434782608696%;top:89.945652173913%;height:1.90217391304348%;margin:0;}
+#PushButton249 {position:absolute;left:69.8067632850242%;width:21.256038647343%;top:89.945652173913%;height:1.90217391304348%;margin:0;}
 #W16-01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#696969}
 #PushButton23 {position:absolute;left:64.0096618357488%;width:32.6086956521739%;top:81.929347826087%;height:4.89130434782609%;margin:0;color:Silver;background-color:#696969}
 #Headline9 {position:absolute;left:4.83091787439614%;width:76.8115942028986%;top:0.407608695652174%;height:7.20108695652174%;margin:0;color:#2F4F4F;font-size:20pt}
@@ -628,6 +661,12 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton245 {position:absolute;left:7.72946859903382%;width:27.0531400966184%;top:78.5326086956522%;height:3.53260869565217%;margin:0;font-size:9pt}
 #TextArea7 {position:absolute;left:36.9565217391304%;width:56.7632850241546%;top:78.5326086956522%;height:3.80434782608696%;margin:0;font-size:8pt}
 #Headline83 {position:absolute;left:6.76328502415459%;width:87.1980676328502%;top:69.1576086956522%;height:8.96739130434783%;margin:0;font-size:11pt}
+#PushButton250 {position:absolute;left:6.03864734299517%;width:14.975845410628%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton251 {position:absolute;left:60.3864734299517%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton252 {position:absolute;left:72.9468599033816%;width:18.8405797101449%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton253 {position:absolute;left:47.3429951690821%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton254 {position:absolute;left:34.7826086956522%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton255 {position:absolute;left:21.7391304347826%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
 #w25-01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#696969}
 #Headline79 {position:absolute;left:4.83091787439614%;width:76.8115942028986%;top:0.951086956521739%;height:7.20108695652174%;margin:0;color:#2F4F4F;font-size:20pt}
 #w25 {position:absolute;left:4.34782608695652%;width:92.512077294686%;top:12.3641304347826%;height:33.4239130434783%;margin:0;color:#2F4F4F;font-size:23pt;background-color:#C0C0C0}
@@ -641,7 +680,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline80 {position:absolute;left:4.34782608695652%;width:92.7536231884058%;top:7.7445652173913%;height:4.21195652173913%;margin:0;color:#DCDCDC;font-size:20pt}
 #TextArea2 {position:absolute;left:4.10628019323671%;width:60.8695652173913%;top:47.9619565217391%;height:33.5597826086957%;margin:0;color:#2F4F4F;font-size:10pt;background-color:#C0C0C0}
 #TextArea4 {position:absolute;left:66.1835748792271%;width:30.1932367149758%;top:47.9619565217391%;height:33.5597826086957%;margin:0;color:#2F4F4F;background-color:#C0C0C0}
-#TextArea5 {position:absolute;left:4.10628019323671%;width:92.512077294686%;top:82.2010869565217%;height:9.51086956521739%;margin:0;color:red;font-size:10pt;background-color:#C0C0C0}
+#TextArea5 {position:absolute;left:4.10628019323671%;width:92.512077294686%;top:82.2010869565217%;height:5.57065217391304%;margin:0;color:red;font-size:10pt;background-color:#C0C0C0}
 #PushButton174 {position:absolute;left:80.6763285024155%;width:16.4251207729469%;top:5.84239130434783%;height:3.125%;margin:0;font-size:6pt}
 #Headline82 {position:absolute;left:101.449275362319%;width:71.256038647343%;top:12.7717391304348%;height:84.2391304347826%;margin:0;color:white;font-size:10pt;font-weight:600}
 #PushButton237 {position:absolute;left:80.6763285024155%;width:16.4251207729469%;top:8.83152173913043%;height:3.26086956521739%;margin:0;font-size:6pt}
@@ -649,6 +688,12 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton239 {position:absolute;left:29.7101449275362%;width:13.0434782608696%;top:45.9239130434783%;height:1.90217391304348%;margin:0;}
 #PushButton240 {position:absolute;left:44.4444444444444%;width:13.0434782608696%;top:45.9239130434783%;height:1.90217391304348%;margin:0;}
 #PushButton241 {position:absolute;left:70.7729468599034%;width:21.256038647343%;top:45.9239130434783%;height:1.90217391304348%;margin:0;}
+#PushButton256 {position:absolute;left:6.03864734299517%;width:14.975845410628%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton257 {position:absolute;left:60.3864734299517%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;color:#707070;font-size:8pt}
+#w2530s {position:absolute;left:72.9468599033816%;width:18.8405797101449%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton259 {position:absolute;left:47.3429951690821%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton260 {position:absolute;left:34.7826086956522%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
+#PushButton261 {position:absolute;left:21.7391304347826%;width:12.3188405797101%;top:95.9239130434783%;height:4.07608695652174%;margin:0;font-size:8pt}
 #W22-01 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#696969}
 #Headline41 {position:absolute;left:7.48792270531401%;width:33.3333333333333%;top:9.64673913043478%;height:7.20108695652174%;margin:0;color:#F0F8FF;font-size:11pt;font-weight:600}
 #Headline36 {position:absolute;left:4.83091787439614%;width:76.8115942028986%;top:0.407608695652174%;height:7.20108695652174%;margin:0;color:#2F4F4F;font-size:20pt}
