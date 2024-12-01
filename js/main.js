@@ -1,8 +1,8 @@
-var NeoApp=angular.module("NeoApp",["ngAnimate","ngRoute","ngSanitize","ngTouch","ui.bootstrap"],function($interpolateProvider){$interpolateProvider.startSymbol("[");$interpolateProvider.endSymbol("]");});NeoApp.config(["$routeProvider",function($routeProvider,$scope,$rootScope){$routeProvider.when("/Index",{templateUrl:"Index",controller:"Index_Ctrl"});$routeProvider.when("/Edit",{templateUrl:"Edit",controller:"Edit_Ctrl"});$routeProvider.when("/W6-01",{templateUrl:"W6-01",controller:"W6-01_Ctrl"});$routeProvider.when("/W7-01",{templateUrl:"W7-01",controller:"W7-01_Ctrl"});$routeProvider.when("/St1",{templateUrl:"St1",controller:"St1_Ctrl"});$routeProvider.when("/ToDoListOptions01",{templateUrl:"ToDoListOptions01",controller:"ToDoListOptions01_Ctrl"});$routeProvider.when("/Developernote1-3",{templateUrl:"Developernote1-3",controller:"Developernote1-3_Ctrl"});$routeProvider.when("/Developernote4-6",{templateUrl:"Developernote4-6",controller:"Developernote4-6_Ctrl"});$routeProvider.when("/Developernote6-9",{templateUrl:"Developernote6-9",controller:"Developernote6-9_Ctrl"});$routeProvider.when("/ToDoListOptions02",{templateUrl:"ToDoListOptions02",controller:"ToDoListOptions02_Ctrl"});$routeProvider.when("/EDitToDoListOptions01",{templateUrl:"EDitToDoListOptions01",controller:"EDitToDoListOptions01_Ctrl"});$routeProvider.when("/EDitToDoListOptions03",{templateUrl:"EDitToDoListOptions03",controller:"EDitToDoListOptions03_Ctrl"});$routeProvider.when("/EDitToDoListOptions02",{templateUrl:"EDitToDoListOptions02",controller:"EDitToDoListOptions02_Ctrl"});$routeProvider.when("/EDitToDoListOptions04",{templateUrl:"EDitToDoListOptions04",controller:"EDitToDoListOptions04_Ctrl"});$routeProvider.when("/Export",{templateUrl:"Export",controller:"Export_Ctrl"});$routeProvider.when("/ADVersion",{templateUrl:"ADVersion",controller:"ADVersion_Ctrl"});$routeProvider.when("/Option4",{templateUrl:"Option4",controller:"Option4_Ctrl"});$routeProvider.when("/Option5",{templateUrl:"Option5",controller:"Option5_Ctrl"});$routeProvider.when("/Option6",{templateUrl:"Option6",controller:"Option6_Ctrl"});$routeProvider.when("/Option7",{templateUrl:"Option7",controller:"Option7_Ctrl"});$routeProvider.when("/Option8",{templateUrl:"Option8",controller:"Option8_Ctrl"});$routeProvider.when("/Option9",{templateUrl:"Option9",controller:"Option9_Ctrl"});$routeProvider.when("/Option10",{templateUrl:"Option10",controller:"Option10_Ctrl"});$routeProvider.when("/Option11",{templateUrl:"Option11",controller:"Option11_Ctrl"});$routeProvider.when("/Option12",{templateUrl:"Option12",controller:"Option12_Ctrl"});$routeProvider.when("/Option13",{templateUrl:"Option13",controller:"Option13_Ctrl"});$routeProvider.when("/Option14",{templateUrl:"Option14",controller:"Option14_Ctrl"});$routeProvider.when("/Option15",{templateUrl:"Option15",controller:"Option15_Ctrl"});$routeProvider.when("/Option16",{templateUrl:"Option16",controller:"Option16_Ctrl"});$routeProvider.when("/Option17",{templateUrl:"Option17",controller:"Option17_Ctrl"});$routeProvider.when("/Option18",{templateUrl:"Option18",controller:"Option18_Ctrl"});$routeProvider.when("/Option19",{templateUrl:"Option19",controller:"Option19_Ctrl"});$routeProvider.when("/Option20",{templateUrl:"Option20",controller:"Option20_Ctrl"});$routeProvider.when("/Option21",{templateUrl:"Option21",controller:"Option21_Ctrl"});$routeProvider.when("/Option22",{templateUrl:"Option22",controller:"Option22_Ctrl"});$routeProvider.when("/Option23",{templateUrl:"Option23",controller:"Option23_Ctrl"});$routeProvider.when("/Option24",{templateUrl:"Option24",controller:"Option24_Ctrl"});$routeProvider.when("/Option25",{templateUrl:"Option25",controller:"Option25_Ctrl"});$routeProvider.when("/Timers",{templateUrl:"Timers",controller:"Timers_Ctrl"});$routeProvider.when("/AdhDTest01",{templateUrl:"AdhDTest01",controller:"AdhDTest01_Ctrl"});$routeProvider.when("/AdhDTest02",{templateUrl:"AdhDTest02",controller:"AdhDTest02_Ctrl"});$routeProvider.when("/AdhDTest03",{templateUrl:"AdhDTest03",controller:"AdhDTest03_Ctrl"});$routeProvider.when("/AdhDTest04",{templateUrl:"AdhDTest04",controller:"AdhDTest04_Ctrl"});$routeProvider.when("/settings",{templateUrl:"settings",controller:"settings_Ctrl"});$routeProvider.when("/W1-DECISION",{templateUrl:"W1-DECISION",controller:"W1-DECISION_Ctrl"});$routeProvider.when("/W1-2",{templateUrl:"W1-2",controller:"W1-2_Ctrl"});$routeProvider.when("/W3-01",{templateUrl:"W3-01",controller:"W3-01_Ctrl"});$routeProvider.when("/W4-01",{templateUrl:"W4-01",controller:"W4-01_Ctrl"});$routeProvider.when("/W100-01",{templateUrl:"W100-01",controller:"W100-01_Ctrl"});$routeProvider.when("/W5-01",{templateUrl:"W5-01",controller:"W5-01_Ctrl"});$routeProvider.when("/TNeoAppPage11",{templateUrl:"TNeoAppPage11",controller:"TNeoAppPage11_Ctrl"});$routeProvider.when("/KnowThyself",{templateUrl:"KnowThyself",controller:"KnowThyself_Ctrl"});$routeProvider.when("/W08-01",{templateUrl:"W08-01",controller:"W08-01_Ctrl"});$routeProvider.when("/W09-01",{templateUrl:"W09-01",controller:"W09-01_Ctrl"});$routeProvider.when("/Wnotes",{templateUrl:"Wnotes",controller:"Wnotes_Ctrl"});$routeProvider.when("/W11-01",{templateUrl:"W11-01",controller:"W11-01_Ctrl"});$routeProvider.when("/W15-01",{templateUrl:"W15-01",controller:"W15-01_Ctrl"});$routeProvider.when("/W16-01",{templateUrl:"W16-01",controller:"W16-01_Ctrl"});$routeProvider.when("/W14-01",{templateUrl:"W14-01",controller:"W14-01_Ctrl"});$routeProvider.when("/W14-01a",{templateUrl:"W14-01a",controller:"W14-01a_Ctrl"});$routeProvider.when("/W14-02",{templateUrl:"W14-02",controller:"W14-02_Ctrl"});$routeProvider.when("/W14-03",{templateUrl:"W14-03",controller:"W14-03_Ctrl"});$routeProvider.when("/W14-04",{templateUrl:"W14-04",controller:"W14-04_Ctrl"});$routeProvider.when("/W14-05",{templateUrl:"W14-05",controller:"W14-05_Ctrl"});$routeProvider.when("/W14-06",{templateUrl:"W14-06",controller:"W14-06_Ctrl"});$routeProvider.when("/W14-07",{templateUrl:"W14-07",controller:"W14-07_Ctrl"});$routeProvider.when("/W14-08",{templateUrl:"W14-08",controller:"W14-08_Ctrl"});$routeProvider.when("/W14-09",{templateUrl:"W14-09",controller:"W14-09_Ctrl"});$routeProvider.when("/W14-10",{templateUrl:"W14-10",controller:"W14-10_Ctrl"});$routeProvider.when("/QDLists",{templateUrl:"QDLists",controller:"QDLists_Ctrl"});$routeProvider.when("/QD001",{templateUrl:"QD001",controller:"QD001_Ctrl"});$routeProvider.when("/QD002",{templateUrl:"QD002",controller:"QD002_Ctrl"});$routeProvider.when("/QD003",{templateUrl:"QD003",controller:"QD003_Ctrl"});$routeProvider.when("/QD004",{templateUrl:"QD004",controller:"QD004_Ctrl"});$routeProvider.when("/QD005",{templateUrl:"QD005",controller:"QD005_Ctrl"});$routeProvider.when("/QD006",{templateUrl:"QD006",controller:"QD006_Ctrl"});$routeProvider.when("/QD007",{templateUrl:"QD007",controller:"QD007_Ctrl"});$routeProvider.when("/QD008",{templateUrl:"QD008",controller:"QD008_Ctrl"});$routeProvider.when("/QD009",{templateUrl:"QD009",controller:"QD009_Ctrl"});$routeProvider.when("/QD010",{templateUrl:"QD010",controller:"QD010_Ctrl"});$routeProvider.when("/QD011",{templateUrl:"QD011",controller:"QD011_Ctrl"});$routeProvider.when("/QD012",{templateUrl:"QD012",controller:"QD012_Ctrl"});$routeProvider.when("/QD013",{templateUrl:"QD013",controller:"QD013_Ctrl"});$routeProvider.when("/QD014",{templateUrl:"QD014",controller:"QD014_Ctrl"});$routeProvider.when("/QD015",{templateUrl:"QD015",controller:"QD015_Ctrl"});$routeProvider.when("/QD016",{templateUrl:"QD016",controller:"QD016_Ctrl"});$routeProvider.when("/QD017",{templateUrl:"QD017",controller:"QD017_Ctrl"});$routeProvider.when("/QD018",{templateUrl:"QD018",controller:"QD018_Ctrl"});$routeProvider.when("/QD019",{templateUrl:"QD019",controller:"QD019_Ctrl"});$routeProvider.when("/QD020",{templateUrl:"QD020",controller:"QD020_Ctrl"});$routeProvider.when("/W18-01",{templateUrl:"W18-01",controller:"W18-01_Ctrl"});$routeProvider.when("/W19-01",{templateUrl:"W19-01",controller:"W19-01_Ctrl"});$routeProvider.when("/W20-01",{templateUrl:"W20-01",controller:"W20-01_Ctrl"});$routeProvider.when("/w21-01",{templateUrl:"w21-01",controller:"w21-01_Ctrl"});$routeProvider.when("/w24-01",{templateUrl:"w24-01",controller:"w24-01_Ctrl"});$routeProvider.when("/w25-01",{templateUrl:"w25-01",controller:"w25-01_Ctrl"});$routeProvider.when("/W22-01",{templateUrl:"W22-01",controller:"W22-01_Ctrl"});$routeProvider.when("/W23-01",{templateUrl:"W23-01",controller:"W23-01_Ctrl"});$routeProvider.when("/W2-01",{templateUrl:"W2-01",controller:"W2-01_Ctrl"});$routeProvider.when("/W10-01",{templateUrl:"W10-01",controller:"W10-01_Ctrl"});$routeProvider.when("/W12-01",{templateUrl:"W12-01",controller:"W12-01_Ctrl"});$routeProvider.when("/Q001",{templateUrl:"Q001",controller:"Q001_Ctrl"});$routeProvider.when("/Q002",{templateUrl:"Q002",controller:"Q002_Ctrl"});$routeProvider.when("/W13-01",{templateUrl:"W13-01",controller:"W13-01_Ctrl"});$routeProvider.when("/Option1",{templateUrl:"Option1",controller:"Option1_Ctrl"});$routeProvider.when("/Option2",{templateUrl:"Option2",controller:"Option2_Ctrl"});$routeProvider.when("/Option3",{templateUrl:"Option3",controller:"Option3_Ctrl"});$routeProvider.otherwise({redirectTo:"/Index"});}]);NeoApp.filter("checkmark",function(){return function(input){return input?"\u2713":"\u2718";};});NeoApp.filter("element",function(){return function(input,idx1,idx2){idx1=idx1||0;if(input&&input.constructor===Array){if(idx2){return input[idx1,idx2];}else{return input[idx1];};};return"";};});NeoApp.filter("string",function(){return function(input){if(input&&input.constructor===Array)return input.toString();if(input)return input;return"";};});NeoApp.filter("default",function(){return function(input,defValue){if(!input)return defValue;return input;};});NeoApp.filter("trustUrl",function($sce){return function(url){return $sce.trustAsResourceUrl(url);};});NeoApp.filter('bool',function(){return function(input,valueTrue,valueFalse){return input!==true?valueFalse:valueTrue;};});NeoApp.filter('splitLt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(0,p):str;};});NeoApp.filter('splitRt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(p+1):str;};});NeoApp.controller("NeoApp_CoreCtrl",function($scope,$rootScope,$location,$route,$modal,$window,$timeout,$interval,$http,$filter,$compile,$animate){$App=$rootScope;$App.$on("$locationChangeStart",function(event,newUrl,oldUrl){var newPg=newUrl.substr(newUrl.lastIndexOf("/")+1);var oldPg=oldUrl.substr(oldUrl.lastIndexOf("/")+1);if(newPg=="!"){event.preventDefault();};if(newPg=="Index"){$timeout($scope.Index_pageenter);};if(oldPg=="Edit"){$scope.Edit_pageexit();};if(oldPg=="ToDoListOptions01"){$scope.ToDoListOptions01_pageexit();};if(oldPg=="ToDoListOptions02"){$scope.ToDoListOptions02_pageexit();};if(oldPg=="EDitToDoListOptions01"){$scope.EDitToDoListOptions01_pageexit();};if(oldPg=="EDitToDoListOptions03"){$scope.EDitToDoListOptions03_pageexit();};if(oldPg=="EDitToDoListOptions02"){$scope.EDitToDoListOptions02_pageexit();};if(oldPg=="EDitToDoListOptions04"){$scope.EDitToDoListOptions04_pageexit();};if(newPg=="ADVersion"){$timeout($scope.ADVersion_pageenter);};if(newPg=="AdhDTest01"){$timeout($scope.AdhDTest01_pageenter);};if(newPg=="AdhDTest02"){$timeout($scope.AdhDTest02_pageenter);};if(newPg=="AdhDTest03"){$timeout($scope.AdhDTest03_pageenter);};if(newPg=="AdhDTest04"){$timeout($scope.AdhDTest04_pageenter);};if(newPg=="settings"){$timeout($scope.settings_pageenter);};});
+var NeoApp=angular.module("NeoApp",["ngAnimate","ngRoute","ngSanitize","ngTouch","ui.bootstrap"],function($interpolateProvider){$interpolateProvider.startSymbol("[");$interpolateProvider.endSymbol("]");});NeoApp.config(["$routeProvider",function($routeProvider,$scope,$rootScope){$routeProvider.when("/Index",{templateUrl:"Index",controller:"Index_Ctrl"});$routeProvider.when("/Index2",{templateUrl:"Index2",controller:"Index2_Ctrl"});$routeProvider.when("/Data001",{templateUrl:"Data001",controller:"Data001_Ctrl"});$routeProvider.when("/Data001c",{templateUrl:"Data001c",controller:"Data001c_Ctrl"});$routeProvider.when("/Data001d",{templateUrl:"Data001d",controller:"Data001d_Ctrl"});$routeProvider.when("/Edit",{templateUrl:"Edit",controller:"Edit_Ctrl"});$routeProvider.when("/W6-01",{templateUrl:"W6-01",controller:"W6-01_Ctrl"});$routeProvider.when("/W7-01",{templateUrl:"W7-01",controller:"W7-01_Ctrl"});$routeProvider.when("/St1",{templateUrl:"St1",controller:"St1_Ctrl"});$routeProvider.when("/ToDoListOptions01",{templateUrl:"ToDoListOptions01",controller:"ToDoListOptions01_Ctrl"});$routeProvider.when("/Developernote1-3",{templateUrl:"Developernote1-3",controller:"Developernote1-3_Ctrl"});$routeProvider.when("/Developernote4-6",{templateUrl:"Developernote4-6",controller:"Developernote4-6_Ctrl"});$routeProvider.when("/Developernote6-9",{templateUrl:"Developernote6-9",controller:"Developernote6-9_Ctrl"});$routeProvider.when("/ToDoListOptions02",{templateUrl:"ToDoListOptions02",controller:"ToDoListOptions02_Ctrl"});$routeProvider.when("/EDitToDoListOptions01",{templateUrl:"EDitToDoListOptions01",controller:"EDitToDoListOptions01_Ctrl"});$routeProvider.when("/EDitToDoListOptions03",{templateUrl:"EDitToDoListOptions03",controller:"EDitToDoListOptions03_Ctrl"});$routeProvider.when("/EDitToDoListOptions02",{templateUrl:"EDitToDoListOptions02",controller:"EDitToDoListOptions02_Ctrl"});$routeProvider.when("/EDitToDoListOptions04",{templateUrl:"EDitToDoListOptions04",controller:"EDitToDoListOptions04_Ctrl"});$routeProvider.when("/Export",{templateUrl:"Export",controller:"Export_Ctrl"});$routeProvider.when("/ADVersion",{templateUrl:"ADVersion",controller:"ADVersion_Ctrl"});$routeProvider.when("/Option4",{templateUrl:"Option4",controller:"Option4_Ctrl"});$routeProvider.when("/Option5",{templateUrl:"Option5",controller:"Option5_Ctrl"});$routeProvider.when("/Option6",{templateUrl:"Option6",controller:"Option6_Ctrl"});$routeProvider.when("/Option7",{templateUrl:"Option7",controller:"Option7_Ctrl"});$routeProvider.when("/Option8",{templateUrl:"Option8",controller:"Option8_Ctrl"});$routeProvider.when("/Option9",{templateUrl:"Option9",controller:"Option9_Ctrl"});$routeProvider.when("/Option10",{templateUrl:"Option10",controller:"Option10_Ctrl"});$routeProvider.when("/Option11",{templateUrl:"Option11",controller:"Option11_Ctrl"});$routeProvider.when("/Option12",{templateUrl:"Option12",controller:"Option12_Ctrl"});$routeProvider.when("/Option13",{templateUrl:"Option13",controller:"Option13_Ctrl"});$routeProvider.when("/Option14",{templateUrl:"Option14",controller:"Option14_Ctrl"});$routeProvider.when("/Option15",{templateUrl:"Option15",controller:"Option15_Ctrl"});$routeProvider.when("/Option16",{templateUrl:"Option16",controller:"Option16_Ctrl"});$routeProvider.when("/Option17",{templateUrl:"Option17",controller:"Option17_Ctrl"});$routeProvider.when("/Option18",{templateUrl:"Option18",controller:"Option18_Ctrl"});$routeProvider.when("/Option19",{templateUrl:"Option19",controller:"Option19_Ctrl"});$routeProvider.when("/Option20",{templateUrl:"Option20",controller:"Option20_Ctrl"});$routeProvider.when("/Option21",{templateUrl:"Option21",controller:"Option21_Ctrl"});$routeProvider.when("/Option22",{templateUrl:"Option22",controller:"Option22_Ctrl"});$routeProvider.when("/Option23",{templateUrl:"Option23",controller:"Option23_Ctrl"});$routeProvider.when("/Option24",{templateUrl:"Option24",controller:"Option24_Ctrl"});$routeProvider.when("/Option25",{templateUrl:"Option25",controller:"Option25_Ctrl"});$routeProvider.when("/Timers",{templateUrl:"Timers",controller:"Timers_Ctrl"});$routeProvider.when("/AdhDTest01",{templateUrl:"AdhDTest01",controller:"AdhDTest01_Ctrl"});$routeProvider.when("/AdhDTest02",{templateUrl:"AdhDTest02",controller:"AdhDTest02_Ctrl"});$routeProvider.when("/AdhDTest03",{templateUrl:"AdhDTest03",controller:"AdhDTest03_Ctrl"});$routeProvider.when("/AdhDTest04",{templateUrl:"AdhDTest04",controller:"AdhDTest04_Ctrl"});$routeProvider.when("/settings",{templateUrl:"settings",controller:"settings_Ctrl"});$routeProvider.when("/W1-DECISION",{templateUrl:"W1-DECISION",controller:"W1-DECISION_Ctrl"});$routeProvider.when("/W1-2",{templateUrl:"W1-2",controller:"W1-2_Ctrl"});$routeProvider.when("/W3-01",{templateUrl:"W3-01",controller:"W3-01_Ctrl"});$routeProvider.when("/W4-01",{templateUrl:"W4-01",controller:"W4-01_Ctrl"});$routeProvider.when("/W100-01",{templateUrl:"W100-01",controller:"W100-01_Ctrl"});$routeProvider.when("/W5-01",{templateUrl:"W5-01",controller:"W5-01_Ctrl"});$routeProvider.when("/TNeoAppPage11",{templateUrl:"TNeoAppPage11",controller:"TNeoAppPage11_Ctrl"});$routeProvider.when("/KnowThyself",{templateUrl:"KnowThyself",controller:"KnowThyself_Ctrl"});$routeProvider.when("/W08-01",{templateUrl:"W08-01",controller:"W08-01_Ctrl"});$routeProvider.when("/W09-01",{templateUrl:"W09-01",controller:"W09-01_Ctrl"});$routeProvider.when("/Wnotes",{templateUrl:"Wnotes",controller:"Wnotes_Ctrl"});$routeProvider.when("/W11-01",{templateUrl:"W11-01",controller:"W11-01_Ctrl"});$routeProvider.when("/W15-01",{templateUrl:"W15-01",controller:"W15-01_Ctrl"});$routeProvider.when("/W16-01",{templateUrl:"W16-01",controller:"W16-01_Ctrl"});$routeProvider.when("/W14-01",{templateUrl:"W14-01",controller:"W14-01_Ctrl"});$routeProvider.when("/W14-01a",{templateUrl:"W14-01a",controller:"W14-01a_Ctrl"});$routeProvider.when("/W14-02",{templateUrl:"W14-02",controller:"W14-02_Ctrl"});$routeProvider.when("/W14-03",{templateUrl:"W14-03",controller:"W14-03_Ctrl"});$routeProvider.when("/W14-04",{templateUrl:"W14-04",controller:"W14-04_Ctrl"});$routeProvider.when("/W14-05",{templateUrl:"W14-05",controller:"W14-05_Ctrl"});$routeProvider.when("/W14-06",{templateUrl:"W14-06",controller:"W14-06_Ctrl"});$routeProvider.when("/W14-07",{templateUrl:"W14-07",controller:"W14-07_Ctrl"});$routeProvider.when("/W14-08",{templateUrl:"W14-08",controller:"W14-08_Ctrl"});$routeProvider.when("/W14-09",{templateUrl:"W14-09",controller:"W14-09_Ctrl"});$routeProvider.when("/W14-10",{templateUrl:"W14-10",controller:"W14-10_Ctrl"});$routeProvider.when("/QDLists",{templateUrl:"QDLists",controller:"QDLists_Ctrl"});$routeProvider.when("/QD001",{templateUrl:"QD001",controller:"QD001_Ctrl"});$routeProvider.when("/QD002",{templateUrl:"QD002",controller:"QD002_Ctrl"});$routeProvider.when("/QD003",{templateUrl:"QD003",controller:"QD003_Ctrl"});$routeProvider.when("/QD004",{templateUrl:"QD004",controller:"QD004_Ctrl"});$routeProvider.when("/QD005",{templateUrl:"QD005",controller:"QD005_Ctrl"});$routeProvider.when("/QD006",{templateUrl:"QD006",controller:"QD006_Ctrl"});$routeProvider.when("/QD007",{templateUrl:"QD007",controller:"QD007_Ctrl"});$routeProvider.when("/QD008",{templateUrl:"QD008",controller:"QD008_Ctrl"});$routeProvider.when("/QD009",{templateUrl:"QD009",controller:"QD009_Ctrl"});$routeProvider.when("/QD010",{templateUrl:"QD010",controller:"QD010_Ctrl"});$routeProvider.when("/QD011",{templateUrl:"QD011",controller:"QD011_Ctrl"});$routeProvider.when("/QD012",{templateUrl:"QD012",controller:"QD012_Ctrl"});$routeProvider.when("/QD013",{templateUrl:"QD013",controller:"QD013_Ctrl"});$routeProvider.when("/QD014",{templateUrl:"QD014",controller:"QD014_Ctrl"});$routeProvider.when("/QD015",{templateUrl:"QD015",controller:"QD015_Ctrl"});$routeProvider.when("/QD016",{templateUrl:"QD016",controller:"QD016_Ctrl"});$routeProvider.when("/QD017",{templateUrl:"QD017",controller:"QD017_Ctrl"});$routeProvider.when("/QD018",{templateUrl:"QD018",controller:"QD018_Ctrl"});$routeProvider.when("/QD019",{templateUrl:"QD019",controller:"QD019_Ctrl"});$routeProvider.when("/QD020",{templateUrl:"QD020",controller:"QD020_Ctrl"});$routeProvider.when("/W18-01",{templateUrl:"W18-01",controller:"W18-01_Ctrl"});$routeProvider.when("/W19-01",{templateUrl:"W19-01",controller:"W19-01_Ctrl"});$routeProvider.when("/W20-01",{templateUrl:"W20-01",controller:"W20-01_Ctrl"});$routeProvider.when("/w21-01",{templateUrl:"w21-01",controller:"w21-01_Ctrl"});$routeProvider.when("/w24-01",{templateUrl:"w24-01",controller:"w24-01_Ctrl"});$routeProvider.when("/w25-01",{templateUrl:"w25-01",controller:"w25-01_Ctrl"});$routeProvider.when("/W22-01",{templateUrl:"W22-01",controller:"W22-01_Ctrl"});$routeProvider.when("/W23-01",{templateUrl:"W23-01",controller:"W23-01_Ctrl"});$routeProvider.when("/W2-01",{templateUrl:"W2-01",controller:"W2-01_Ctrl"});$routeProvider.when("/W10-01",{templateUrl:"W10-01",controller:"W10-01_Ctrl"});$routeProvider.when("/W12-01",{templateUrl:"W12-01",controller:"W12-01_Ctrl"});$routeProvider.when("/Q001",{templateUrl:"Q001",controller:"Q001_Ctrl"});$routeProvider.when("/Q002",{templateUrl:"Q002",controller:"Q002_Ctrl"});$routeProvider.when("/W13-01",{templateUrl:"W13-01",controller:"W13-01_Ctrl"});$routeProvider.when("/Option1",{templateUrl:"Option1",controller:"Option1_Ctrl"});$routeProvider.when("/Option2",{templateUrl:"Option2",controller:"Option2_Ctrl"});$routeProvider.when("/Option3",{templateUrl:"Option3",controller:"Option3_Ctrl"});$routeProvider.otherwise({redirectTo:"/Index"});}]);NeoApp.filter("checkmark",function(){return function(input){return input?"\u2713":"\u2718";};});NeoApp.filter("element",function(){return function(input,idx1,idx2){idx1=idx1||0;if(input&&input.constructor===Array){if(idx2){return input[idx1,idx2];}else{return input[idx1];};};return"";};});NeoApp.filter("string",function(){return function(input){if(input&&input.constructor===Array)return input.toString();if(input)return input;return"";};});NeoApp.filter("default",function(){return function(input,defValue){if(!input)return defValue;return input;};});NeoApp.filter("trustUrl",function($sce){return function(url){return $sce.trustAsResourceUrl(url);};});NeoApp.filter('bool',function(){return function(input,valueTrue,valueFalse){return input!==true?valueFalse:valueTrue;};});NeoApp.filter('splitLt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(0,p):str;};});NeoApp.filter('splitRt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(p+1):str;};});NeoApp.controller("NeoApp_CoreCtrl",function($scope,$rootScope,$location,$route,$modal,$window,$timeout,$interval,$http,$filter,$compile,$animate){$App=$rootScope;$App.$on("$locationChangeStart",function(event,newUrl,oldUrl){var newPg=newUrl.substr(newUrl.lastIndexOf("/")+1);var oldPg=oldUrl.substr(oldUrl.lastIndexOf("/")+1);if(newPg=="!"){event.preventDefault();};if(newPg=="Index"){$timeout($scope.Index_pageenter);};if(newPg=="Index2"){$timeout($scope.Index2_pageenter);};if(oldPg=="Data001"){$scope.Data001_pageexit();};if(newPg=="Data001"){$timeout($scope.Data001_pageenter);};if(oldPg=="Data001c"){$scope.Data001c_pageexit();};if(newPg=="Data001c"){$timeout($scope.Data001c_pageenter);};if(oldPg=="Data001d"){$scope.Data001d_pageexit();};if(newPg=="Data001d"){$timeout($scope.Data001d_pageenter);};if(oldPg=="Edit"){$scope.Edit_pageexit();};if(oldPg=="ToDoListOptions01"){$scope.ToDoListOptions01_pageexit();};if(oldPg=="ToDoListOptions02"){$scope.ToDoListOptions02_pageexit();};if(oldPg=="EDitToDoListOptions01"){$scope.EDitToDoListOptions01_pageexit();};if(oldPg=="EDitToDoListOptions03"){$scope.EDitToDoListOptions03_pageexit();};if(oldPg=="EDitToDoListOptions02"){$scope.EDitToDoListOptions02_pageexit();};if(oldPg=="EDitToDoListOptions04"){$scope.EDitToDoListOptions04_pageexit();};if(newPg=="ADVersion"){$timeout($scope.ADVersion_pageenter);};if(newPg=="AdhDTest01"){$timeout($scope.AdhDTest01_pageenter);};if(newPg=="AdhDTest02"){$timeout($scope.AdhDTest02_pageenter);};if(newPg=="AdhDTest03"){$timeout($scope.AdhDTest03_pageenter);};if(newPg=="AdhDTest04"){$timeout($scope.AdhDTest04_pageenter);};if(newPg=="settings"){$timeout($scope.settings_pageenter);};});
 $scope.SetError=function(msg){throw msg;};$scope.Refresh=function(){$timeout(angular.noop);};$scope.AddFont=function(fontName,fontPath){neotempstyle=document.createElement("style");var position=fontPath.lastIndexOf("/");if(position!=-1){position++;}else{position=0;}var extPosition=fontPath.lastIndexOf(".");extPosition++;var extension=fontPath.substr(extPosition);if(extension=="ttf"){extension="truetype";}if(window.location.href.indexOf("file://")!=-1){neotempstyle.textContent='@font-face{font-family: "'+fontName+'";src: url("'+fontPath+'") format("'+extension+'");}';}else{fontPath=fontPath.substr(position);neotempstyle.textContent='@font-face{font-family: "'+fontName+'";src: url("./fonts/'+fontPath+'") format("'+extension+'");}';}document.head.append(neotempstyle);};$scope.GetOrientation=function(){if($window.orientation){if(Math.abs(window.orientation)===90){return"Landscape";}else{return"Portrait";}}else{if($window.innerWidth>=$window.innerHeight){return"Landscape";}else{return"Portrait";}}};$scope.GotoPageNum=function(pgNum){if(pgNum>0&&pgNum<=$App.NAB.PageList.length){if($App.NAB.PageEnterEffect[pgNum-1]){$App.NAB._pageEffect=" animate enter-"+$App.NAB.PageEnterEffect[pgNum-1]+" exit-"+($App.NAB.PageExitEffect[pgNum-1]||"fadeOut");}else{$App.NAB._pageEffect="";}$timeout(function(){$location.path('/'+$App.NAB.PageList[pgNum-1]);});}else{$scope.SetError('Invalid page.');}};$scope.GotoPage=function(pgId){$scope.GotoPageNum($App.NAB.PageList.indexOf(pgId)+1);};$scope.GotoFirstPage=function(){$scope.GotoPageNum(1);};$scope.GotoLastPage=function(){$scope.GotoPageNum($App.NAB.PageList.length);};$scope.GotoNextPage=function(){var pgNum=$App.NAB.PageNumber;if(pgNum<$App.NAB.PageList.length){$scope.GotoPageNum(pgNum+1);return true;}return false;};$scope.GotoPrevPage=function(){var pgNum=$App.NAB.PageNumber;if(pgNum>1){$scope.GotoPageNum(pgNum-1);return true;}return false;};function makeSVG(tag,attrs){var el=document.createElementNS('http://www.w3.org/2000/svg',tag);for(var k in attrs)el.setAttribute(k,attrs[k]);return el;};function addSvgNode(objId,svgNode){if(document.getElementById(objId).tagName=="svg"){document.getElementById(objId).appendChild(svgNode);}else{document.getElementById(objId).getElementsByTagName('svg')[0].appendChild(svgNode);}};$scope.DrawCircle=function DrawCircle(objId,svgName,cx,cy,circleRadio,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('circle',{'id':svgName,'VisualNEOWebName':svgName,'cx':cx,'cy':cy,'r':circleRadio,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawEllipse=function DrawEllipse(objId,svgName,cx,cy,rx,ry,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('ellipse',{'id':svgName,'VisualNEOWebName':svgName,'cx':cx,'cy':cy,'rx':rx,'ry':ry,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawRect=function DrawRect(objId,svgName,posx,posy,width,height,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('rect',{'id':svgName,'VisualNEOWebName':svgName,'x':posx,'y':posy,'width':width,'height':height,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawPolygon=function DrawPolygon(objId,svgName,points,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('polygon',{'id':svgName,'VisualNEOWebName':svgName,'points':points,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawPath=function DrawPath(objId,svgName,path,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('path',{'id':svgName,'VisualNEOWebName':svgName,'d':path,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawPolyLine=function DrawPolyLine(objId,svgName,points,strokeColor,strokeWidth){$App[svgName]=makeSVG('polyline',{'id':svgName,'VisualNEOWebName':svgName,'points':points,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':'none'});addSvgNode(objId,$App[svgName]);};$scope.DrawLine=function DrawLine(objId,svgName,x1,y1,x2,y2,strokeColor,strokeWidth){$App[svgName]=makeSVG('line',{'id':svgName,'VisualNEOWebName':svgName,'x1':x1,'y1':y1,'x2':x2,'y2':y2,'stroke':strokeColor,'stroke-width':strokeWidth});addSvgNode(objId,$App[svgName]);};$scope.DrawImage=function DrawImage(objId,svgName,fileName,x,y,width,height){$App[svgName]=makeSVG('image',{'id':svgName,'VisualNEOWebName':svgName,'x':x,'y':y,'width':width,'height':height,'xlink:href':''});$App[svgName].setAttributeNS("http://www.w3.org/1999/xlink","xlink:href",""+fileName+"");addSvgNode(objId,$App[svgName]);};$scope.DrawText=function DrawText(objId,svgName,theText,posx,posy,fillColor,fontSize,fontFamily,angle){$App[svgName]=makeSVG('text',{'id':svgName,'VisualNEOWebName':svgName,'x':posx,'y':posy,'stroke-width':0,'fill':fillColor,'font-size':fontSize,'font-family':fontFamily,'transform':'rotate('+angle+' '+posx+' '+posy+')'});$App[svgName].textContent=theText;addSvgNode(objId,$App[svgName]);};$scope.DrawClear=function DrawClear(objId){var n=0;$("#"+objId).children().each(function(){if(n!=0){$(this).remove();}n++;});};$scope.OnMouseEvent=function(objId,eventName,subroutine){if(eventName=="contextmenu"){if($App.NAB[objId]){$App.NAB[objId].on(eventName,function(e){e.preventDefault();subroutine;return;});}$("#"+objId).on(eventName,function(e){e.preventDefault();subroutine;return;});}if($App.NAB[objId]){$App.NAB[objId].on(eventName,subroutine);return;}$("#"+objId).on(eventName,subroutine);};$scope.RemoveOnMouseEvent=function(objId,eventName){if($App.NAB[objId]){$App.NAB[objId].off(eventName);return;}$("#"+objId).off(eventName);};$scope.OnTouchEvent=function(objId,eventName,subroutine){if($App.NAB[objId]){$App.NAB[objId].on(eventName,subroutine);return;}$("#"+objId).on(eventName,subroutine);};$scope.RemoveOnTouchEvent=function(objId,eventName){if($App.NAB[objId]){$App.NAB[objId].off(eventName);return;}$("#"+objId).off(eventName);};$scope.ShowObject=function(objId,effect,speed){if($App.NAB[objId]){$App.NAB[objId].show(speed);return;}if(!effect||effect.toLowerCase()=='none'){$App.NAB[objId+'_effect']='';}else{if(speed)effect=effect+' speed-'+speed*50;$App.NAB[objId+'_effect']='animate enter-'+effect;}$timeout(function(){var name=objId+'_hidden';if($App.NAB[name])delete $App.NAB[name];});};$scope.HideObject=function(objId,effect,speed){if($App.NAB[objId]){$App.NAB[objId].hide(speed);return;}if(!effect||effect.toLowerCase()=='none'){$App.NAB[objId+'_effect']='';}else{if(speed)effect=effect+' speed-'+speed*50;$App.NAB[objId+'_effect']='animate exit-'+effect;}$timeout(function(){$App.NAB[objId+'_hidden']=true;});};$scope.DisableObject=function(objId,value){var name=objId+'_disabled';if(value){$App.NAB[name]=value;}else{if($App.NAB[name])delete $App.NAB[name];}};$scope.ClipObjectPolygon=function(objId,polygonId){var points=$("#"+polygonId).html();points=points.replace('<polygon vector-effect="non-scaling-stroke" points="',"");points=points.replace('"></polygon>','');coords=points.split(",");var puntos="";for(i=0;i<coords.length;i=i+2){if(i!=coords.length-2){puntos=puntos+coords[i]+"px "+coords[i+1]+"px,";}else{puntos=puntos+coords[i]+"px "+coords[i+1]+"px";}}$("#"+objId).css("clip-path","polygon("+puntos+")");};$scope.ClipObjectPath=function(objId,shape){if(shape=="circle"){$("#"+objId).css("clip-path","circle(50% at 50% 50%)");}else if(shape=="triangle"){$("#"+objId).css("clip-path","polygon(50% 0%, 0% 100%, 100% 100%)");}else if(shape=="rhombus"){$("#"+objId).css("clip-path","polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)");}else if(shape=="pentagon"){$("#"+objId).css("clip-path","polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)");}else{$("#"+objId).css("clip-path",shape);}};$scope.SetObjectStyle=function(objId,selector,value){if($App.NAB[objId]){$App.NAB[objId].css(selector,value);return;}if($App[objId]){$("#"+objId).css(selector,value);return;}var name=objId+'_style';if(!$App.NAB[name])$App.NAB[name]={};if(value&&value.length>0){$App.NAB[name][selector]=value;}else{if($App.NAB[name][selector])delete $App.NAB[name][selector];if(jQuery.isEmptyObject($App.NAB[name]))delete $App.NAB[name];}};$scope.ClearObjectStyles=function(objId){var name=objId+'_style';if($App.NAB[name])delete $App.NAB[name];};$scope.GetObjectInfo=function(objId,info){if($App.NAB[objId]){return $App.NAB[objId].css(info);}return $("#"+objId).css(info);};$scope.GetObjectXY=function(objId,xvar,yvar){var rect=document.getElementById($App.NAB.PageID).getBoundingClientRect();$App.PageLeft=rect.left;$App.PageTop=rect.top;var objeto=document.getElementById(objId).getBoundingClientRect();$App[xvar]=objeto.x-$App.PageLeft;$App[yvar]=objeto.y-$App.PageTop;};$scope.SetObjectHTML=function(objId,code){if($App.NAB[objId]){$App.NAB[objId].html(code);return;}var e=document.getElementById(objId);e.innerHTML=code;$compile(e)($scope);};$scope.GetObjectHTML=function(objId){if($App.NAB[objId]){return $App.NAB[objId].html();;}return document.getElementById(objId).innerHTML;};$scope.SetObjectAttribute=function(objId,AttrName,AttrValue){var element=$("#"+objId);if(AttrName==="src"){AttrName="ng-src";}var pendingChanges=$App.NAB['pendingChanges']||{};pendingChanges[objId]=pendingChanges[objId]||[];pendingChanges[objId].push({AttrName,AttrValue});$App.NAB['pendingChanges']=pendingChanges;$scope.applyPendingChanges();};$scope.applyPendingChanges=function(){var pendingChanges=$App.NAB['pendingChanges'];if(!pendingChanges||jQuery.isEmptyObject(pendingChanges)){return;}Object.keys(pendingChanges).forEach(function(objId){var element=$("#"+objId);if(element.length>0){pendingChanges[objId].forEach(function(change){element.attr(change.AttrName,change.AttrValue);$compile(element)($scope);});}});};$scope.GetObjectAttribute=function(objId,AttrName){if($App.NAB[objId]){return $App.NAB[objId].attr(AttrName);}return $("#"+objId).attr(AttrName);};$scope.SetObjectText=function(objId,code){if($App.NAB[objId]){$App.NAB[objId].text(code);return;}var e=document.getElementById(objId);e.innerText=code;$compile(e)($scope);};$scope.GetObjectText=function(objId){if($App.NAB[objId]){return $App.NAB[objId].text();}return document.getElementById(objId).innerText;};$scope.DuplicateObject=function(objId,objName,containerId){if($App.NAB[objName]){$App.NAB[objName].remove();delete $App.NAB[objName];}else{$("#"+objName).remove();delete $App.NAB[objName];}if($App.NAB[objId]){$App.NAB[objName]=$App.NAB[objId].clone().appendTo("#"+containerId);}else if($App[objId]){$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);$App.NAB[objName].attr("id","");}else{$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);}$App.NAB[objName].attr("VisualNEOWebName",objName);$App.NAB[objName].attr("ng-style","NAB."+objName+"_style");$App.NAB[objName].attr("ng-hide","NAB."+objName+"_hidden");$App.NAB[objName].attr("ng-disabled","NAB."+objName+"_disabled");var e=document.getElementById(containerId);$compile(e)($scope);};$scope.DuplicateObjectEx=function(objId,objName,containerId,objStyle){if($App.NAB[objName]){$App.NAB[objName].remove();delete $App.NAB[objName];}else{$("#"+objName).remove();delete $App.NAB[objName];}if($App.NAB[objId]){$App.NAB[objName]=$App.NAB[objId].clone().appendTo("#"+containerId);}else if($App[objId]){$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);$App.NAB[objName].attr("id","");}else{$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);$App.NAB[objName].attr("id",objName);$App.NAB[objName].atyle=document.getElementById(objId).style;}$App.NAB[objName].attr("VisualNEOWebName",objName);$App.NAB[objName].attr("ng-style","NAB."+objName+"_style");$App.NAB[objName].attr("ng-hide","NAB."+objName+"_hidden");$App.NAB[objName].attr("ng-disabled","NAB."+objName+"_disabled");$App.NAB[objName].attr("style",objStyle);var e=document.getElementById(containerId);$compile(e)($scope);};$scope.AnimateObjectCSS=function(objId,cssData,duration,delay,easing,callbackfn){if($App.NAB[objId]){$App.NAB[objId].delay(delay).animate(cssData,duration,easing,callbackfn);}else{$("#"+objId).delay(delay).animate(cssData,duration,easing,callbackfn);}};$scope.SetObjectCSS=function(objId,cssData){if($App.NAB[objId]){$App.NAB[objId].css(cssData);}else{$("#"+objId).css(cssData);}};$scope.CheckCollision=function(objId1,objId2){var x1=$("#"+objId1).offset().left;var y1=$("#"+objId1).offset().top;var h1=$("#"+objId1).outerHeight(true);var w1=$("#"+objId1).outerWidth(true);var b1=y1+h1;var r1=x1+w1;var x2=$("#"+objId2).offset().left;var y2=$("#"+objId2).offset().top;var h2=$("#"+objId2).outerHeight(true);var w2=$("#"+objId2).outerWidth(true);var b2=y2+h2;var r2=x2+w2;if(b1<y2||y1>b2||r1<x2||x1>r2){return false;}else{return true;}};$scope.CheckFullCollision=function(objId1,objId2){var r1=document.getElementById(rectone);var r2=document.getElementById(recttwo);var r1bb=r1.getBoundingClientRect();var r2bb=r2.getBoundingClientRect();var r1x=r1bb.x;var r1w=r1bb.width;var r1y=r1bb.y;var r1h=r1bb.height;var r2x=r2bb.x;var r2w=r2bb.width;var r2y=r2bb.y;var r2h=r2bb.height;if(r1x+1>=r2x&&r1y+1>=r2y&&r1x+r1w-1<=r2x+r2w&&r1y+r1h-1<=r2y+r2h){return true;}else{return false;}};function fixUnit(s){var t=s.toString();var parts=t.match(/^([+-]?(?:\d+|\d*\.\d+))([a-z]*|%)$/);return(parts[2])?t:parts[1]+'px';}$scope.SetObjectBounds=function(objId,l,t,w,h){if($App.NAB[objId]){var e=$App.NAB[objId];}else{var e=document.getElementById(objId);}if(w){w=fixUnit(w);e.style.width=w;$scope.SetObjectStyle(objId,'width',w);};if(h){h=fixUnit(h);e.style.height=h;$scope.SetObjectStyle(objId,'height',h);};if(l){l=fixUnit(l);e.style.left=l;$scope.SetObjectStyle(objId,'left',l);};if(t){t=fixUnit(t);e.style.top=t;$scope.SetObjectStyle(objId,'top',t);};};$scope.MoveObject=function(objId,left,top){if($App.NAB[objId]){$App.NAB[objId].css("left",left);$App.NAB[objId].css("top",top);}else{$scope.SetObjectBounds(objId,left,top);}};$scope.ObjectToFront=function(objId){if($App.NAB[objId]){theParent=$App.NAB[objId].parent();$App.NAB[objId].detach().appendTo(theParent);}else{theParent=$("#"+objId).parent();$("#"+objId).detach().appendTo(theParent);}};$scope.ObjectToBack=function(objId){if($App.NAB[objId]){theParent=$App.NAB[objId].parent();$App.NAB[objId].detach().prependTo(theParent);}else if($("#"+objId).parent().prop("tagName")=="svg"){theParent=$("#"+objId).parent().children().first();$("#"+objId).detach().insertAfter(theParent);}else{theParent=$("#"+objId).parent();$("#"+objId).detach().prependTo(theParent);}};$scope.SizeObject=function(objId,width,height){if($App.NAB[objId]){w=fixUnit(width);h=fixUnit(height);$App.NAB[objId].css("width",w);$App.NAB[objId].css("height",h);}else{$scope.SetObjectBounds(objId,null,null,width,height);}};$scope.RotateObject=function(objId,deg){if($App.NAB[objId]){$App.NAB[objId].css("webkitTransform","rotate("+deg+"deg)");$App.NAB[objId].css("mozTransform","rotate("+deg+"deg)");$App.NAB[objId].css("msTransform","rotate("+deg+"deg)");$App.NAB[objId].css("oTransform","rotate("+deg+"deg)");$App.NAB[objId].css("transform","rotate("+deg+"deg)");}else{var e=document.getElementById(objId);e.style.webkitTransform='rotate('+deg+'deg)';e.style.mozTransform='rotate('+deg+'deg)';e.style.msTransform='rotate('+deg+'deg)';e.style.oTransform='rotate('+deg+'deg)';e.style.transform='rotate('+deg+'deg)';};};$scope.ListBoxSort=function(objId){if($("#"+objId).children("option:selected").text()==""){$("#"+objId).children("option:selected").remove();};$("#"+objId+" option").filter(function(){return!this.value||$.trim(this.value).length==0||$.trim(this.text).length==0;}).remove();var options=$("#"+objId+" option");var arr=options.map(function(_,o){return{t:$(o).text(),v:o.value};}).get();arr.sort(function(o1,o2){return o1.t>o2.t?1:o1.t<o2.t?-1:0;});options.each(function(i,o){o.value=arr[i].v;$(o).text(arr[i].t);});if($("#"+objId).children("option:selected").text()==""){$("#"+objId).children("option:selected").remove();};};$scope.ListBoxMoveItem=function(listID,direction){var listbox=document.getElementById(listID);var selIndex=listbox.selectedIndex;if(-1==selIndex){return;}var increment=-1;if(direction=='up'){if(selIndex==1){return;}else{increment=-1;}}else{increment=1;}if((selIndex+increment)<0||(selIndex+increment)>(listbox.options.length-1)){return;}var selValue=listbox.options[selIndex].value;var selText=listbox.options[selIndex].text;listbox.options[selIndex].value=listbox.options[selIndex+increment].value
 listbox.options[selIndex].text=listbox.options[selIndex+increment].text
 listbox.options[selIndex+increment].value=selValue;listbox.options[selIndex+increment].text=selText;listbox.selectedIndex=selIndex+increment;};$scope.OpenDialog=function(dlgId){var modalInstance=$modal.open({templateUrl:dlgId,controller:dlgId+'_Ctrl',scope:$scope,size:'sm',backdrop:'static',animation:true});};$scope.AlertBox=function(dlgTitle,dlgMsg,dlgKind,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}var dlgKind=dlgKind||"primary";var modalInstance=$modal.open({template:'<div class="modal-dialog" ng-class="modal-sm">'+'<div class="modal-content">'+'<div class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+'<button class="btn btn-primary" ng-click="CloseDialog();">OK</button>'+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn!=undefined){modalInstance.result.then(function(){callbackFn()},function(){callbackFn()});}};$scope.AlertBoxEx=function(dlgTitle,dlgMsg,dlgKind,theWidth,theHeight,theColor,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}var dlgKind=dlgKind||"primary";if(theWidth<150){theWidth=150;}if(theHeight<200){theHeight=200;}var modalBodyMaxHeight=theHeight-140;var modalInstance=$modal.open({template:'<div class="modal-dialog" style="width:'+theWidth+'px;height:'+theHeight+'px;" ng-class="modal-sm">'+'<div class="modal-content">'+'<div style="background:'+theColor+';" class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div style="overflow:auto;max-height:'+modalBodyMaxHeight+'px" class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+'<button class="btn btn-custom" style="color:#fff;background:'+theColor+';" ng-click="CloseDialog();">OK</button>'+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn!=undefined){modalInstance.result.then(function(){callbackFn()},function(){callbackFn()});}};$scope.MessageBoxEx=function(dlgTitle,dlgMsg,dlgButtons,dlgKind,theWidth,theHeight,theColor,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}if(theWidth<150){theWidth=150;}if(theHeight<200){theHeight=200;}var modalBodyMaxHeight=theHeight-140;var idx;var btns=dlgButtons.split("|");var btnsHTML='';for(idx=0;idx<btns.length;idx++){btnsHTML+='<button class="btn btn-custom" style="color:#fff;background:'+theColor+';" ng-click="CloseDialogBtn('+idx.toString()+');">'+btns[idx]+'</button>';}var dlgKind=dlgKind||"primary";var modalInstance=$modal.open({template:'<div class="modal-dialog" style="width:'+theWidth+'px;height:'+theHeight+'px;" ng-class="modal-sm">'+'<div class="modal-content">'+'<div style="background:'+theColor+';" class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div style="overflow:auto;max-height:'+modalBodyMaxHeight+'px" class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+btnsHTML+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn){modalInstance.result.then(function(value){callbackFn(value+1)},function(){callbackFn(0)});}};$scope.MessageBox=function(dlgTitle,dlgMsg,dlgButtons,dlgKind,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}var idx;var btns=dlgButtons.split("|");var btnsHTML='';for(idx=0;idx<btns.length;idx++){btnsHTML+='<button class="btn btn-primary" ng-click="CloseDialogBtn('+idx.toString()+');">'+btns[idx]+'</button>';}var dlgKind=dlgKind||"primary";var modalInstance=$modal.open({template:'<div class="modal-dialog" ng-class="modal-sm">'+'<div class="modal-content">'+'<div class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+btnsHTML+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn){modalInstance.result.then(function(value){callbackFn(value+1)},function(){callbackFn(0)});}};$scope.SerializeForm=function(formId){var form=document.getElementById(formId);if(!form||form.nodeName!=="FORM")return;var i,j,s,field,m,q=[];for(i=0;i<form.elements.length;i++){field=form.elements[i];if(field.name==="")continue;switch(field.nodeName){case'INPUT':switch(field.type){case'text':case'hidden':case'password':case'number':q.push(field.name+"="+encodeURIComponent(field.value));break;case'checkbox':if(angular.isElement(field)){m=angular.element(field).controller('ngModel');if(m){q.push(field.name+"="+encodeURIComponent(m.$modelValue));break;}}q.push(field.name+"="+encodeURIComponent(field.checked));break;case'radio':if(field.checked){q.push(field.name+"="+encodeURIComponent(field.value));}break;case'file':break;}break;case'TEXTAREA':q.push(field.name+"="+encodeURIComponent(field.value));break;case'SELECT':switch(field.type){case'select-one':q.push(field.name+"="+encodeURIComponent(field.value));break;case'select-multiple':s='';for(j=field.options.length-1;j>=0;j=j-1){if(field.options[j].selected){s+=','+encodeURIComponent(field.options[j].value);}}if(s.length>0)q.push(field.name+"="+s.substr(1));break;}break;}}return q.join("&");};$scope.SubmitForm=function(form,url,method,submitFn,successFn,failFn){var ok=true;if(submitFn){ok=submitFn();}if(ok&&form&&url&&method){var f=$scope.SerializeForm(form);$http({method:method,url:url,data:f,responseType:"text",headers:{'Content-Type':'application/x-www-form-urlencoded'}}).then(function(response){if(successFn)successFn(response.data,response.status);},function(response){if(failFn)failFn(response.data,response.status);});}};$scope.FormSubmit=function(formulario,url){var neoApp=angular.element(document.getElementById("ng-view")).scope();var fnsubmit=neoApp[formulario+"_submit"];var fnsuccess=neoApp[formulario+"_success"];var fnfail=neoApp[formulario+"_fail"];neoApp.SubmitForm(formulario,url,'POST',fnsubmit,fnsuccess,fnfail);};$scope.FormReset=function(formulario){$("#"+formulario).trigger("reset");};$scope.SetCompVar=function(varname,varvalue){varname2="";vararray=varname.split("[");for(n=0;n<vararray.length;n++){vararray[n]=vararray[n].replace("]","");if($App[vararray[n]]!=undefined){varname2=varname2+$App[vararray[n]];}else{varname2=varname2+vararray[n];};};$App[varname2]=varvalue;};$scope.GetCompVar=function(varname,composedvar){varname2="";vararray=composedvar.split("[");for(n=0;n<vararray.length;n++){vararray[n]=vararray[n].replace("]","");if($App[vararray[n]]!=undefined){varname2=varname2+$App[vararray[n]];}else{varname2=varname2+vararray[n];};};$App[varname]=$App[varname2];};$scope.ArraySuffle=function(array,newArray){for(n=0;n<array.length;n++){newArray[n]=array[n];}var currentIndex=newArray.length,temporaryValue,randomIndex;while(0!==currentIndex){randomIndex=Math.floor(Math.random()*currentIndex);currentIndex-=1;temporaryValue=newArray[currentIndex];newArray[currentIndex]=newArray[randomIndex];newArray[randomIndex]=temporaryValue;}};$scope.ArrayCopy=function(a,start,len){if(a&&start>-1&&len>0)return a.slice(start,start+len);return[]};$scope.LoadGoogleFont=function(fontName){$("head").append("<link href='https://fonts.googleapis.com/css?family="+fontName+"' rel='stylesheet' type='text/css'>");};$scope.LocalFileToVar=function(inputFileName,resultVar,tipo){$App.NAB.temp=resultVar;var realInputFileName=$("#"+inputFileName).prop("for");var files=$('#'+realInputFileName).prop("files");for(var i=0,f;f=files[i];i++){var reader=new FileReader();reader.onload=(function(theFile,resultVar,callBackFunction){return function(e,resultVar){varName=$App.NAB.temp;$App[varName]=e.target.result;};})(f);if(tipo=="text"){reader.readAsText(f);}else if(tipo=="binary"){reader.readAsBinaryString(f);}else if(tipo=="base64"){reader.readAsDataURL(f);}else{reader.readAsArrayBuffer(f);}};};$scope.SvgToBase64=function(theContainer,theWidth,theHeight,theType,theQuality,resultVar,callbackFn){var tagName=$("#"+theContainer).prop("tagName").toLowerCase();if(tagName=="svg"){var svg=document.getElementById(theContainer);}else{var svg=document.querySelector("#"+theContainer+" svg");}var svgToBase64PngTemp=svg.outerHTML;tempWidth=svg.getAttribute("width");if(tempWidth==null){tempWidth=theWidth;}tempHeight=svg.getAttribute("height");if(tempHeight==null){tempHeight=theHeight;}svg.setAttribute("width",theWidth);svg.setAttribute("height",theHeight);var svgData=new XMLSerializer().serializeToString(svg);var canvas=document.createElement("canvas");canvas.width=theWidth;canvas.height=theHeight;var ctx=canvas.getContext("2d");var img=document.createElement("img");img.setAttribute("src","data:image/svg+xml;base64,"+btoa(svgData));img.onload=function(){ctx.drawImage(img,0,0);svg.setAttribute("width",tempWidth);svg.setAttribute("height",tempHeight);if(theType=="jpg"){$App[resultVar]=canvas.toDataURL("image/jpeg",theQuality);if(callbackFn!=""&&callbackFn!=null&&callbackFn!=undefined){callbackFn();}}else{$App[resultVar]=canvas.toDataURL("image/png");if(callbackFn!=""&&callbackFn!=null&&callbackFn!=undefined){callbackFn();}}};};$scope.ImgToBase64=function(theImg,theType,theQuality,resultVar){var img=document.querySelector("#"+theImg);const canvas=document.createElement('canvas');const ctx=canvas.getContext('2d');canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;ctx.drawImage(img,0,0);if(theType=="jpg"){$App[resultVar]=canvas.toDataURL('image/jpeg',theQuality);}else{$App[resultVar]=canvas.toDataURL('image/png');}};$scope.Base64ToLocalFile=function(dataurl,filename){var arr=dataurl.split(','),mime=arr[0].match(/:(.*?);/)[1],bstr=atob(arr[1]),n=bstr.length,u8arr=new Uint8Array(n);while(n--){u8arr[n]=bstr.charCodeAt(n);}theFile=new File([u8arr],filename,{type:mime});saveAs(theFile,filename);};$scope.ResizeDesktopWindow=function(theWidth,theHeight){if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true){window.resizeTo(theWidth,theHeight);}};$scope.FitAppToScreen=function(coverScreen,verticalAlign,horizontalAlign){$scope.AppPosition(verticalAlign,horizontalAlign);var ha=horizontalAlign.toUpperCase();var va=verticalAlign.toUpperCase();if(va=="MIDDLE"){va="CENTER"};fit(document.getElementById("ng-app"),{x:0,y:0,width:window.innerWidth,height:window.innerHeight},{cover:coverScreen,hAlign:fit[ha],vAlign:fit[va]});fit(document.getElementById("ng-app"),{x:0,y:0,width:window.innerWidth,height:window.innerHeight},{cover:coverScreen,hAlign:fit[ha],vAlign:fit[va]},function(transform){$App.NAB.AppScale=transform.scale});};$scope.IsInstalled=function(){if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true){return true;}else{return false;}};$scope.CenterApp=function(){$("body").css("position","absolute");$("body").css("top","0px");$("body").css("bottom","0px");$("body").css("left","0px");$("body").css("right","0px");$("body").css("margin","auto");$("body").css("margin","auto");};$scope.TopCenterApp=function(){$("body").css("position","absolute");$("body").css("top","0px!important");$("body").css("left","0px");$("body").css("right","0px");$("body").css("bottom","auto");$("body").css("margin","auto");};$scope.ScaleApp=function(thezoom){$App.NAB.AppScale=thezoom;$("#ng-app").css("transform-origin","50% 50%");$("#ng-app").css("transform","scale("+thezoom+","+thezoom+")");};$scope.AppPosition=function(vertical,horizontal){$('body').css("position","absolute");if(vertical=="top"){$('body').css("top","0px");$('body').css("bottom","auto");}else if(vertical=="bottom"){$('body').css("bottom","0px");$('body').css("top","auto");}else{$('body').css("bottom","0px");$('body').css("top","0px");}if(horizontal=="left"){$('body').css("left","0px");$('body').css("right","auto");}else if(horizontal=="right"){$('body').css("left","auto");$('body').css("right","0px");}else{$('body').css("left","0px");$('body').css("right","0px");}$('body').css("margin","auto");};$scope.SetResponsivePages=function(plarge,pmedium,psmall,pxsmall){if(matchMedia){const largedisp=window.matchMedia("(min-width: 1025px)");const mediumdisp=window.matchMedia("(min-width: 768px) and (max-width: 1024px)");const smalldisp=window.matchMedia("(min-width: 481px) and (max-width: 767px)");const verysmalldisp=window.matchMedia("(min-width: 320px) and (max-width: 480px)");funciones=angular.element(document.getElementById("ng-view")).scope();$("body").css("width","100%");$("body").css("height","100%");$("body").css("overflow-x","hidden");$("body").css("overflow-y","auto");largedisp.addListener(WidthChangeLarge);WidthChangeLarge(largedisp);mediumdisp.addListener(WidthChangeMedium);WidthChangeMedium(mediumdisp);smalldisp.addListener(WidthChangeSmall);WidthChangeSmall(smalldisp);verysmalldisp.addListener(WidthChangeVerySmall);WidthChangeVerySmall(verysmalldisp);function WidthChangeLarge(largedisp){if(largedisp.matches){funciones.GotoPage(plarge);}};function WidthChangeMedium(mediumdisp){if(mediumdisp.matches){funciones.GotoPage(pmedium);}};function WidthChangeSmall(smalldisp){if(smalldisp.matches){funciones.GotoPage(psmall);}};function WidthChangeVerySmall(verysmalldisp){if(verysmalldisp.matches){funciones.GotoPage(pxsmall);}};}};$scope.AppBackgroundColor=function(thecolor){$("html").css("background",thecolor);};$scope.AppBackgroundImage=function(imagen){ruta=$("#"+imagen).attr('src');$("html").css('background-image','url('+ruta+' )');$("html").css('background-repeat','no-repeat');$("html").css('background-position','center center');$("html").css('background-attachment','fixed');$("html").css("-webkit-background-size","cover");$("html").css("-moz-background-size","cover");$("html").css("-o-background-size","cover");$("html").css("background-size","cover");};$scope.ObjDisableSelection=function(objectname){$("#"+objectname).css("-webkit-touch-callout","none");$("#"+objectname).css("-webkit-user-select","none");$("#"+objectname).css("-khtml-user-select","none");$("#"+objectname).css("-moz-user-select","none");$("#"+objectname).css("-ms-user-select","none");$("#"+objectname).css("user-select","none");};$scope.DisableSelection=function(){$("*").css("-webkit-touch-callout","none");$("*").css("-webkit-user-select","none");$("*").css("-khtml-user-select","none");$("*").css("-moz-user-select","none");$("*").css("-ms-user-select","none");$("*").css("user-select","none");};$scope.GetUrlParameter=function(param){url=window.location.href;var queryString=url?url.split('?')[1]:window.location.search.slice(1);var obj={};if(queryString){queryString=queryString.split('#')[0];var arr=queryString.split('&');for(var i=0;i<arr.length;i++){var a=arr[i].split('=');var paramName=a[0];var paramValue=typeof(a[1])==='undefined'?true:a[1];if(typeof paramValue==='string')paramValue=paramValue;if(paramName.match(/\[(\d+)?\]$/)){var key=paramName.replace(/\[(\d+)?\]/,'');if(!obj[key])obj[key]=[];if(paramName.match(/\[\d+\]$/)){var index=/\[(\d+)\]/.exec(paramName)[1];obj[key][index]=paramValue;}else{obj[key].push(paramValue);}}else{if(!obj[paramName]){obj[paramName]=paramValue;}else if(obj[paramName]&&typeof obj[paramName]==='string'){obj[paramName]=[obj[paramName]];obj[paramName].push(paramValue);}else{obj[paramName].push(paramValue);}}}}return obj[param];};$scope.csvToJSON=function(mycsv,separator,jsonObject){var lines=$App[mycsv].split("\n");var result=[];var headers=lines[0].split(separator);for(var i=1;i<lines.length;i++){var obj={};var currentline=lines[i].split(separator);for(var j=0;j<headers.length;j++){obj[headers[j]]=currentline[j];}result.push(obj);}$App[jsonObject]=result;};$scope.CheckInternetConnection=function(url,timeout,successFn,errorFn){$.ajax({url:url,timeout:timeout,cache:false,success:function(){if(successFn!=undefined){successFn();}},error:function(){if(errorFn!=undefined){errorFn();}},});};$scope.SetRelativePosition=function(objectname,vertical,horizontal){$("#"+objectname).css("position","absolute");if(vertical=="top"){$("#"+objectname).css("top","0px");$("#"+objectname).css("bottom","auto");}else if(vertical=="bottom"){$("#"+objectname).css("bottom","0px");$("#"+objectname).css("top","auto");}else{$("#"+objectname).css("bottom","0px");$("#"+objectname).css("top","0px");}if(horizontal=="left"){$("#"+objectname).css("left","0px");$("#"+objectname).css("right","auto");}else if(horizontal=="right"){$("#"+objectname).css("left","auto");$("#"+objectname).css("right","0px");}else{$("#"+objectname).css("left","0px");$("#"+objectname).css("right","0px");}$("#"+objectname).css("margin","auto");};$scope.WatchVar=function(varName,fn){if($App.NAB.$Watches[varName]){if($App.NAB.$Watches[varName].deRegFn)$App.NAB.$Watches[varName].deRegFn();delete $App.NAB.$Watches[varName];};if(fn){$App.NAB.$Watches[varName]={id:varName,deRegFn:undefined};$App.NAB.$Watches[varName].deRegFn=$scope.$watch(varName,function(newVal,oldVal){if(oldVal!==newVal)fn(newVal,oldVal);});};};$scope.TimerStart=function(objId,ms){if($App.NAB.$Timers[objId]){if(!angular.isDefined($App.NAB.$Timers[objId].promise)){$App.NAB.$Timers[objId].stime=Date.now();$App.NAB.$Timers[objId].promise=$interval($App.NAB.$Timers[objId].fn,ms||1000);}}else throw'A timer named "'+objId+'" does not exist.';};$scope.TimerStop=function(objId){if($App.NAB.$Timers[objId]){if(angular.isDefined($App.NAB.$Timers[objId].promise)){$interval.cancel($App.NAB.$Timers[objId].promise);$App.NAB.$Timers[objId].promise=undefined;}}else throw'A timer named "'+objId+'" does not exist.';};$scope._DeleteSound=function(sname){if($App.NAB.$Audio[sname]){$App.NAB.$Audio[sname].player.pause();delete $App.NAB.$Audio[sname].player;delete $App.NAB.$Audio[sname];return true;}return false;};$scope.PlaySound=function(fname,loop){var sname=ExtractFileName(fname).toLowerCase();if($App.NAB.$Audio[sname])throw'A sound named "'+sname+'" is already playing.';var devicePlatform=(typeof device!=='undefined'&&device.platform)?device.platform:null;if(typeof Audio!=="undefined"&&devicePlatform===null){obj={id:sname,kind:"audio",player:new Audio(fname)};obj.player.addEventListener("ended",function(){$scope._DeleteSound(sname);});}else if(devicePlatform){if(devicePlatform==='Android'){if(!IsUrl(fname))fname='/android_asset/www/'+fname;}obj={id:sname,kind:"media",player:new Media(fname,function onSuccess(){$scope._DeleteSound(sname);},function onError(e){console.log("Error playing sound: "+JSON.stringify(e));$scope._DeleteSound(sname);})};}else throw'Sound API unavailable.';$App.NAB.$Audio[sname]=obj;if(obj.kind==="audio"){obj.player.loop=loop;obj.player.play();}else obj.player.play({numberOfLoops:loop});};$scope.StopSound=function(fname){if(!fname||fname.length===0){for(var id in $App.NAB.$Audio)$scope._DeleteSound(id);}else{var sname=ExtractFileName(fname).toLowerCase();if(!$scope._DeleteSound(sname))throw'There is no playing sound named "'+sname+'"';}};$scope.CreateVideoPlayer=function(objId,fname,controls,autoplay,looping,muted){var sname=ExtractFileName(fname).toLowerCase();if(controls){addcontrols="controls";}else{addcontrols="";}if(autoplay){addautoplay="autoplay";}else{addautoplay="";}if(looping){addloop="loop";}else{addloop="";}if(muted){addmuted="muted";}else{addmuted="";}htmlstring='<video id="'+objId+'Video" width="100%" height="100%" '+addcontrols+' '+addautoplay+' '+addloop+' '+addmuted+'><source src="'+fname+'" type="video/mp4"></video>';$("#"+objId).html(htmlstring);};$scope.OnVideoEvent=function(objId,eventName,subroutine){if($App.NAB[objId+"Video"]){$App.NAB[objId+"Video"].on(eventName,subroutine);return;}$("#"+objId+"Video").on(eventName,subroutine);};$scope.CreateAudioPlayer=function(objId,fname,controls,autoplay,looping){var sname=ExtractFileName(fname).toLowerCase();if(controls){addcontrols="controls";}else{addcontrols="";}if(autoplay){addautoplay="autoplay";}else{addautoplay="";}if(looping){addloop="loop";}else{addloop="";}htmlstring='<audio id="'+objId+'Audio" width="100%" height="100%" '+addcontrols+' '+addautoplay+' '+addloop+'><source src="'+fname+'" type="audio/mp3"></audio>';$("#"+objId).html(htmlstring);};$scope.OnAudioEvent=function(objId,eventName,subroutine){if($App.NAB[objId+"Audio"]){$App.NAB[objId+"Audio"].on(eventName,subroutine);return;}$("#"+objId+"Audio").on(eventName,subroutine);};$scope.SoundBeep=function(){var snd=new Audio("data:audio/wav;base64,//uQRAAAAWMSLwUIYAAsYkXgoQwAEaYLWfkWgAI0wWs/ItAAAGDgYtAgAyN+QWaAAihwMWm4G8QQRDiMcCBcH3Cc+CDv/7xA4Tvh9Rz/y8QADBwMWgQAZG/ILNAARQ4GLTcDeIIIhxGOBAuD7hOfBB3/94gcJ3w+o5/5eIAIAAAVwWgQAVQ2ORaIQwEMAJiDg95G4nQL7mQVWI6GwRcfsZAcsKkJvxgxEjzFUgfHoSQ9Qq7KNwqHwuB13MA4a1q/DmBrHgPcmjiGoh//EwC5nGPEmS4RcfkVKOhJf+WOgoxJclFz3kgn//dBA+ya1GhurNn8zb//9NNutNuhz31f////9vt///z+IdAEAAAK4LQIAKobHItEIYCGAExBwe8jcToF9zIKrEdDYIuP2MgOWFSE34wYiR5iqQPj0JIeoVdlG4VD4XA67mAcNa1fhzA1jwHuTRxDUQ//iYBczjHiTJcIuPyKlHQkv/LHQUYkuSi57yQT//uggfZNajQ3Vmz+Zt//+mm3Wm3Q576v////+32///5/EOgAAADVghQAAAAA//uQZAUAB1WI0PZugAAAAAoQwAAAEk3nRd2qAAAAACiDgAAAAAAABCqEEQRLCgwpBGMlJkIz8jKhGvj4k6jzRnqasNKIeoh5gI7BJaC1A1AoNBjJgbyApVS4IDlZgDU5WUAxEKDNmmALHzZp0Fkz1FMTmGFl1FMEyodIavcCAUHDWrKAIA4aa2oCgILEBupZgHvAhEBcZ6joQBxS76AgccrFlczBvKLC0QI2cBoCFvfTDAo7eoOQInqDPBtvrDEZBNYN5xwNwxQRfw8ZQ5wQVLvO8OYU+mHvFLlDh05Mdg7BT6YrRPpCBznMB2r//xKJjyyOh+cImr2/4doscwD6neZjuZR4AgAABYAAAABy1xcdQtxYBYYZdifkUDgzzXaXn98Z0oi9ILU5mBjFANmRwlVJ3/6jYDAmxaiDG3/6xjQQCCKkRb/6kg/wW+kSJ5//rLobkLSiKmqP/0ikJuDaSaSf/6JiLYLEYnW/+kXg1WRVJL/9EmQ1YZIsv/6Qzwy5qk7/+tEU0nkls3/zIUMPKNX/6yZLf+kFgAfgGyLFAUwY//uQZAUABcd5UiNPVXAAAApAAAAAE0VZQKw9ISAAACgAAAAAVQIygIElVrFkBS+Jhi+EAuu+lKAkYUEIsmEAEoMeDmCETMvfSHTGkF5RWH7kz/ESHWPAq/kcCRhqBtMdokPdM7vil7RG98A2sc7zO6ZvTdM7pmOUAZTnJW+NXxqmd41dqJ6mLTXxrPpnV8avaIf5SvL7pndPvPpndJR9Kuu8fePvuiuhorgWjp7Mf/PRjxcFCPDkW31srioCExivv9lcwKEaHsf/7ow2Fl1T/9RkXgEhYElAoCLFtMArxwivDJJ+bR1HTKJdlEoTELCIqgEwVGSQ+hIm0NbK8WXcTEI0UPoa2NbG4y2K00JEWbZavJXkYaqo9CRHS55FcZTjKEk3NKoCYUnSQ0rWxrZbFKbKIhOKPZe1cJKzZSaQrIyULHDZmV5K4xySsDRKWOruanGtjLJXFEmwaIbDLX0hIPBUQPVFVkQkDoUNfSoDgQGKPekoxeGzA4DUvnn4bxzcZrtJyipKfPNy5w+9lnXwgqsiyHNeSVpemw4bWb9psYeq//uQZBoABQt4yMVxYAIAAAkQoAAAHvYpL5m6AAgAACXDAAAAD59jblTirQe9upFsmZbpMudy7Lz1X1DYsxOOSWpfPqNX2WqktK0DMvuGwlbNj44TleLPQ+Gsfb+GOWOKJoIrWb3cIMeeON6lz2umTqMXV8Mj30yWPpjoSa9ujK8SyeJP5y5mOW1D6hvLepeveEAEDo0mgCRClOEgANv3B9a6fikgUSu/DmAMATrGx7nng5p5iimPNZsfQLYB2sDLIkzRKZOHGAaUyDcpFBSLG9MCQALgAIgQs2YunOszLSAyQYPVC2YdGGeHD2dTdJk1pAHGAWDjnkcLKFymS3RQZTInzySoBwMG0QueC3gMsCEYxUqlrcxK6k1LQQcsmyYeQPdC2YfuGPASCBkcVMQQqpVJshui1tkXQJQV0OXGAZMXSOEEBRirXbVRQW7ugq7IM7rPWSZyDlM3IuNEkxzCOJ0ny2ThNkyRai1b6ev//3dzNGzNb//4uAvHT5sURcZCFcuKLhOFs8mLAAEAt4UWAAIABAAAAAB4qbHo0tIjVkUU//uQZAwABfSFz3ZqQAAAAAngwAAAE1HjMp2qAAAAACZDgAAAD5UkTE1UgZEUExqYynN1qZvqIOREEFmBcJQkwdxiFtw0qEOkGYfRDifBui9MQg4QAHAqWtAWHoCxu1Yf4VfWLPIM2mHDFsbQEVGwyqQoQcwnfHeIkNt9YnkiaS1oizycqJrx4KOQjahZxWbcZgztj2c49nKmkId44S71j0c8eV9yDK6uPRzx5X18eDvjvQ6yKo9ZSS6l//8elePK/Lf//IInrOF/FvDoADYAGBMGb7FtErm5MXMlmPAJQVgWta7Zx2go+8xJ0UiCb8LHHdftWyLJE0QIAIsI+UbXu67dZMjmgDGCGl1H+vpF4NSDckSIkk7Vd+sxEhBQMRU8j/12UIRhzSaUdQ+rQU5kGeFxm+hb1oh6pWWmv3uvmReDl0UnvtapVaIzo1jZbf/pD6ElLqSX+rUmOQNpJFa/r+sa4e/pBlAABoAAAAA3CUgShLdGIxsY7AUABPRrgCABdDuQ5GC7DqPQCgbbJUAoRSUj+NIEig0YfyWUho1VBBBA//uQZB4ABZx5zfMakeAAAAmwAAAAF5F3P0w9GtAAACfAAAAAwLhMDmAYWMgVEG1U0FIGCBgXBXAtfMH10000EEEEEECUBYln03TTTdNBDZopopYvrTTdNa325mImNg3TTPV9q3pmY0xoO6bv3r00y+IDGid/9aaaZTGMuj9mpu9Mpio1dXrr5HERTZSmqU36A3CumzN/9Robv/Xx4v9ijkSRSNLQhAWumap82WRSBUqXStV/YcS+XVLnSS+WLDroqArFkMEsAS+eWmrUzrO0oEmE40RlMZ5+ODIkAyKAGUwZ3mVKmcamcJnMW26MRPgUw6j+LkhyHGVGYjSUUKNpuJUQoOIAyDvEyG8S5yfK6dhZc0Tx1KI/gviKL6qvvFs1+bWtaz58uUNnryq6kt5RzOCkPWlVqVX2a/EEBUdU1KrXLf40GoiiFXK///qpoiDXrOgqDR38JB0bw7SoL+ZB9o1RCkQjQ2CBYZKd/+VJxZRRZlqSkKiws0WFxUyCwsKiMy7hUVFhIaCrNQsKkTIsLivwKKigsj8XYlwt/WKi2N4d//uQRCSAAjURNIHpMZBGYiaQPSYyAAABLAAAAAAAACWAAAAApUF/Mg+0aohSIRobBAsMlO//Kk4soosy1JSFRYWaLC4qZBYWFRGZdwqKiwkNBVmoWFSJkWFxX4FFRQWR+LsS4W/rFRb/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VEFHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU291bmRib3kuZGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAwNGh0dHA6Ly93d3cuc291bmRib3kuZGUAAAAAAAAAACU=");snd.play();};var fit=function(){"use strict";function t(t){return t.toUpperCase()}function e(t){return"number"==typeof t&&!isNaN(t)}function n(){return(new Date).getTime()}function i(t,e){for(var n=[],i=0,r=t.length;r>i;i++)n[i]=e(t[i]);return n}function r(t,e){for(var n in e)n in t||(t[n]=e[n]);return t}function o(e){if(!d)for(var n,i=H(C.body),r=w,o=0,a=T.length;a>o&&(d=T[o],n=d+r,!(n in i))&&(d=d.replace(/^(\w)/,t),n=d+r,!(n in i));o++);return d+e}function a(t){var e=H(t),n=e[o(w)].replace(/[a-z()]/gi,"").split(",");if(n.length<6)return[1,0,0,1,0,0];for(var i=0;6>i;i++)n[i]=parseFloat(n[i]);return n}function f(t,e){var n=a(e);n[0]=t.scale,n[3]=t.scale,n[4]+=t.tx,n[5]+=t.ty;var r=i(n,function(t){return t.toFixed(6)});e.style[o(m)]="0 0",e.style[o(w)]="matrix("+r.join(",")+")"}function s(t,e){var n=H(e),i=parseFloat(n.left)||0,r=parseFloat(n.top)||0;"static"===n.position&&(e.style.position="relative"),e.style.left=i+t.tx+b,e.style.top=r+t.ty+b,e.style.height=t.height+b,e.style.width=t.width+b}function l(t,e){var n=H(e),i=parseFloat(n.marginLeft)||0,r=parseFloat(n.marginTop)||0;e.style.marginLeft=i+t.tx+b,e.style.marginTop=r+t.ty+b,e.style.height=t.height+b,e.style.width=t.width+b}function h(t,e){e.height*=t.scale,e.width*=t.scale,e.x+=t.tx,e.y+=t.ty}function u(t){if(t.nodeType&&1==t.nodeType){var n=t.getBoundingClientRect();t={height:t.offsetHeight,width:t.offsetWidth,x:n.left,y:n.top}}return!e(t.x)&&e(t.left)&&(t.x=t.left),!e(t.y)&&e(t.top)&&(t.y=t.top),t}function c(){var t=n(),e=t-y;if(x>=e)clearInterval(v),v=setTimeout(c,x-e);else{for(var i=0,r=M.length;r>i;i++)M[i]();y=t}}function g(t,e,n,i,r){var o=u(t),a=u(e),s=0===o.width?R:o.width,l=0===o.height?P:o.height,c=0===a.width?I:a.width,g=0===a.height?P:a.height;R=s,B=l,I=c,P=g;var p=c/s,d=g/l,y=s/l,v=c/g,x=n.cover?d:p,m=n.cover?p:d,w=y>=v?x:m,T=s*w,O=l*w,F=n.hAlign==E?.5*(T-c):n.hAlign==L?T-c:0,b=n.vAlign==E?.5*(O-g):n.vAlign==A?O-g:0;return r=r||{},r.tx=a.x-F-o.x,r.ty=a.y-b-o.y,r.x=a.x-F-o.x*w,r.y=a.y-b-o.y*w,r.height=o.height*w,r.width=o.width*w,r.scale=w,i?i(r,t):n.apply&&(i="undefined"!=typeof HTMLElement&&t instanceof HTMLElement?f:h)(r,t),r}function p(t,e,n,i){if(!t||!e)throw"You must supply a target and a container";"function"==typeof n&&(i=n,n={}),n=r(n||{},N);var o=g(t,e,n,i);return n.watch&&(M.length||(z.addEventListener?(z.addEventListener("resize",c),z.addEventListener("orientationchange",c)):(z.attachEvent("onresize",c),z.attachEvent("onorientationchange",c))),o.trigger=function(){g(t,e,n,i,o)},o.on=function(t){var e=M.indexOf(o.trigger);~e||M.push(o.trigger),t||o.trigger()},o.off=function(){var t=M.indexOf(o.trigger);~t&&M.splice(t,1)},o.on(!0)),o}var d,y,v,x=50,m="TransformOrigin",w="Transform",T="moz ms o webkit".split(" "),E="center",A="bottom",L="right",O="left",F="top",b="px",z=window||self,C=document,H=z.getComputedStyle,M=[],N={hAlign:E,vAlign:E,watch:!1,cover:!1,apply:!0};Array.prototype.indexOf||(Array.prototype.indexOf=function(t){for(var e=0;e<this.length;++e)if(this[e]==t)return e;return-1});var R,B,I,P;return r(p,{watching:M,defaults:N,cssTransform:f,cssPosition:s,cssMargin:l,CENTER:E,BOTTOM:A,RIGHT:L,LEFT:O,TOP:F})}();"undefined"!=typeof exports&&("undefined"!=typeof module&&module.exports&&(exports=module.exports=fit),exports.fit=fit);(function(factory){if(typeof define==="function"&&define.amd){define(["jquery"],function($){return factory($)})}else if(typeof module==="object"&&typeof module.exports==="object"){exports=factory(require("jquery"))}else{factory(jQuery)}})(function($){$.easing.jswing=$.easing.swing;var pow=Math.pow,sqrt=Math.sqrt,sin=Math.sin,cos=Math.cos,PI=Math.PI,c1=1.70158,c2=c1*1.525,c3=c1+1,c4=2*PI/3,c5=2*PI/4.5;function bounceOut(x){var n1=7.5625,d1=2.75;if(x<1/d1){return n1*x*x}else if(x<2/d1){return n1*(x-=1.5/d1)*x+.75}else if(x<2.5/d1){return n1*(x-=2.25/d1)*x+.9375}else{return n1*(x-=2.625/d1)*x+.984375}}$.extend($.easing,{def:"easeOutQuad",swing:function(x){return $.easing[$.easing.def](x)},easeInQuad:function(x){return x*x},easeOutQuad:function(x){return 1-(1-x)*(1-x)},easeInOutQuad:function(x){return x<.5?2*x*x:1-pow(-2*x+2,2)/2},easeInCubic:function(x){return x*x*x},easeOutCubic:function(x){return 1-pow(1-x,3)},easeInOutCubic:function(x){return x<.5?4*x*x*x:1-pow(-2*x+2,3)/2},easeInQuart:function(x){return x*x*x*x},easeOutQuart:function(x){return 1-pow(1-x,4)},easeInOutQuart:function(x){return x<.5?8*x*x*x*x:1-pow(-2*x+2,4)/2},easeInQuint:function(x){return x*x*x*x*x},easeOutQuint:function(x){return 1-pow(1-x,5)},easeInOutQuint:function(x){return x<.5?16*x*x*x*x*x:1-pow(-2*x+2,5)/2},easeInSine:function(x){return 1-cos(x*PI/2)},easeOutSine:function(x){return sin(x*PI/2)},easeInOutSine:function(x){return-(cos(PI*x)-1)/2},easeInExpo:function(x){return x===0?0:pow(2,10*x-10)},easeOutExpo:function(x){return x===1?1:1-pow(2,-10*x)},easeInOutExpo:function(x){return x===0?0:x===1?1:x<.5?pow(2,20*x-10)/2:(2-pow(2,-20*x+10))/2},easeInCirc:function(x){return 1-sqrt(1-pow(x,2))},easeOutCirc:function(x){return sqrt(1-pow(x-1,2))},easeInOutCirc:function(x){return x<.5?(1-sqrt(1-pow(2*x,2)))/2:(sqrt(1-pow(-2*x+2,2))+1)/2},easeInElastic:function(x){return x===0?0:x===1?1:-pow(2,10*x-10)*sin((x*10-10.75)*c4)},easeOutElastic:function(x){return x===0?0:x===1?1:pow(2,-10*x)*sin((x*10-.75)*c4)+1},easeInOutElastic:function(x){return x===0?0:x===1?1:x<.5?-(pow(2,20*x-10)*sin((20*x-11.125)*c5))/2:pow(2,-20*x+10)*sin((20*x-11.125)*c5)/2+1},easeInBack:function(x){return c3*x*x*x-c1*x*x},easeOutBack:function(x){return 1+c3*pow(x-1,3)+c1*pow(x-1,2)},easeInOutBack:function(x){return x<.5?pow(2*x,2)*((c2+1)*2*x-c2)/2:(pow(2*x-2,2)*((c2+1)*(x*2-2)+c2)+2)/2},easeInBounce:function(x){return 1-bounceOut(1-x)},easeOutBounce:bounceOut,easeInOutBounce:function(x){return x<.5?(1-bounceOut(1-2*x))/2:(1+bounceOut(2*x-1))/2}})});function d(c){var b,a;if(!this.length)return this;b=this[0];b.ownerDocument?a=b.ownerDocument:(a=b,b=a.documentElement);if(null==c){if(!a.exitFullscreen&&!a.webkitExitFullscreen&&!a.webkitCancelFullScreen&&!a.msExitFullscreen&&!a.mozCancelFullScreen)return null;c=!!a.fullscreenElement||!!a.msFullscreenElement||!!a.webkitIsFullScreen||!!a.mozFullScreen;return!c?c:a.fullscreenElement||a.webkitFullscreenElement||a.webkitCurrentFullScreenElement||a.msFullscreenElement||a.mozFullScreenElement||c}c?(c=b.requestFullscreen||b.webkitRequestFullscreen||b.webkitRequestFullScreen||b.msRequestFullscreen||b.mozRequestFullScreen)&&c.call(b):(c=a.exitFullscreen||a.webkitExitFullscreen||a.webkitCancelFullScreen||a.msExitFullscreen||a.mozCancelFullScreen)&&c.call(a);return this}jQuery.fn.fullScreen=d;jQuery.fn.toggleFullScreen=function(){return d.call(this,!d.call(this))};var e,f,g;e=document;e.webkitCancelFullScreen?(f="webkitfullscreenchange",g="webkitfullscreenerror"):e.msExitFullscreen?(f="MSFullscreenChange",g="MSFullscreenError"):e.mozCancelFullScreen?(f="mozfullscreenchange",g="mozfullscreenerror"):(f="fullscreenchange",g="fullscreenerror");jQuery(document).bind(f,function(){jQuery(document).trigger(new jQuery.Event("fullscreenchange"))});jQuery(document).bind(g,function(){jQuery(document).trigger(new jQuery.Event("fullscreenerror"))});$scope.EnterFullScreen=function(){$(document).fullScreen(true);};$scope.ExitFullScreen=function(){$(document).fullScreen(false);};$scope.ObjectEnterFullScreen=function(ObjId){$("#"+ObjId).fullScreen(true);};$scope.ObjectExitFullScreen=function(ObjId){$("#"+ObjId).fullScreen(false);};var neoscript;$scope.AppOnKeyDown=function(callbackFn){$("body").keydown(function(evt){callbackFn(evt.which);});};(function(a,b){if("function"==typeof define&&define.amd)define([],b);else if("undefined"!=typeof exports)b();else{b(),a.FileSaver={exports:{}}.exports}})(this,function(){"use strict";function b(a,b){return"undefined"==typeof b?b={autoBom:!1}:"object"!=typeof b&&(console.warn("Depricated: Expected third argument to be a object"),b={autoBom:!b}),b.autoBom&&/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(a.type)?new Blob(["\uFEFF",a],{type:a.type}):a}function c(b,c,d){var e=new XMLHttpRequest;e.open("GET",b),e.responseType="blob",e.onload=function(){a(e.response,c,d)},e.onerror=function(){console.error("could not download file")},e.send()}function d(a){var b=new XMLHttpRequest;return b.open("HEAD",a,!1),b.send(),200<=b.status&&299>=b.status}function e(a){try{a.dispatchEvent(new MouseEvent("click"))}catch(c){var b=document.createEvent("MouseEvents");b.initMouseEvent("click",!0,!0,window,0,0,0,80,20,!1,!1,!1,!1,0,null),a.dispatchEvent(b)}}var f="object"==typeof window&&window.window===window?window:"object"==typeof self&&self.self===self?self:"object"==typeof global&&global.global===global?global:void 0,a=f.saveAs||"object"!=typeof window||window!==f?function(){}:"download"in HTMLAnchorElement.prototype?function(b,g,h){var i=f.URL||f.webkitURL,j=document.createElement("a");g=g||b.name||"download",j.download=g,j.rel="noopener","string"==typeof b?(j.href=b,j.origin===location.origin?e(j):d(j.href)?c(b,g,h):e(j,j.target="_blank")):(j.href=i.createObjectURL(b),setTimeout(function(){i.revokeObjectURL(j.href)},4E4),setTimeout(function(){e(j)},0))}:"msSaveOrOpenBlob"in navigator?function(f,g,h){if(g=g||f.name||"download","string"!=typeof f)navigator.msSaveOrOpenBlob(b(f,h),g);else if(d(f))c(f,g,h);else{var i=document.createElement("a");i.href=f,i.target="_blank",setTimeout(function(){e(i)})}}:function(a,b,d,e){if(e=e||open("","_blank"),e&&(e.document.title=e.document.body.innerText="downloading..."),"string"==typeof a)return c(a,b,d);var g="application/octet-stream"===a.type,h=/constructor/i.test(f.HTMLElement)||f.safari,i=/CriOS\/[\d]+/.test(navigator.userAgent);if((i||g&&h)&&"object"==typeof FileReader){var j=new FileReader;j.onloadend=function(){var a=j.result;a=i?a:a.replace(/^data:[^;]*;/,"data:attachment/file;"),e?e.location.href=a:location=a,e=null},j.readAsDataURL(a)}else{var k=f.URL||f.webkitURL,l=k.createObjectURL(a);e?e.location=l:location.href=l,e=null,setTimeout(function(){k.revokeObjectURL(l)},4E4)}};f.saveAs=a.saveAs=a,"undefined"!=typeof module&&(module.exports=a)});$scope.VarToFile=function(datavar,filename){var blob=new Blob([datavar],{type:"text/plain;charset=utf-8"});saveAs(blob,filename);};!function(a){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=a();else if("function"==typeof define&&define.amd)define([],a);else{var b;b="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this,b.mexp=a()}}(function(){return function a(b,c,d){function e(g,h){if(!c[g]){if(!b[g]){var i="function"==typeof require&&require;if(!h&&i)return i(g,!0);if(f)return f(g,!0);var j=new Error("Cannot find module '"+g+"'");throw j.code="MODULE_NOT_FOUND",j}var k=c[g]={exports:{}};b[g][0].call(k.exports,function(a){var c=b[g][1][a];return e(c?c:a)},k,k.exports,a,b,c,d)}return c[g].exports}for(var f="function"==typeof require&&require,g=0;g<d.length;g++)e(d[g]);return e}({1:[function(a,b,c){var d=a("./postfix_evaluator.js");d.prototype.formulaEval=function(){"use strict";for(var a,b,c,d=[],e=this.value,f=0;f<e.length;f++)1===e[f].type||3===e[f].type?d.push({value:3===e[f].type?e[f].show:e[f].value,type:1}):13===e[f].type?d.push({value:e[f].show,type:1}):0===e[f].type?d[d.length-1]={value:e[f].show+("-"!=e[f].show?"(":"")+d[d.length-1].value+("-"!=e[f].show?")":""),type:0}:7===e[f].type?d[d.length-1]={value:(1!=d[d.length-1].type?"(":"")+d[d.length-1].value+(1!=d[d.length-1].type?")":"")+e[f].show,type:7}:10===e[f].type?(a=d.pop(),b=d.pop(),"P"===e[f].show||"C"===e[f].show?d.push({value:"<sup>"+b.value+"</sup>"+e[f].show+"<sub>"+a.value+"</sub>",type:10}):d.push({value:(1!=b.type?"(":"")+b.value+(1!=b.type?")":"")+"<sup>"+a.value+"</sup>",type:1})):2===e[f].type||9===e[f].type?(a=d.pop(),b=d.pop(),d.push({value:(1!=b.type?"(":"")+b.value+(1!=b.type?")":"")+e[f].show+(1!=a.type?"(":"")+a.value+(1!=a.type?")":""),type:e[f].type})):12===e[f].type&&(a=d.pop(),b=d.pop(),c=d.pop(),d.push({value:e[f].show+"("+c.value+","+b.value+","+a.value+")",type:12}));return d[0].value},b.exports=d},{"./postfix_evaluator.js":5}],2:[function(a,b,c){function d(a,b){for(var c=0;c<a.length;c++)a[c]+=b;return a}function e(a,b,c,d){for(var e=0;e<d;e++)if(a[c+e]!==b[e])return!1;return!0}var f=a("./math_function.js"),g=["sin","cos","tan","pi","(",")","P","C","asin","acos","atan","7","8","9","int","cosh","acosh","ln","^","root","4","5","6","/","!","tanh","atanh","Mod","1","2","3","*","sinh","asinh","e","log","0",".","+","-",",","Sigma","n","Pi","pow"],h=["sin","cos","tan","&pi;","(",")","P","C","asin","acos","atan","7","8","9","Int","cosh","acosh"," ln","^","root","4","5","6","&divide;","!","tanh","atanh"," Mod ","1","2","3","&times;","sinh","asinh","e"," log","0",".","+","-",",","&Sigma;","n","&Pi;","pow"],i=[f.math.sin,f.math.cos,f.math.tan,"PI","(",")",f.math.P,f.math.C,f.math.asin,f.math.acos,f.math.atan,"7","8","9",Math.floor,f.math.cosh,f.math.acosh,Math.log,Math.pow,Math.sqrt,"4","5","6",f.math.div,f.math.fact,f.math.tanh,f.math.atanh,f.math.mod,"1","2","3",f.math.mul,f.math.sinh,f.math.asinh,"E",f.math.log,"0",".",f.math.add,f.math.sub,",",f.math.sigma,"n",f.math.Pi,Math.pow],j={0:11,1:0,2:3,3:0,4:0,5:0,6:0,7:11,8:11,9:1,10:10,11:0,12:11,13:0},k=[0,0,0,3,4,5,10,10,0,0,0,1,1,1,0,0,0,0,10,0,1,1,1,2,7,0,0,2,1,1,1,2,0,0,3,0,1,6,9,9,11,12,13,12,8],l={0:!0,1:!0,3:!0,4:!0,6:!0,8:!0,9:!0,12:!0,13:!0},m={0:!0,1:!0,2:!0,3:!0,4:!0,5:!0,6:!0,7:!0,8:!0,9:!0,10:!0,11:!0,12:!0,13:!0},n={0:!0,3:!0,4:!0,8:!0,12:!0,13:!0},o={},p={0:!0,1:!0,3:!0,4:!0,6:!0,8:!0,12:!0,13:!0},q={1:!0},r=[[],["1","2","3","7","8","9","4","5","6","+","-","*","/","(",")","^","!","P","C","e","0",".",",","n"],["pi","ln","Pi"],["sin","cos","tan","Del","int","Mod","log","pow"],["asin","acos","atan","cosh","root","tanh","sinh"],["acosh","atanh","asinh","Sigma"]];f.addToken=function(a){for(var b=0;b<a.length;b++){var c=a[b].token.length,d=-1;if(c<r.length)for(var e=0;e<r[c].length;e++)if(a[b].token===r[c][e]){d=g.indexOf(r[c][e]);break}d===-1?(g.push(a[b].token),k.push(a[b].type),r.length<=a[b].token.length&&(r[a[b].token.length]=[]),r[a[b].token.length].push(a[b].token),i.push(a[b].value),h.push(a[b].show)):(g[d]=a[b].token,k[d]=a[b].type,i[d]=a[b].value,h[d]=a[b].show)}},f.lex=function(a,b){"use strict";var c,s,t,u,v={value:f.math.changeSign,type:0,pre:21,show:"-"},w={value:")",show:")",type:5,pre:0},x={value:"(",type:4,pre:0,show:"("},y=[x],z=[],A=a,B=0,C=l,D=0,E=o,F="";"undefined"!=typeof b&&f.addToken(b);var G={};for(s=0;s<A.length;s++)if(" "!==A[s]){for(c="",t=A.length-s>r.length-2?r.length-1:A.length-s;t>0;t--)for(u=0;u<r[t].length;u++)e(A,r[t][u],s,t)&&(c=r[t][u],u=r[t].length,t=0);if(s+=c.length-1,""===c)throw new f.Exception("Can't understand after "+A.slice(s));var H,I=g.indexOf(c),J=c,K=k[I],L=i[I],M=j[K],N=h[I],O=y[y.length-1];for(H=z.length;H--&&0===z[H];)if([0,2,3,5,9,11,12,13].indexOf(K)!==-1){if(C[K]!==!0)throw new f.Exception(c+" is not allowed after "+F);y.push(w),C=m,E=p,d(z,-1).pop()}if(C[K]!==!0)throw new f.Exception(c+" is not allowed after "+F);if(E[K]===!0&&(K=2,L=f.math.mul,N="&times;",M=3,s-=c.length),G={value:L,type:K,pre:M,show:N},0===K)C=l,E=o,d(z,2).push(2),y.push(G),y.push(x);else if(1===K)1===O.type?(O.value+=L,d(z,1)):y.push(G),C=m,E=n;else if(2===K)C=l,E=o,d(z,2),y.push(G);else if(3===K)y.push(G),C=m,E=p;else if(4===K)B+=z.length,z=[],D++,C=l,E=o,y.push(G);else if(5===K){if(!D)throw new f.Exception("Closing parenthesis are more than opening one, wait What!!!");for(;B--;)y.push(w);B=0,D--,C=m,E=p,y.push(G)}else if(6===K){if(O.hasDec)throw new f.Exception("Two decimals are not allowed in one number");1!==O.type&&(O={value:0,type:1,pre:0},y.push(O),d(z,-1)),C=q,d(z,1),E=o,O.value+=L,O.hasDec=!0}else 7===K&&(C=m,E=p,d(z,1),y.push(G));8===K?(C=l,E=o,d(z,4).push(4),y.push(G),y.push(x)):9===K?(9===O.type?O.value===f.math.add?(O.value=L,O.show=N,d(z,1)):O.value===f.math.sub&&"-"===N&&(O.value=f.math.add,O.show="+",d(z,1)):5!==O.type&&7!==O.type&&1!==O.type&&3!==O.type&&13!==O.type?"-"===J&&(C=l,E=o,d(z,2).push(2),y.push(v),y.push(x)):(y.push(G),d(z,2)),C=l,E=o):10===K?(C=l,E=o,d(z,2),y.push(G)):11===K?(C=l,E=o,y.push(G)):12===K?(C=l,E=o,d(z,6).push(6),y.push(G),y.push(x)):13===K&&(C=m,E=p,y.push(G)),d(z,-1),F=c}for(H=z.length;H--&&0===z[H];)y.push(w),d(z,-1).pop();if(C[5]!==!0)throw new f.Exception("complete the expression");for(;D--;)y.push(w);return y.push(w),new f(y)},b.exports=f},{"./math_function.js":3}],3:[function(a,b,c){var d=function(a){this.value=a};d.math={isDegree:!0,acos:function(a){return d.math.isDegree?180/Math.PI*Math.acos(a):Math.acos(a)},add:function(a,b){return a+b},asin:function(a){return d.math.isDegree?180/Math.PI*Math.asin(a):Math.asin(a)},atan:function(a){return d.math.isDegree?180/Math.PI*Math.atan(a):Math.atan(a)},acosh:function(a){return Math.log(a+Math.sqrt(a*a-1))},asinh:function(a){return Math.log(a+Math.sqrt(a*a+1))},atanh:function(a){return Math.log((1+a)/(1-a))},C:function(a,b){var c=1,e=a-b,f=b;f<e&&(f=e,e=b);for(var g=f+1;g<=a;g++)c*=g;return c/d.math.fact(e)},changeSign:function(a){return-a},cos:function(a){return d.math.isDegree&&(a=d.math.toRadian(a)),Math.cos(a)},cosh:function(a){return(Math.pow(Math.E,a)+Math.pow(Math.E,-1*a))/2},div:function(a,b){return a/b},fact:function(a){if(a%1!==0)return"NaN";for(var b=1,c=2;c<=a;c++)b*=c;return b},inverse:function(a){return 1/a},log:function(a){return Math.log(a)/Math.log(10)},mod:function(a,b){return a%b},mul:function(a,b){return a*b},P:function(a,b){for(var c=1,d=Math.floor(a)-Math.floor(b)+1;d<=Math.floor(a);d++)c*=d;return c},Pi:function(a,b,c){for(var d=1,e=a;e<=b;e++)d*=Number(c.postfixEval({n:e}));return d},pow10x:function(a){for(var b=1;a--;)b*=10;return b},sigma:function(a,b,c){for(var d=0,e=a;e<=b;e++)d+=Number(c.postfixEval({n:e}));return d},sin:function(a){return d.math.isDegree&&(a=d.math.toRadian(a)),Math.sin(a)},sinh:function(a){return(Math.pow(Math.E,a)-Math.pow(Math.E,-1*a))/2},sub:function(a,b){return a-b},tan:function(a){return d.math.isDegree&&(a=d.math.toRadian(a)),Math.tan(a)},tanh:function(a){return d.sinha(a)/d.cosha(a)},toRadian:function(a){return a*Math.PI/180}},d.Exception=function(a){this.message=a},b.exports=d},{}],4:[function(a,b,c){var d=a("./lexer.js");d.prototype.toPostfix=function(){"use strict";for(var a,b,c,e,f,g=[],h=[{value:"(",type:4,pre:0}],i=this.value,j=1;j<i.length;j++)if(1===i[j].type||3===i[j].type||13===i[j].type)1===i[j].type&&(i[j].value=Number(i[j].value)),g.push(i[j]);else if(4===i[j].type)h.push(i[j]);else if(5===i[j].type)for(;4!==(b=h.pop()).type;)g.push(b);else if(11===i[j].type){for(;4!==(b=h.pop()).type;)g.push(b);h.push(b)}else{a=i[j],e=a.pre,f=h[h.length-1],c=f.pre;var k="Math.pow"==f.value&&"Math.pow"==a.value;if(e>c)h.push(a);else{for(;c>=e&&!k||k&&e<c;)b=h.pop(),f=h[h.length-1],g.push(b),c=f.pre,k="Math.pow"==a.value&&"Math.pow"==f.value;h.push(a)}}return new d(g)},b.exports=d},{"./lexer.js":2}],5:[function(a,b,c){var d=a("./postfix.js");d.prototype.postfixEval=function(a){"use strict";a=a||{},a.PI=Math.PI,a.E=Math.E;for(var b,c,e,f=[],g=this.value,h="undefined"!=typeof a.n,i=0;i<g.length;i++)1===g[i].type?f.push({value:g[i].value,type:1}):3===g[i].type?f.push({value:a[g[i].value],type:1}):0===g[i].type?"undefined"==typeof f[f.length-1].type?f[f.length-1].value.push(g[i]):f[f.length-1].value=g[i].value(f[f.length-1].value):7===g[i].type?"undefined"==typeof f[f.length-1].type?f[f.length-1].value.push(g[i]):f[f.length-1].value=g[i].value(f[f.length-1].value):8===g[i].type?(b=f.pop(),c=f.pop(),f.push({type:1,value:g[i].value(c.value,b.value)})):10===g[i].type?(b=f.pop(),c=f.pop(),"undefined"==typeof c.type?(c.value=c.concat(b),c.value.push(g[i]),f.push(c)):"undefined"==typeof b.type?(b.unshift(c),b.push(g[i]),f.push(b)):f.push({type:1,value:g[i].value(c.value,b.value)})):2===g[i].type||9===g[i].type?(b=f.pop(),c=f.pop(),"undefined"==typeof c.type?(console.log(c),c=c.concat(b),c.push(g[i]),f.push(c)):"undefined"==typeof b.type?(b.unshift(c),b.push(g[i]),f.push(b)):f.push({type:1,value:g[i].value(c.value,b.value)})):12===g[i].type?(b=f.pop(),"undefined"!=typeof b.type&&(b=[b]),c=f.pop(),e=f.pop(),f.push({type:1,value:g[i].value(e.value,c.value,new d(b))})):13===g[i].type&&(h?f.push({value:a[g[i].value],type:3}):f.push([g[i]]));if(f.length>1)throw new d.exception("Uncaught Syntax error");return f[0].value>1e15?"Infinity":parseFloat(f[0].value.toFixed(15))},d.eval=function(a,b,c){return"undefined"==typeof b?this.lex(a).toPostfix().postfixEval():"undefined"==typeof c?"undefined"!=typeof b.length?this.lex(a,b).toPostfix().postfixEval():this.lex(a).toPostfix().postfixEval(b):this.lex(a,b).toPostfix().postfixEval(c)},b.exports=d},{"./postfix.js":4}]},{},[1])(1)});$scope.Calculate=function(formula,decimals){var numero=mexp.eval(formula);if(decimals!=-1){potencia=Math.pow(10,decimals);numero=Math.round(numero*potencia)/potencia;}return numero;};$(document).mousemove(function(evt){if($App.NAB.AppScale==0){$App.NAB.AppScale=1;}var x=((evt.pageX-$('body').offset().left)+$(window).scrollLeft())/$App.NAB.AppScale;var y=((evt.pageY-$('body').offset().top)+$(window).scrollTop())/$App.NAB.AppScale;var sx=((evt.pageX+$(window).scrollLeft())/$App.NAB.AppScale);var sy=((evt.pageY+$(window).scrollTop())/$App.NAB.AppScale);$App.NAB.MouseX=Math.round(x);$App.NAB.MouseY=Math.round(y);$App.NAB.MouseScreenX=Math.round(sx);$App.NAB.MouseScreenY=Math.round(sy);});$(document).on("touchmove",function(evt){if($App.NAB.AppScale==0){$App.NAB.AppScale=1;}var x=((evt.touches[0].clientX-$('body').offset().left)+$(window).scrollLeft())/$App.NAB.AppScale;var y=((evt.touches[0].clientY-$('body').offset().top)+$(window).scrollTop())/$App.NAB.AppScale;$App.NAB.TouchX=Math.round(x);$App.NAB.TouchY=Math.round(y);});$(document).on("touchstart",function(evt){if($App.NAB.AppScale==0){$App.NAB.AppScale=1;}var x=((evt.touches[0].clientX-$('body').offset().left)+$(window).scrollLeft())/$App.NAB.AppScale;var y=((evt.touches[0].clientY-$('body').offset().top)+$(window).scrollTop())/$App.NAB.AppScale;$App.NAB.TouchX=Math.round(x);$App.NAB.TouchY=Math.round(y);});
-$App.NAB={PageList:["Index","Edit","W6-01","W7-01","St1","ToDoListOptions01","Developernote1-3","Developernote4-6","Developernote6-9","ToDoListOptions02","EDitToDoListOptions01","EDitToDoListOptions03","EDitToDoListOptions02","EDitToDoListOptions04","Export","ADVersion","Option4","Option5","Option6","Option7","Option8","Option9","Option10","Option11","Option12","Option13","Option14","Option15","Option16","Option17","Option18","Option19","Option20","Option21","Option22","Option23","Option24","Option25","Timers","AdhDTest01","AdhDTest02","AdhDTest03","AdhDTest04","settings","W1-DECISION","W1-2","W3-01","W4-01","W100-01","W5-01","TNeoAppPage11","KnowThyself","W08-01","W09-01","Wnotes","W11-01","W15-01","W16-01","W14-01","W14-01a","W14-02","W14-03","W14-04","W14-05","W14-06","W14-07","W14-08","W14-09","W14-10","QDLists","QD001","QD002","QD003","QD004","QD005","QD006","QD007","QD008","QD009","QD010","QD011","QD012","QD013","QD014","QD015","QD016","QD017","QD018","QD019","QD020","W18-01","W19-01","W20-01","w21-01","w24-01","w25-01","W22-01","W23-01","W2-01","W10-01","W12-01","Q001","Q002","W13-01","Option1","Option2","Option3"],PageEnterEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageCount:107,PageExitEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageNumber:1,AppScale:1,PageID:"",Hour:"",Hour24:"",Minute:"",Second:"",Time:"",Time24:"",DateShort:"",DateLong:"",DateFull:"",Month:"",MonthNum:"",WeekNum:"",Day:"",DayNum:"",Year:"",ClientWidth:$window.innerWidth,ClientHeight:$window.innerHeight,WindowWidth:$window.outerWidth,WindowHeight:$window.outerHeight,Orientation:$scope.GetOrientation(),OperatingSystem:"",$Watches:{},$Timers:{},$Audio:{}};$scope.__doUpdate=function(){var Now=new Date();$App.NAB.Hour=$filter("date")(Now,"h");$App.NAB.Hour24=$filter("date")(Now,"H");$App.NAB.Minute=$filter("date")(Now,"mm");$App.NAB.Second=$filter("date")(Now,"ss");$App.NAB.Time=$filter("date")(Now,"mediumTime");$App.NAB.Time24=$filter("date")(Now,"H:mm:ss");$App.NAB.DateShort=$filter("date")(Now,"shortDate");$App.NAB.DateLong=$filter("date")(Now,"longDate");$App.NAB.DateFull=$filter("date")(Now,"fullDate");$App.NAB.Month=$filter("date")(Now,"MMMM");$App.NAB.MonthNum=$filter("date")(Now,"M");$App.NAB.WeekNum=$filter("date")(Now,"w");$App.NAB.Day=$filter("date")(Now,"EEEE");$App.NAB.DayNum=$filter("date")(Now,"d");$App.NAB.Year=$filter("date")(Now,"yyyy");};$scope.__doOrientationChange=function(){$App.NAB.Orientation=$scope.GetOrientation();};$scope.__doResize=function(){$App.NAB.ClientWidth=$window.innerWidth;$App.NAB.ClientHeight=$window.innerHeight;$App.NAB.WindowWidth=$window.outerWidth;$App.NAB.WindowHeight=$window.outerHeight;};$scope.__init=function(){angular.element($window).bind("orientationchange.app",function(){$timeout($scope.__doOrientationChange);});angular.element($window).bind("resize.app",function(){$timeout($scope.__doResize);});$interval($scope.__doUpdate,1000);$App.NAB.OperatingSystem=GetPlatform();$scope.__doUpdate();};
+$App.NAB={PageList:["Index","Index2","Data001","Data001c","Data001d","Edit","W6-01","W7-01","St1","ToDoListOptions01","Developernote1-3","Developernote4-6","Developernote6-9","ToDoListOptions02","EDitToDoListOptions01","EDitToDoListOptions03","EDitToDoListOptions02","EDitToDoListOptions04","Export","ADVersion","Option4","Option5","Option6","Option7","Option8","Option9","Option10","Option11","Option12","Option13","Option14","Option15","Option16","Option17","Option18","Option19","Option20","Option21","Option22","Option23","Option24","Option25","Timers","AdhDTest01","AdhDTest02","AdhDTest03","AdhDTest04","settings","W1-DECISION","W1-2","W3-01","W4-01","W100-01","W5-01","TNeoAppPage11","KnowThyself","W08-01","W09-01","Wnotes","W11-01","W15-01","W16-01","W14-01","W14-01a","W14-02","W14-03","W14-04","W14-05","W14-06","W14-07","W14-08","W14-09","W14-10","QDLists","QD001","QD002","QD003","QD004","QD005","QD006","QD007","QD008","QD009","QD010","QD011","QD012","QD013","QD014","QD015","QD016","QD017","QD018","QD019","QD020","W18-01","W19-01","W20-01","w21-01","w24-01","w25-01","W22-01","W23-01","W2-01","W10-01","W12-01","Q001","Q002","W13-01","Option1","Option2","Option3"],PageEnterEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageCount:111,PageExitEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageNumber:1,AppScale:1,PageID:"",Hour:"",Hour24:"",Minute:"",Second:"",Time:"",Time24:"",DateShort:"",DateLong:"",DateFull:"",Month:"",MonthNum:"",WeekNum:"",Day:"",DayNum:"",Year:"",ClientWidth:$window.innerWidth,ClientHeight:$window.innerHeight,WindowWidth:$window.outerWidth,WindowHeight:$window.outerHeight,Orientation:$scope.GetOrientation(),OperatingSystem:"",$Watches:{},$Timers:{},$Audio:{}};$scope.__doUpdate=function(){var Now=new Date();$App.NAB.Hour=$filter("date")(Now,"h");$App.NAB.Hour24=$filter("date")(Now,"H");$App.NAB.Minute=$filter("date")(Now,"mm");$App.NAB.Second=$filter("date")(Now,"ss");$App.NAB.Time=$filter("date")(Now,"mediumTime");$App.NAB.Time24=$filter("date")(Now,"H:mm:ss");$App.NAB.DateShort=$filter("date")(Now,"shortDate");$App.NAB.DateLong=$filter("date")(Now,"longDate");$App.NAB.DateFull=$filter("date")(Now,"fullDate");$App.NAB.Month=$filter("date")(Now,"MMMM");$App.NAB.MonthNum=$filter("date")(Now,"M");$App.NAB.WeekNum=$filter("date")(Now,"w");$App.NAB.Day=$filter("date")(Now,"EEEE");$App.NAB.DayNum=$filter("date")(Now,"d");$App.NAB.Year=$filter("date")(Now,"yyyy");};$scope.__doOrientationChange=function(){$App.NAB.Orientation=$scope.GetOrientation();};$scope.__doResize=function(){$App.NAB.ClientWidth=$window.innerWidth;$App.NAB.ClientHeight=$window.innerHeight;$App.NAB.WindowWidth=$window.outerWidth;$App.NAB.WindowHeight=$window.outerHeight;};$scope.__init=function(){angular.element($window).bind("orientationchange.app",function(){$timeout($scope.__doOrientationChange);});angular.element($window).bind("resize.app",function(){$timeout($scope.__doResize);});$interval($scope.__doUpdate,1000);$App.NAB.OperatingSystem=GetPlatform();$scope.__doUpdate();};
 $scope.Index_pageenter = function() {$App.word01 = localStorage.getItem("word01");
 $App.word02 = localStorage.getItem("word02");
 $App.word03 = localStorage.getItem("word03");
@@ -33,6 +33,37 @@ $App.adversion = localStorage.getItem("adversion");
 $App.addate = localStorage.getItem("addate");
 $App.a = localStorage.getItem("a");
 $App.b = localStorage.getItem("b");};
+$scope.Index2_pageenter = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
+neoGSheetsLoadCell($App.googleSheet,"Data001","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Data002","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Data003","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Data004","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Data005","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff12","a",12,null);
+};
+$scope.Data001_pageenter = function() {$App.Data001b = localStorage.getItem("Data001b");};
+$scope.Data001_pageexit = function() {localStorage.setItem("Data001b",$App.Data001b);};
+$scope.Data001c_pageenter = function() {$App.Data001c = localStorage.getItem("Data001c");};
+$scope.Data001c_pageexit = function() {localStorage.setItem("Data001c",$App.Data001c);};
+$scope.Data001d_pageenter = function() {$App.Data001c = localStorage.getItem("Data001c");};
+$scope.Data001d_pageexit = function() {localStorage.setItem("Data001c",$App.Data001c);};
 $scope.Edit_pageexit = function() {localStorage.setItem("word01",$App.word01);
 localStorage.setItem("word02",$App.word02);
 localStorage.setItem("word03",$App.word03);
@@ -1164,9 +1195,640 @@ $App.DNN08 = localStorage.getItem("DNN08");
 $App.DNN09 = localStorage.getItem("DNN09");};
 $scope.Headline120_click = function() {$App.Wnotes = localStorage.getItem("Wnotes");
 $scope.GotoPage( "Wnotes" );};
+$scope.PushButton365_click = function() {$scope.GotoPage( "Index2" );};
+});
+NeoApp.controller("Index2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 2;
+$App.NAB.PageID = "Index2";
+$scope.Headline159_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1xsijrJmqCkGSYY4xLQMs-NY8f_V3n5cq0cml9u8AI4E/edit?usp=sharingadd #gid=X";
+neoGSheetsLoadCell($App.googleSheet,"Oneoff01","a",1,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff02","a",2,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff03","a",3,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff04","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff05","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff06","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff07","a",7,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff08","a",8,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff09","a",9,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff10","a",10,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff11","a",11,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Oneoff12","a",12,null);
+};
+$scope.PushButton329_click = function() {$scope.GotoPage( "Edit" );};
+$scope.PushButton331_click = function() {$App.W0501 = localStorage.getItem("W501");
+$scope.GotoPage( "W5-01" );};
+$scope.PushButton331_mouseenter = function() {$scope.SetObjectStyle("word05","text-shadow","5px 5px 6px yellow");};
+$scope.PushButton331_mouseleave = function() {$scope.SetObjectStyle("word05","text-shadow","0px 0px 0px Yellow");};
+$scope.PushButton332_click = function() {$App.W100 = localStorage.getItem("W100");
+$App.w100c = localStorage.getItem("w100c");
+$scope.SetObjectStyle("w100","color",$App.w100c);
+$App.w100font = localStorage.getItem("w100font");
+$scope.SetObjectStyle("w100","font-size",$App.w100font);
+$scope.GotoPage( "W100-01" );};
+$scope.PushButton332_mouseenter = function() {$scope.SetObjectStyle("Timeb","text-shadow","5px 5px 6px yellow");};
+$scope.PushButton332_mouseleave = function() {$scope.SetObjectStyle("Timeb","text-shadow","3px 3px 3px Silver");};
+$scope.PushButton334_click = function() {$scope.GotoPage( "AdhDTest01" );};
+$scope.PushButton347_click = function() {$App.speak01 = localStorage.getItem("30sec");
+$App.speak02 = localStorage.getItem("60sec");
+$App.speak03 = localStorage.getItem("60000msec");
+$App.speak04 = localStorage.getItem("120000msec");
+$App.speak05 = localStorage.getItem("180000msec");
+$App.speak06 = localStorage.getItem("360000msec");
+$scope.GotoPage( "Timers" );};
+$scope.PushButton358_click = function() {$scope.GotoPage( "Export" );
+$App.Dec01a = localStorage.getItem("Dec01a");
+$App.Dec01b = localStorage.getItem("Dec01b");
+$App.Dec01c = localStorage.getItem("Dec01c");
+$App.Dec01d = localStorage.getItem("Dec01d");
+$App.Dec01e = localStorage.getItem("Dec01e");
+$App.Dec01f = localStorage.getItem("Dec01f");
+$App.Dec02a = localStorage.getItem("Dec02a");
+$App.Dec02b = localStorage.getItem("Dec02b");
+$App.Dec02c = localStorage.getItem("Dec02c");
+$App.Dec02d = localStorage.getItem("Dec02d");
+$App.Dec02e = localStorage.getItem("Dec02e");
+$App.Dec02f = localStorage.getItem("Dec02f");
+$App.Dec03a = localStorage.getItem("Dec03a");
+$App.Dec03b = localStorage.getItem("Dec03b");
+$App.Dec03c = localStorage.getItem("Dec03c");
+$App.Dec03d = localStorage.getItem("Dec03d");
+$App.Dec03e = localStorage.getItem("Dec03e");
+$App.Dec03f = localStorage.getItem("Dec03f");
+$App.Dec04a = localStorage.getItem("Dec04a");
+$App.Dec04b = localStorage.getItem("Dec04b");
+$App.Dec04c = localStorage.getItem("Dec04c");
+$App.Dec04d = localStorage.getItem("Dec04d");
+$App.Dec04e = localStorage.getItem("Dec04e");
+$App.Dec04f = localStorage.getItem("Dec04f");
+$App.Dec05a = localStorage.getItem("Dec05a");
+$App.Dec05b = localStorage.getItem("Dec05b");
+$App.Dec05c = localStorage.getItem("Dec05c");
+$App.Dec05d = localStorage.getItem("Dec05d");
+$App.Dec05e = localStorage.getItem("Dec05e");
+$App.Dec05f = localStorage.getItem("Dec05f");
+$App.Dec06a = localStorage.getItem("Dec06a");
+$App.Dec06b = localStorage.getItem("Dec06b");
+$App.Dec06c = localStorage.getItem("Dec06c");
+$App.Dec06d = localStorage.getItem("Dec06d");
+$App.Dec06e = localStorage.getItem("Dec06e");
+$App.Dec06f = localStorage.getItem("Dec06f");
+$App.Dec07a = localStorage.getItem("Dec07a");
+$App.Dec07b = localStorage.getItem("Dec07b");
+$App.Dec07c = localStorage.getItem("Dec07c");
+$App.Dec07d = localStorage.getItem("Dec07d");
+$App.Dec07e = localStorage.getItem("Dec07e");
+$App.Dec07f = localStorage.getItem("Dec07f");
+$App.Dec08a = localStorage.getItem("Dec08a");
+$App.Dec08b = localStorage.getItem("Dec08b");
+$App.Dec08c = localStorage.getItem("Dec08c");
+$App.Dec08d = localStorage.getItem("Dec08d");
+$App.Dec08e = localStorage.getItem("Dec08e");
+$App.Dec08f = localStorage.getItem("Dec08f");
+$App.Dec09a = localStorage.getItem("Dec09a");
+$App.Dec09b = localStorage.getItem("Dec09b");
+$App.Dec09c = localStorage.getItem("Dec09c");
+$App.Dec09d = localStorage.getItem("Dec09d");
+$App.Dec09e = localStorage.getItem("Dec09e");
+$App.Dec09f = localStorage.getItem("Dec09f");
+$App.Dec10a = localStorage.getItem("Dec10a");
+$App.Dec10b = localStorage.getItem("Dec10b");
+$App.Dec10c = localStorage.getItem("Dec10c");
+$App.Dec10d = localStorage.getItem("Dec10d");
+$App.Dec10e = localStorage.getItem("Dec10e");
+$App.Dec10f = localStorage.getItem("Dec10f");
+$App.Dec11a = localStorage.getItem("Dec11a");
+$App.Dec11b = localStorage.getItem("Dec11b");
+$App.Dec11c = localStorage.getItem("Dec11c");
+$App.Dec11d = localStorage.getItem("Dec11d");
+$App.Dec11e = localStorage.getItem("Dec11e");
+$App.Dec11f = localStorage.getItem("Dec11f");
+$App.Dec12a = localStorage.getItem("Dec12a");
+$App.Dec12b = localStorage.getItem("Dec12b");
+$App.Dec12c = localStorage.getItem("Dec12c");
+$App.Dec12d = localStorage.getItem("Dec12d");
+$App.Dec12e = localStorage.getItem("Dec12e");
+$App.Dec12f = localStorage.getItem("Dec12f");
+$App.Dec13a = localStorage.getItem("Dec13a");
+$App.Dec13b = localStorage.getItem("Dec13b");
+$App.Dec13c = localStorage.getItem("Dec13c");
+$App.Dec13d = localStorage.getItem("Dec13d");
+$App.Dec13e = localStorage.getItem("Dec13e");
+$App.Dec13f = localStorage.getItem("Dec13f");
+$App.Dec14a = localStorage.getItem("Dec14a");
+$App.Dec14 = localStorage.getItem("Dec14b");
+$App.Dec14c = localStorage.getItem("Dec14c");
+$App.Dec14d = localStorage.getItem("Dec14d");
+$App.Dec14e = localStorage.getItem("Dec14e");
+$App.Dec14f = localStorage.getItem("Dec14f");
+$App.Dec15a = localStorage.getItem("Dec15a");
+$App.Dec15b = localStorage.getItem("Dec15b");
+$App.Dec15c = localStorage.getItem("Dec15c");
+$App.Dec15d = localStorage.getItem("Dec15d");
+$App.Dec15e = localStorage.getItem("Dec15e");
+$App.Dec15f = localStorage.getItem("Dec15f");
+$App.Dec16a = localStorage.getItem("Dec16a");
+$App.Dec16b = localStorage.getItem("Dec16b");
+$App.Dec16c = localStorage.getItem("Dec16c");
+$App.Dec16d = localStorage.getItem("Dec16d");
+$App.Dec16e = localStorage.getItem("Dec16e");
+$App.Dec16f = localStorage.getItem("Dec16f");
+$App.Dec17a = localStorage.getItem("Dec17a");
+$App.Dec17b = localStorage.getItem("Dec17b");
+$App.Dec17c = localStorage.getItem("Dec17c");
+$App.Dec17d = localStorage.getItem("Dec17d");
+$App.Dec17e = localStorage.getItem("Dec17e");
+$App.Dec17f = localStorage.getItem("Dec17f");
+$App.Dec18a = localStorage.getItem("Dec18a");
+$App.Dec18b = localStorage.getItem("Dec18b");
+$App.Dec18c = localStorage.getItem("Dec18c");
+$App.Dec18d = localStorage.getItem("Dec18d");
+$App.Dec18e = localStorage.getItem("Dec18e");
+$App.Dec18f = localStorage.getItem("Dec18f");
+$App.Dec19a = localStorage.getItem("Dec19a");
+$App.Dec19b = localStorage.getItem("Dec19b");
+$App.Dec19c = localStorage.getItem("Dec19c");
+$App.Dec19d = localStorage.getItem("Dec19d");
+$App.Dec19e = localStorage.getItem("Dec19e");
+$App.Dec19f = localStorage.getItem("Dec19f");
+$App.Dec20a = localStorage.getItem("Dec20a");
+$App.Dec20b = localStorage.getItem("Dec20b");
+$App.Dec20c = localStorage.getItem("Dec20c");
+$App.Dec20d = localStorage.getItem("Dec20d");
+$App.Dec20e = localStorage.getItem("Dec20e");
+$App.Dec20f = localStorage.getItem("Dec20f");
+$App.dz001 = localStorage.getItem("dz001");
+$App.dz002 = localStorage.getItem("dz002");
+$App.dz003 = localStorage.getItem("dz003");
+$App.dz004 = localStorage.getItem("dz004");
+$App.dz005 = localStorage.getItem("dz005");
+$App.dz006 = localStorage.getItem("dz006");
+$App.dz007 = localStorage.getItem("dz007");
+$App.dz008 = localStorage.getItem("dz008");
+$App.dz009 = localStorage.getItem("dz009");
+$App.dz010 = localStorage.getItem("dz010");
+$App.dz011 = localStorage.getItem("dz011");
+$App.dz012 = localStorage.getItem("dz012");
+$App.dz007 = localStorage.getItem("dz007");
+$App.dz008 = localStorage.getItem("dz008");
+$App.dz009 = localStorage.getItem("dz009");
+$App.dz010 = localStorage.getItem("dz010");
+$App.dz011 = localStorage.getItem("dz011");
+$App.dz012 = localStorage.getItem("dz012");
+$App.dz013 = localStorage.getItem("dz013");
+$App.dz014 = localStorage.getItem("dz014");
+$App.dz015 = localStorage.getItem("dz015");
+$App.dz016 = localStorage.getItem("dz016");
+$App.dz017 = localStorage.getItem("dz017");
+$App.dz018 = localStorage.getItem("dz018");
+$App.dzs001 = localStorage.getItem("dzs001");
+$App.dzs002 = localStorage.getItem("dzs002");
+$App.dzs003 = localStorage.getItem("dzs003");
+$App.dzs004 = localStorage.getItem("dzs004");
+$App.dzs005 = localStorage.getItem("dzs005");
+$App.dzs006 = localStorage.getItem("dzs006");
+$App.dzs007 = localStorage.getItem("dzs007");
+$App.dzs008 = localStorage.getItem("dzs008");
+$App.dzs009 = localStorage.getItem("dzs009");
+$App.dzs010 = localStorage.getItem("dzs010");
+$App.dzs011 = localStorage.getItem("dzs011");
+$App.dzs012 = localStorage.getItem("dzs012");
+$App.dzs013 = localStorage.getItem("dzs013");
+$App.dzs014 = localStorage.getItem("dzs014");
+$App.dzs015 = localStorage.getItem("dzs015");
+$App.dzs016 = localStorage.getItem("dzs016");
+$App.dzs017 = localStorage.getItem("dzs017");
+$App.dzs018 = localStorage.getItem("dzs018");
+$App.dzw001 = localStorage.getItem("dzw001");
+$App.dzw002 = localStorage.getItem("dzw002");
+$App.dzw003 = localStorage.getItem("dzw003");
+$App.dzw004 = localStorage.getItem("dzw004");
+$App.dzw005 = localStorage.getItem("dzw005");
+$App.dzw006 = localStorage.getItem("dzw006");
+$App.dzw007 = localStorage.getItem("dzw007");
+$App.dzw008 = localStorage.getItem("dzw008");
+$App.dzw009 = localStorage.getItem("dzw009");
+$App.dzw010 = localStorage.getItem("dzw010");
+$App.dzw011 = localStorage.getItem("dzw011");
+$App.dzw012 = localStorage.getItem("dzw012");
+$App.dzw013 = localStorage.getItem("dzw013");
+$App.dzw014 = localStorage.getItem("dzw014");
+$App.dzw015 = localStorage.getItem("dzw015");
+$App.dzw016 = localStorage.getItem("dzw016");
+$App.dzw017 = localStorage.getItem("dzw017");
+$App.dzw018 = localStorage.getItem("dzw018");
+$App.z001 = localStorage.getItem("z001");
+$App.z002 = localStorage.getItem("z002");
+$App.z003 = localStorage.getItem("z003");
+$App.z004 = localStorage.getItem("z004");
+$App.z005 = localStorage.getItem("z005");
+$App.z006 = localStorage.getItem("z006");
+$App.z007 = localStorage.getItem("z007");
+$App.z008 = localStorage.getItem("z008");
+$App.z009 = localStorage.getItem("z009");
+$App.z010 = localStorage.getItem("z010");
+$App.z011 = localStorage.getItem("z011");
+$App.z012 = localStorage.getItem("z012");
+$App.z007 = localStorage.getItem("z007");
+$App.z008 = localStorage.getItem("z008");
+$App.z009 = localStorage.getItem("z009");
+$App.z010 = localStorage.getItem("z010");
+$App.z011 = localStorage.getItem("z011");
+$App.z012 = localStorage.getItem("z012");
+$App.z013 = localStorage.getItem("z013");
+$App.z014 = localStorage.getItem("z014");
+$App.z015 = localStorage.getItem("z015");
+$App.z016 = localStorage.getItem("z016");
+$App.z017 = localStorage.getItem("z017");
+$App.z018 = localStorage.getItem("z018");
+$App.zs001 = localStorage.getItem("zs001");
+$App.zs002 = localStorage.getItem("zs002");
+$App.zs003 = localStorage.getItem("zs003");
+$App.zs004 = localStorage.getItem("zs004");
+$App.zs005 = localStorage.getItem("zs005");
+$App.zs006 = localStorage.getItem("zs006");
+$App.zs007 = localStorage.getItem("zs007");
+$App.zs008 = localStorage.getItem("zs008");
+$App.zs009 = localStorage.getItem("zs009");
+$App.zs010 = localStorage.getItem("zs010");
+$App.zs011 = localStorage.getItem("zs011");
+$App.zs012 = localStorage.getItem("zs012");
+$App.zs013 = localStorage.getItem("zs013");
+$App.zs014 = localStorage.getItem("zs014");
+$App.zs015 = localStorage.getItem("zs015");
+$App.zs016 = localStorage.getItem("zs016");
+$App.zs017 = localStorage.getItem("zs017");
+$App.zs018 = localStorage.getItem("zs018");
+$App.zw001 = localStorage.getItem("zw001");
+$App.zw002 = localStorage.getItem("zw002");
+$App.zw003 = localStorage.getItem("zw003");
+$App.zw004 = localStorage.getItem("zw004");
+$App.zw005 = localStorage.getItem("zw005");
+$App.zw006 = localStorage.getItem("zw006");
+$App.zw007 = localStorage.getItem("zw007");
+$App.zw008 = localStorage.getItem("zw008");
+$App.zw009 = localStorage.getItem("zw009");
+$App.zw010 = localStorage.getItem("zw010");
+$App.zw011 = localStorage.getItem("zw011");
+$App.zw012 = localStorage.getItem("zw012");
+$App.zw013 = localStorage.getItem("zw013");
+$App.zw014 = localStorage.getItem("zw014");
+$App.zw015 = localStorage.getItem("zw015");
+$App.zw016 = localStorage.getItem("zw016");
+$App.zw017 = localStorage.getItem("zw017");
+$App.zw018 = localStorage.getItem("zw018");
+$App.W101 = localStorage.getItem("W101");
+$App.W201 = localStorage.getItem("W201");
+$App.W301 = localStorage.getItem("W301");
+$App.W401 = localStorage.getItem("W401");
+$App.W501 = localStorage.getItem("W501");
+$App.W601 = localStorage.getItem("W601");
+$App.W701 = localStorage.getItem("W701");
+$App.W801 = localStorage.getItem("W801");
+$App.W901 = localStorage.getItem("W901");
+$App.W1001 = localStorage.getItem("W1001");
+$App.W1101 = localStorage.getItem("W1101");
+$App.W1201 = localStorage.getItem("W1201");
+$App.W1301 = localStorage.getItem("W1301");
+$App.W1401 = localStorage.getItem("W1401");
+$App.W1501 = localStorage.getItem("W1501");
+$App.W1601 = localStorage.getItem("W1601");
+$App.W1701 = localStorage.getItem("W1701");
+$App.W1801 = localStorage.getItem("W1801");
+$App.W1901 = localStorage.getItem("W1901");
+$App.W2001 = localStorage.getItem("W2001");
+$App.W2101 = localStorage.getItem("W2101");
+$App.W2201 = localStorage.getItem("W2201");
+$App.W2301 = localStorage.getItem("W2301");
+$App.W2401 = localStorage.getItem("W2401");
+$App.W2501 = localStorage.getItem("W2501");
+$App.W100 = localStorage.getItem("W100");
+$App.W1401a = localStorage.getItem("W1401a");
+$App.W1401ab = localStorage.getItem("W1401ab");
+$App.W1402 = localStorage.getItem("W1402");
+$App.W1402b = localStorage.getItem("W1402b");
+$App.W1403 = localStorage.getItem("W1403");
+$App.W1403b = localStorage.getItem("W1403b");
+$App.W1404 = localStorage.getItem("W1404");
+$App.W1404b = localStorage.getItem("W1404b");
+$App.W1405 = localStorage.getItem("W1405");
+$App.W1405b = localStorage.getItem("W1405b");
+$App.W1406 = localStorage.getItem("W1406");
+$App.W1406b = localStorage.getItem("W1406b");
+$App.W1407 = localStorage.getItem("W1407");
+$App.W1407b = localStorage.getItem("W1407b");
+$App.W1408 = localStorage.getItem("W1408");
+$App.W1408b = localStorage.getItem("W1408b");
+$App.W1409 = localStorage.getItem("W1409");
+$App.W1409b = localStorage.getItem("W1409b");
+$App.W1410 = localStorage.getItem("W1410");
+$App.W1410b = localStorage.getItem("W1410b");
+$App.W1411 = localStorage.getItem("W1411");
+$App.W1411b = localStorage.getItem("W1411b");
+$App.W1401aL = localStorage.getItem("W1401aL");
+$App.W1402aL = localStorage.getItem("W1402aL");
+$App.W1403aL = localStorage.getItem("W1403aL");
+$App.W1404aL = localStorage.getItem("W1404aL");
+$App.W1405aL = localStorage.getItem("W1405aL");
+$App.W1406aL = localStorage.getItem("W1406aL");
+$App.W1407aL = localStorage.getItem("W1407aL");
+$App.W1408aL = localStorage.getItem("W1408aL");
+$App.W1409aL = localStorage.getItem("W1409aL");
+$App.W1410aL = localStorage.getItem("W1410aL");
+$App.W1411aL = localStorage.getItem("W1411aL");
+$App.Oneoff01 = localStorage.getItem("Oneoff01");
+$App.Oneoff02 = localStorage.getItem("Oneoff02");
+$App.Oneoff03 = localStorage.getItem("Oneoff03");
+$App.Oneoff04 = localStorage.getItem("Oneoff04");
+$App.Oneoff05 = localStorage.getItem("Oneoff05");
+$App.Oneoff06 = localStorage.getItem("Oneoff06");
+$App.Oneoff07 = localStorage.getItem("Oneoff07");
+$App.Oneoff08 = localStorage.getItem("Oneoff08");
+$App.Oneoff09 = localStorage.getItem("Oneoff09");
+$App.Oneoff10 = localStorage.getItem("Oneoff10");
+$App.Oneoff11 = localStorage.getItem("Oneoff11");
+$App.Oneoff12 = localStorage.getItem("Oneoff12");
+$App.Oneoff13 = localStorage.getItem("Oneoff13");
+$App.Oneoff14 = localStorage.getItem("Oneoff14");
+$App.Oneoff15 = localStorage.getItem("Oneoff15");
+$App.Oneoff16 = localStorage.getItem("Oneoff16");
+$App.Oneoff17 = localStorage.getItem("Oneoff17");
+$App.Oneoff18 = localStorage.getItem("Oneoff18");
+$App.Oneoff19 = localStorage.getItem("Oneoff19");
+$App.Oneoff20 = localStorage.getItem("Oneoff20");
+$App.Option1 = localStorage.getItem("Option1");
+$App.Option2 = localStorage.getItem("Option2");
+$App.Option3 = localStorage.getItem("Option3");
+$App.Option4 = localStorage.getItem("Option4");
+$App.Option5 = localStorage.getItem("Option5");
+$App.Option6 = localStorage.getItem("Option6");
+$App.Option7 = localStorage.getItem("Option7");
+$App.Option8 = localStorage.getItem("Option8");
+$App.Option9 = localStorage.getItem("Option9");
+$App.Option10 = localStorage.getItem("Option10");
+$App.Option11 = localStorage.getItem("Option11");
+$App.Option12 = localStorage.getItem("Option12");
+$App.Option13 = localStorage.getItem("Option13");
+$App.Option14 = localStorage.getItem("Option14");
+$App.Option15 = localStorage.getItem("Option15");
+$App.Option16 = localStorage.getItem("Option16");
+$App.Option17 = localStorage.getItem("Option17");
+$App.Option18 = localStorage.getItem("Option18");
+$App.Option19 = localStorage.getItem("Option19");
+$App.Option20 = localStorage.getItem("Option20");};
+$scope.PushButton359_click = function() {$scope.GotoPage( "Q001" );
+$App.q1001 = localStorage.getItem("q1001");
+$App.q1002 = localStorage.getItem("q1002");
+$App.q1003 = localStorage.getItem("q1003");
+$App.q1004 = localStorage.getItem("q1004");
+$App.q1005 = localStorage.getItem("q1005");
+$App.q1006 = localStorage.getItem("q1006");
+$App.q1007 = localStorage.getItem("q1007");
+$App.q1008 = localStorage.getItem("q1008");
+$App.q1009 = localStorage.getItem("q1009");
+$App.q1010 = localStorage.getItem("q1010");
+$App.q1011 = localStorage.getItem("q1011");
+$App.q1012 = localStorage.getItem("q1012");
+$App.q1013 = localStorage.getItem("q1013");
+$App.q1014 = localStorage.getItem("q1014");
+$App.q1015 = localStorage.getItem("q1015");
+$App.q1016 = localStorage.getItem("q1016");
+$App.q1017 = localStorage.getItem("q1017");
+$App.q1018 = localStorage.getItem("q1018");
+$App.q1019 = localStorage.getItem("q1019");
+$App.q1020 = localStorage.getItem("q1020");
+$App.q1021 = localStorage.getItem("q1021");
+$App.q1022 = localStorage.getItem("q1022");
+$App.q1023 = localStorage.getItem("q1023");
+$App.q1024 = localStorage.getItem("q1024");
+$App.q1025 = localStorage.getItem("q1025");};
+$scope.Headline230_click = function() {$App.adversiondetail = localStorage.getItem("adversiondetail");
+$App.adversion = localStorage.getItem("adversion");
+$App.addate = localStorage.getItem("addate");
+$scope.GotoPage( "ADVersion" );};
+$scope.PushButton360_click = function() {$App.z001 = localStorage.getItem("z001");
+$App.z002 = localStorage.getItem("z002");
+$App.z003 = localStorage.getItem("z003");
+$App.z004 = localStorage.getItem("z004");
+$App.z005 = localStorage.getItem("z005");
+$App.z006 = localStorage.getItem("z006");
+$App.z007 = localStorage.getItem("z007");
+$App.z008 = localStorage.getItem("z008");
+$App.z009 = localStorage.getItem("z009");
+$App.z010 = localStorage.getItem("z010");
+$App.z011 = localStorage.getItem("z011");
+$App.z012 = localStorage.getItem("z012");
+$App.z007 = localStorage.getItem("z007");
+$App.z008 = localStorage.getItem("z008");
+$App.z009 = localStorage.getItem("z009");
+$App.z010 = localStorage.getItem("z010");
+$App.z011 = localStorage.getItem("z011");
+$App.z012 = localStorage.getItem("z012");
+$App.z013 = localStorage.getItem("z013");
+$App.z014 = localStorage.getItem("z014");
+$App.z015 = localStorage.getItem("z015");
+$App.z016 = localStorage.getItem("z016");
+$App.z017 = localStorage.getItem("z017");
+$App.z018 = localStorage.getItem("z018");
+$App.zs001 = localStorage.getItem("zs001");
+$App.zs002 = localStorage.getItem("zs002");
+$App.zs003 = localStorage.getItem("zs003");
+$App.zs004 = localStorage.getItem("zs004");
+$App.zs005 = localStorage.getItem("zs005");
+$App.zs006 = localStorage.getItem("zs006");
+$App.zs007 = localStorage.getItem("zs007");
+$App.zs008 = localStorage.getItem("zs008");
+$App.zs009 = localStorage.getItem("zs009");
+$App.zs010 = localStorage.getItem("zs010");
+$App.zs011 = localStorage.getItem("zs011");
+$App.zs012 = localStorage.getItem("zs012");
+$App.zs013 = localStorage.getItem("zs013");
+$App.zs014 = localStorage.getItem("zs014");
+$App.zs015 = localStorage.getItem("zs015");
+$App.zs016 = localStorage.getItem("zs016");
+$App.zs017 = localStorage.getItem("zs017");
+$App.zs018 = localStorage.getItem("zs018");
+$App.zw001 = localStorage.getItem("zw001");
+$App.zw002 = localStorage.getItem("zw002");
+$App.zw003 = localStorage.getItem("zw003");
+$App.zw004 = localStorage.getItem("zw004");
+$App.zw005 = localStorage.getItem("zw005");
+$App.zw006 = localStorage.getItem("zw006");
+$App.zw007 = localStorage.getItem("zw007");
+$App.zw008 = localStorage.getItem("zw008");
+$App.zw009 = localStorage.getItem("zw009");
+$App.zw010 = localStorage.getItem("zw010");
+$App.zw011 = localStorage.getItem("zw011");
+$App.zw012 = localStorage.getItem("zw012");
+$App.zw013 = localStorage.getItem("zw013");
+$App.zw014 = localStorage.getItem("zw014");
+$App.zw015 = localStorage.getItem("zw015");
+$App.zw016 = localStorage.getItem("zw016");
+$App.zw017 = localStorage.getItem("zw017");
+$App.zw018 = localStorage.getItem("zw018");
+$scope.GotoPage( "ToDoListOptions01" );};
+$scope.PushButton361_click = function() {$App.dz001 = localStorage.getItem("dz001");
+$App.dz002 = localStorage.getItem("dz002");
+$App.dz003 = localStorage.getItem("dz003");
+$App.dz004 = localStorage.getItem("dz004");
+$App.dz005 = localStorage.getItem("dz005");
+$App.dz006 = localStorage.getItem("dz006");
+$App.dz007 = localStorage.getItem("dz007");
+$App.dz008 = localStorage.getItem("dz008");
+$App.dz009 = localStorage.getItem("dz009");
+$App.dz010 = localStorage.getItem("dz010");
+$App.dz011 = localStorage.getItem("dz011");
+$App.dz012 = localStorage.getItem("dz012");
+$App.dz007 = localStorage.getItem("dz007");
+$App.dz008 = localStorage.getItem("dz008");
+$App.dz009 = localStorage.getItem("dz009");
+$App.dz010 = localStorage.getItem("dz010");
+$App.dz011 = localStorage.getItem("dz011");
+$App.dz012 = localStorage.getItem("dz012");
+$App.dz013 = localStorage.getItem("dz013");
+$App.dz014 = localStorage.getItem("dz014");
+$App.dz015 = localStorage.getItem("dz015");
+$App.dz016 = localStorage.getItem("dz016");
+$App.dz017 = localStorage.getItem("dz017");
+$App.dz018 = localStorage.getItem("dz018");
+$App.dzs001 = localStorage.getItem("dzs001");
+$App.dzs002 = localStorage.getItem("dzs002");
+$App.dzs003 = localStorage.getItem("dzs003");
+$App.dzs004 = localStorage.getItem("dzs004");
+$App.dzs005 = localStorage.getItem("dzs005");
+$App.dzs006 = localStorage.getItem("dzs006");
+$App.dzs007 = localStorage.getItem("dzs007");
+$App.dzs008 = localStorage.getItem("dzs008");
+$App.dzs009 = localStorage.getItem("dzs009");
+$App.dzs010 = localStorage.getItem("dzs010");
+$App.dzs011 = localStorage.getItem("dzs011");
+$App.dzs012 = localStorage.getItem("dzs012");
+$App.dzs013 = localStorage.getItem("dzs013");
+$App.dzs014 = localStorage.getItem("dzs014");
+$App.dzs015 = localStorage.getItem("dzs015");
+$App.dzs016 = localStorage.getItem("dzs016");
+$App.dzs017 = localStorage.getItem("dzs017");
+$App.dzs018 = localStorage.getItem("dzs018");
+$App.dzw001 = localStorage.getItem("dzw001");
+$App.dzw002 = localStorage.getItem("dzw002");
+$App.dzw003 = localStorage.getItem("dzw003");
+$App.dzw004 = localStorage.getItem("dzw004");
+$App.dzw005 = localStorage.getItem("dzw005");
+$App.dzw006 = localStorage.getItem("dzw006");
+$App.dzw007 = localStorage.getItem("dzw007");
+$App.dzw008 = localStorage.getItem("dzw008");
+$App.dzw009 = localStorage.getItem("dzw009");
+$App.dzw010 = localStorage.getItem("dzw010");
+$App.dzw011 = localStorage.getItem("dzw011");
+$App.dzw012 = localStorage.getItem("dzw012");
+$App.dzw013 = localStorage.getItem("dzw013");
+$App.dzw014 = localStorage.getItem("dzw014");
+$App.dzw015 = localStorage.getItem("dzw015");
+$App.dzw016 = localStorage.getItem("dzw016");
+$App.dzw017 = localStorage.getItem("dzw017");
+$App.dzw018 = localStorage.getItem("dzw018");
+$scope.GotoPage( "ToDoListOptions02" );};
+$scope.PushButton362_click = function() {$scope.GotoPage( "Developernote1-3" );
+$App.DN01 = localStorage.getItem("DN01");
+$App.DN02 = localStorage.getItem("DN02");
+$App.DN03 = localStorage.getItem("DN03");
+$App.DN04 = localStorage.getItem("DN04");
+$App.DN05 = localStorage.getItem("DN05");
+$App.DN06 = localStorage.getItem("DN06");
+$App.DN07 = localStorage.getItem("DN07");
+$App.DN08 = localStorage.getItem("DN08");
+$App.DN09 = localStorage.getItem("DN09");
+$App.DNN01 = localStorage.getItem("DNN01");
+$App.DNN02 = localStorage.getItem("DNN02");
+$App.DNN03 = localStorage.getItem("DNN03");
+$App.DNN04 = localStorage.getItem("DNN04");
+$App.DNN05 = localStorage.getItem("DNN05");
+$App.DNN06 = localStorage.getItem("DNN06");
+$App.DNN07 = localStorage.getItem("DNN07");
+$App.DNN08 = localStorage.getItem("DNN08");
+$App.DNN09 = localStorage.getItem("DNN09");};
+$scope.PushButton363_click = function() {$scope.GotoPage( "Index" );};
+$scope.PushButton364_click = function() {$scope.GotoPage( "Data001" );
+neoGSheetsLoadCell($App.googleSheet,"Data001b","b",1,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Data001c","c",1,null);
+
+neoGSheetsLoadCell($App.googleSheet,"Data001d","d",1,null);
+};
+$scope.PushButton367_click = function() {$scope.GotoPage( "Data002" );};
+$scope.PushButton373_click = function() {$scope.GotoPage( "Data002" );};
+});
+NeoApp.controller("Data001_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 3;
+$App.NAB.PageID = "Data001";
+$scope.PushButton366_click = function() {$scope.GotoPage( "Index" );};
+$scope.Data001aa_change = function() {localStorage.setItem("Data001b",$App.Data001b);};
+$scope.r_click = function() {$scope.SetObjectStyle("Data001aa","font-size","11pt");};
+$scope.PushButton368_click = function() {$scope.SetObjectStyle("Data001aa","font-size","15pt");};
+$scope.PushButton369_click = function() {$scope.SetObjectStyle("Data001aa","font-size","21pt");};
+$scope.PushButton370_click = function() {$scope.SetObjectStyle("Data001aa","font-size","25pt");};
+$scope.PushButton371_click = function() {localStorage.setItem("Data001aac","#383838");
+$App.Data001aac = localStorage.getItem("Data001aac");
+$scope.SetObjectStyle("Data001aa","color",$App.Data001aac);};
+$scope.PushButton372_click = function() {localStorage.setItem("Data001aac","Red");
+$App.Data001aac = localStorage.getItem("Data001aac");
+$scope.SetObjectStyle("Data001aa","color",$App.Data001aac);};
+$scope.PushButton330_click = function() {$App.Data001b = localStorage.getItem("Data001b");};
+$scope.Pager2_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager2_nextclick = function() {$scope.GotoNextPage();
+neoGSheetsLoadCell($App.googleSheet,"Data001c","c",1,null);
+};
+});
+NeoApp.controller("Data001c_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 4;
+$App.NAB.PageID = "Data001c";
+$scope.PushButton374_click = function() {$scope.GotoPage( "Index" );};
+$scope.Data001bbc_change = function() {localStorage.setItem("Data001c",$App.Data001c);};
+$scope.PushButton375_click = function() {$scope.SetObjectStyle("Data001bbc","font-size","11pt");};
+$scope.PushButton376_click = function() {$scope.SetObjectStyle("Data001bbc","font-size","15pt");};
+$scope.PushButton377_click = function() {$scope.SetObjectStyle("Data001bbc","font-size","21pt");};
+$scope.PushButton378_click = function() {$scope.SetObjectStyle("Data001bbc","font-size","25pt");};
+$scope.PushButton379_click = function() {localStorage.setItem("Data001bbcc","#383838");
+$App.Data001bbcc = localStorage.getItem("Data001bbcc");
+$scope.SetObjectStyle("Data001bbc","color",$App.Data001bbcc);};
+$scope.PushButton380_click = function() {localStorage.setItem("Data001bbcc","Red");
+$App.Data001bbcc = localStorage.getItem("Data001bbcc");
+$scope.SetObjectStyle("Data001bbc","color",$App.Data001bbcc);};
+$scope.PushButton381_click = function() {$App.Data001c = localStorage.getItem("Data001c");};
+$scope.Pager7_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager7_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("Data001d_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 5;
+$App.NAB.PageID = "Data001d";
+$scope.PushButton333_click = function() {$scope.GotoPage( "Index" );};
+$scope.TextArea157_change = function() {localStorage.setItem("Data001d",$App.Data001d);};
+$scope.PushButton382_click = function() {$scope.SetObjectStyle("TextArea157","font-size","11pt");};
+$scope.PushButton383_click = function() {$scope.SetObjectStyle("TextArea157","font-size","15pt");};
+$scope.PushButton384_click = function() {$scope.SetObjectStyle("TextArea157","font-size","21pt");};
+$scope.PushButton385_click = function() {$scope.SetObjectStyle("TextArea157","font-size","25pt");};
+$scope.PushButton386_click = function() {localStorage.setItem("TextArea157c","#383838");
+$App.TextArea157c = localStorage.getItem("TextArea157c");
+$scope.SetObjectStyle("TextArea157","color","TextArea157c");};
+$scope.PushButton387_click = function() {localStorage.setItem("TextArea157c","Red");
+$App.TextArea157c = localStorage.getItem("TextArea157c");
+$scope.SetObjectStyle("TextArea157","color",$App.TextArea157c);};
+$scope.PushButton388_click = function() {$App.Data001d = localStorage.getItem("Data001d");};
+$scope.Pager9_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager9_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Edit_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 2;
+$App.NAB.PageNumber = 6;
 $App.NAB.PageID = "Edit";
 $scope.TextInput47_change = function() {localStorage.setItem("word11",$App.word11);
 $App.word11 = localStorage.getItem("word11");};
@@ -1433,7 +2095,7 @@ localStorage.setItem("q1025",$App.q1025);
 localStorage.setItem("Option21",$App.Option21);};
 });
 NeoApp.controller("W6-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 3;
+$App.NAB.PageNumber = 7;
 $App.NAB.PageID = "W6-01";
 $scope.W0601_change = function() {localStorage.setItem("W0601",$App.W0601);};
 $scope.PushButton40_click = function() {$scope.GotoPage( "Index" );};
@@ -1449,7 +2111,7 @@ $App.w2c = localStorage.getItem("w2c");
 $scope.SetObjectStyle("W0601","color",$App.w2c);};
 });
 NeoApp.controller("W7-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 4;
+$App.NAB.PageNumber = 8;
 $App.NAB.PageID = "W7-01";
 $scope.TextArea23_change = function() {localStorage.setItem("W0701",$App.W0701);};
 $scope.PushButton41_click = function() {$scope.GotoPage( "Index" );};
@@ -1465,7 +2127,7 @@ $App.w2c = localStorage.getItem("w2c");
 $scope.SetObjectStyle("W0601","color",$App.w2c);};
 });
 NeoApp.controller("St1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 5;
+$App.NAB.PageNumber = 9;
 $App.NAB.PageID = "St1";
 $scope.PushButton32_click = function() {$("#"+"PushButton32").detach().appendTo("#"+"ContainerMonday");
 $App.daytot = $scope.Calculate($App.daytot+"+"+$App.x001q,-1);
@@ -1803,13 +2465,13 @@ $scope.PushButton356_click = function() {$App.pa = "P";};
 $scope.PushButton357_click = function() {$App.pa = "A";};
 });
 NeoApp.controller("ToDoListOptions01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 6;
+$App.NAB.PageNumber = 10;
 $App.NAB.PageID = "ToDoListOptions01";
 $scope.PushButton955_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton956_click = function() {$scope.GotoPage( "EDitToDoListOptions01" );};
 });
 NeoApp.controller("Developernote1-3_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 7;
+$App.NAB.PageNumber = 11;
 $App.NAB.PageID = "Developernote1-3";
 $scope.TextArea9_change = function() {localStorage.setItem("DNN02",$App.DNN02);};
 $scope.DN02_change = function() {localStorage.setItem("DN02",$App.DN02);};
@@ -1841,7 +2503,7 @@ $scope.PushButton271_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton269_click = function() {$scope.GotoPage( "Developernote4-6" );};
 });
 NeoApp.controller("Developernote4-6_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 8;
+$App.NAB.PageNumber = 12;
 $App.NAB.PageID = "Developernote4-6";
 $scope.TextArea11_change = function() {localStorage.setItem("DNN05",$App.DNN05);};
 $scope.DN05_change = function() {localStorage.setItem("DN05",$App.DN05);};
@@ -1855,7 +2517,7 @@ $scope.PushButton264_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton270_click = function() {$scope.GotoPage( "Developernote6-9" );};
 });
 NeoApp.controller("Developernote6-9_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 9;
+$App.NAB.PageNumber = 13;
 $App.NAB.PageID = "Developernote6-9";
 $scope.TextArea31_change = function() {localStorage.setItem("DNN08",$App.DNN08);};
 $scope.DN08_change = function() {localStorage.setItem("DN08",$App.DN08);};
@@ -1869,13 +2531,13 @@ $scope.PushButton49_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton268_click = function() {$scope.GotoPage( "Developernote1-3" );};
 });
 NeoApp.controller("ToDoListOptions02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 10;
+$App.NAB.PageNumber = 14;
 $App.NAB.PageID = "ToDoListOptions02";
 $scope.PushButton960_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton961_click = function() {$scope.GotoPage( "EDitToDoListOptions03" );};
 });
 NeoApp.controller("EDitToDoListOptions01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 11;
+$App.NAB.PageNumber = 15;
 $App.NAB.PageID = "EDitToDoListOptions01";
 $scope.PushButton957_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea318_change = function() {localStorage.setItem("z001",$App.z001);};
@@ -1908,7 +2570,7 @@ $scope.TextArea295_change = function() {localStorage.setItem("zs009",$App.zs009)
 $scope.TextArea296_change = function() {localStorage.setItem("zw009",$App.zw009);};
 });
 NeoApp.controller("EDitToDoListOptions03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 12;
+$App.NAB.PageNumber = 16;
 $App.NAB.PageID = "EDitToDoListOptions03";
 $scope.PushButton967_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea348_change = function() {localStorage.setItem("dz001",$App.dz001);};
@@ -1941,7 +2603,7 @@ $scope.TextArea374_change = function() {localStorage.setItem("dzw009",$App.dzw00
 $scope.PushButton966_click = function() {$scope.GotoPage( "EDitToDoListOptions04" );};
 });
 NeoApp.controller("EDitToDoListOptions02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 13;
+$App.NAB.PageNumber = 17;
 $App.NAB.PageID = "EDitToDoListOptions02";
 $scope.PushButton965_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea297_change = function() {localStorage.setItem("z010",$App.z010);};
@@ -1976,7 +2638,7 @@ $App.zs012 = localStorage.getItem("zs012");};
 $scope.TextArea305_change = function() {localStorage.setItem("zw012",$App.zw012);};
 });
 NeoApp.controller("EDitToDoListOptions04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 14;
+$App.NAB.PageNumber = 18;
 $App.NAB.PageID = "EDitToDoListOptions04";
 $scope.PushButton969_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea375_change = function() {localStorage.setItem("dz010",$App.dz010);};
@@ -2011,12 +2673,12 @@ $App.dzs012 = localStorage.getItem("dzs012");};
 $scope.TextArea401_change = function() {localStorage.setItem("dzw012",$App.dzw012);};
 });
 NeoApp.controller("Export_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 15;
+$App.NAB.PageNumber = 19;
 $App.NAB.PageID = "Export";
 $scope.PushButton883_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("ADVersion_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 16;
+$App.NAB.PageNumber = 20;
 $App.NAB.PageID = "ADVersion";
 $scope.TextInput25_change = function() {localStorage.setItem("adversion",$App.adversion);};
 $scope.TextInput29_change = function() {localStorage.setItem("addate",$App.addate);};
@@ -2024,7 +2686,7 @@ $scope.PushButton10_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea28_change = function() {localStorage.setItem("adversiondetail",$App.adversiondetail);};
 });
 NeoApp.controller("Option4_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 17;
+$App.NAB.PageNumber = 21;
 $App.NAB.PageID = "Option4";
 $scope.PushButton497_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton498_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2040,7 +2702,7 @@ $scope.TextArea54_change = function() {localStorage.setItem("Option4",$App.Optio
 $scope.TextInput87_change = function() {localStorage.setItem("Oneoff04",$App.Oneoff04);};
 });
 NeoApp.controller("Option5_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 18;
+$App.NAB.PageNumber = 22;
 $App.NAB.PageID = "Option5";
 $scope.PushButton507_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton508_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2056,7 +2718,7 @@ $scope.TextArea55_change = function() {localStorage.setItem("Option5",$App.Optio
 $scope.TextInput88_change = function() {localStorage.setItem("Oneoff05",$App.Oneoff05);};
 });
 NeoApp.controller("Option6_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 19;
+$App.NAB.PageNumber = 23;
 $App.NAB.PageID = "Option6";
 $scope.PushButton529_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton530_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2072,7 +2734,7 @@ $scope.TextArea56_change = function() {localStorage.setItem("Option6",$App.Optio
 $scope.TextInput21_change = function() {localStorage.setItem("Oneoff06",$App.Oneoff06);};
 });
 NeoApp.controller("Option7_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 20;
+$App.NAB.PageNumber = 24;
 $App.NAB.PageID = "Option7";
 $scope.PushButton539_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton540_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2088,7 +2750,7 @@ $scope.TextArea57_change = function() {localStorage.setItem("Option7",$App.Optio
 $scope.TextInput22_change = function() {localStorage.setItem("Oneoff07",$App.Oneoff07);};
 });
 NeoApp.controller("Option8_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 21;
+$App.NAB.PageNumber = 25;
 $App.NAB.PageID = "Option8";
 $scope.PushButton549_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton550_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2104,7 +2766,7 @@ $scope.TextArea58_change = function() {localStorage.setItem("Option25",$App.Opti
 $scope.TextInput23_change = function() {localStorage.setItem("Oneoff25",$App.Oneoff25);};
 });
 NeoApp.controller("Option9_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 22;
+$App.NAB.PageNumber = 26;
 $App.NAB.PageID = "Option9";
 $scope.PushButton559_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton560_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2120,7 +2782,7 @@ $scope.TextArea59_change = function() {localStorage.setItem("Option9",$App.Optio
 $scope.TextInput24_change = function() {localStorage.setItem("Oneoff09",$App.Oneoff09);};
 });
 NeoApp.controller("Option10_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 23;
+$App.NAB.PageNumber = 27;
 $App.NAB.PageID = "Option10";
 $scope.PushButton599_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton600_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2136,7 +2798,7 @@ $scope.TextArea63_change = function() {localStorage.setItem("Option10",$App.Opti
 $scope.TextInput91_change = function() {localStorage.setItem("Oneoff10",$App.Oneoff10);};
 });
 NeoApp.controller("Option11_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 24;
+$App.NAB.PageNumber = 28;
 $App.NAB.PageID = "Option11";
 $scope.PushButton609_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton610_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2152,7 +2814,7 @@ $scope.TextArea64_change = function() {localStorage.setItem("Option11",$App.Opti
 $scope.TextInput92_change = function() {localStorage.setItem("Oneoff11",$App.Oneoff11);};
 });
 NeoApp.controller("Option12_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 25;
+$App.NAB.PageNumber = 29;
 $App.NAB.PageID = "Option12";
 $scope.PushButton619_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton620_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2168,7 +2830,7 @@ $scope.TextArea65_change = function() {localStorage.setItem("Option12",$App.Opti
 $scope.TextInput93_change = function() {localStorage.setItem("Oneoff12",$App.Oneoff12);};
 });
 NeoApp.controller("Option13_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 26;
+$App.NAB.PageNumber = 30;
 $App.NAB.PageID = "Option13";
 $scope.PushButton569_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton570_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2184,7 +2846,7 @@ $scope.TextArea60_change = function() {localStorage.setItem("Option13",$App.Opti
 $scope.TextInput30_change = function() {localStorage.setItem("Oneoff13",$App.Oneoff13);};
 });
 NeoApp.controller("Option14_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 27;
+$App.NAB.PageNumber = 31;
 $App.NAB.PageID = "Option14";
 $scope.PushButton579_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton580_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2200,7 +2862,7 @@ $scope.TextArea61_change = function() {localStorage.setItem("Option14",$App.Opti
 $scope.TextInput89_change = function() {localStorage.setItem("Oneoff14",$App.Oneoff14);};
 });
 NeoApp.controller("Option15_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 28;
+$App.NAB.PageNumber = 32;
 $App.NAB.PageID = "Option15";
 $scope.PushButton589_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton590_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2216,7 +2878,7 @@ $scope.TextArea62_change = function() {localStorage.setItem("Option15",$App.Opti
 $scope.TextInput90_change = function() {localStorage.setItem("Oneoff15",$App.Oneoff15);};
 });
 NeoApp.controller("Option16_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 29;
+$App.NAB.PageNumber = 33;
 $App.NAB.PageID = "Option16";
 $scope.PushButton629_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton630_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2232,7 +2894,7 @@ $scope.TextArea66_change = function() {localStorage.setItem("Option16",$App.Opti
 $scope.TextInput94_change = function() {localStorage.setItem("Oneoff16",$App.Oneoff16);};
 });
 NeoApp.controller("Option17_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 30;
+$App.NAB.PageNumber = 34;
 $App.NAB.PageID = "Option17";
 $scope.PushButton639_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton640_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2248,7 +2910,7 @@ $scope.TextArea67_change = function() {localStorage.setItem("Option17",$App.Opti
 $scope.TextInput95_change = function() {localStorage.setItem("Oneoff17",$App.Oneoff17);};
 });
 NeoApp.controller("Option18_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 31;
+$App.NAB.PageNumber = 35;
 $App.NAB.PageID = "Option18";
 $scope.PushButton649_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton650_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2264,7 +2926,7 @@ $scope.TextArea68_change = function() {localStorage.setItem("Option18",$App.Opti
 $scope.TextInput96_change = function() {localStorage.setItem("Oneoff18",$App.Oneoff18);};
 });
 NeoApp.controller("Option19_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 32;
+$App.NAB.PageNumber = 36;
 $App.NAB.PageID = "Option19";
 $scope.PushButton659_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton660_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2280,7 +2942,7 @@ $scope.TextArea69_change = function() {localStorage.setItem("Option19",$App.Opti
 $scope.TextInput97_change = function() {localStorage.setItem("Oneoff19",$App.Oneoff19);};
 });
 NeoApp.controller("Option20_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 33;
+$App.NAB.PageNumber = 37;
 $App.NAB.PageID = "Option20";
 $scope.PushButton669_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton670_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2296,7 +2958,7 @@ $scope.TextArea70_change = function() {localStorage.setItem("Option20",$App.Opti
 $scope.TextInput98_change = function() {localStorage.setItem("Oneoff20",$App.Oneoff20);};
 });
 NeoApp.controller("Option21_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 34;
+$App.NAB.PageNumber = 38;
 $App.NAB.PageID = "Option21";
 $scope.PushButton679_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton680_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2312,7 +2974,7 @@ $scope.TextArea71_change = function() {localStorage.setItem("Option21",$App.Opti
 $scope.TextInput99_change = function() {localStorage.setItem("Oneoff21",$App.Oneoff21);};
 });
 NeoApp.controller("Option22_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 35;
+$App.NAB.PageNumber = 39;
 $App.NAB.PageID = "Option22";
 $scope.PushButton689_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton690_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2328,7 +2990,7 @@ $scope.TextArea72_change = function() {localStorage.setItem("Option22",$App.Opti
 $scope.TextInput100_change = function() {localStorage.setItem("Oneoff22",$App.Oneoff22);};
 });
 NeoApp.controller("Option23_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 36;
+$App.NAB.PageNumber = 40;
 $App.NAB.PageID = "Option23";
 $scope.PushButton699_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton700_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2344,7 +3006,7 @@ $scope.TextArea73_change = function() {localStorage.setItem("Option23",$App.Opti
 $scope.TextInput101_change = function() {localStorage.setItem("Oneoff23",$App.Oneoff23);};
 });
 NeoApp.controller("Option24_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 37;
+$App.NAB.PageNumber = 41;
 $App.NAB.PageID = "Option24";
 $scope.PushButton709_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton710_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2360,7 +3022,7 @@ $scope.TextArea74_change = function() {localStorage.setItem("Option24",$App.Opti
 $scope.TextInput102_change = function() {localStorage.setItem("Oneoff24",$App.Oneoff24);};
 });
 NeoApp.controller("Option25_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 38;
+$App.NAB.PageNumber = 42;
 $App.NAB.PageID = "Option25";
 $scope.PushButton719_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton720_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -2370,7 +3032,7 @@ $scope.TextArea75_change = function() {localStorage.setItem("Option25",$App.Opti
 $scope.TextInput103_change = function() {localStorage.setItem("Oneoff25",$App.Oneoff25);};
 });
 NeoApp.controller("Timers_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 39;
+$App.NAB.PageNumber = 43;
 $App.NAB.PageID = "Timers";
 $scope.PushButton258_click = function() {$scope.GotoPage( "Index" );};
 $scope.speak6_click = function() {$scope.SetObjectStyle("speak6","color","red");
@@ -2753,7 +3415,7 @@ $scope.SetObjectStyle("ev10sec","color","#708090");
 },10000);};
 });
 NeoApp.controller("AdhDTest01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 40;
+$App.NAB.PageNumber = 44;
 $App.NAB.PageID = "AdhDTest01";
 $scope.PushButton117_click = function() {$scope.GotoPage( "settings" );};
 $scope.PushButton175_click = function() {$App.wha002 = "Never";
@@ -2851,7 +3513,7 @@ $App.wha15st = $scope.Calculate($App.wha001a+"+"+$App.wha002a+"+"+$App.wha003a+"
 $scope.PushButton171_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("AdhDTest02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 41;
+$App.NAB.PageNumber = 45;
 $App.NAB.PageID = "AdhDTest02";
 $scope.PushButton135_click = function() {$App.wha007 = "Never";
 $App.wha007a = $App.nv;
@@ -2947,7 +3609,7 @@ $App.wha006a = $App.vo;
 $App.wha610st = $scope.Calculate($App.wha006a+"+"+$App.wha007a+"+"+$App.wha008a+"+"+$App.wha009a+"+"+$App.wha010a,-1);};
 });
 NeoApp.controller("AdhDTest03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 42;
+$App.NAB.PageNumber = 46;
 $App.NAB.PageID = "AdhDTest03";
 $scope.PushButton204_click = function() {$App.wha012 = "Never";
 $App.wha012a = $App.nv;
@@ -3043,7 +3705,7 @@ $App.wha011a = $App.vo;
 $App.wha1115st = $scope.Calculate($App.wha011a+"+"+$App.wha012a+"+"+$App.wha013a+"+"+$App.wha014a+"+"+$App.wha015a,-1);};
 });
 NeoApp.controller("AdhDTest04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 43;
+$App.NAB.PageNumber = 47;
 $App.NAB.PageID = "AdhDTest04";
 $scope.PushButton197_click = function() {$App.wha118st = $scope.Calculate($App.wha15st+"+"+$App.wha610st+"+"+$App.wha1115st+"+"+$App.wha1620st,-1);};
 $scope.PushButton160_click = function() {$App.wha017 = "Never";
@@ -3095,7 +3757,7 @@ $App.wha016a = $App.vo;
 $App.wha1620st = $scope.Calculate($App.wha016a+"+"+$App.wha017a+"+"+$App.wha018a,-1);};
 });
 NeoApp.controller("settings_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 44;
+$App.NAB.PageNumber = 48;
 $App.NAB.PageID = "settings";
 $scope.PushButton120_click = function() {$App.whq001 = localStorage.getItem("whq001");
 $App.whq002 = localStorage.getItem("whq002");
@@ -3160,7 +3822,7 @@ $App.ot = "3";
 $App.vo = "4";};
 });
 NeoApp.controller("W1-DECISION_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 45;
+$App.NAB.PageNumber = 49;
 $App.NAB.PageID = "W1-DECISION";
 $scope.TextArea1_change = function() {localStorage.setItem("W0101",$App.W0101);};
 $scope.PushButton1_click = function() {$scope.GotoPage( "Index" );};
@@ -3177,7 +3839,7 @@ $scope.SetObjectStyle("TextArea1","color",$App.w1c);};
 $scope.PushButton281_click = function() {$scope.GotoPage( "W1-2" );};
 });
 NeoApp.controller("W1-2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 46;
+$App.NAB.PageNumber = 50;
 $App.NAB.PageID = "W1-2";
 $scope.W0102_change = function() {localStorage.setItem("W0102",$App.W0102);};
 $scope.PushButton345_click = function() {$scope.GotoPage( "Index" );};
@@ -3194,7 +3856,7 @@ $scope.SetObjectStyle("W0102","color",$App.ww1c);};
 $scope.PushButton922_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W3-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 47;
+$App.NAB.PageNumber = 51;
 $App.NAB.PageID = "W3-01";
 $scope.w3_change = function() {localStorage.setItem("W301",$App.W301);};
 $scope.PushButton12_click = function() {$scope.GotoPage( "Index" );};
@@ -3218,7 +3880,7 @@ $App.w3c = localStorage.getItem("w3c");
 $scope.SetObjectStyle("w3","color",$App.w3c);};
 });
 NeoApp.controller("W4-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 48;
+$App.NAB.PageNumber = 52;
 $App.NAB.PageID = "W4-01";
 $scope.w4_change = function() {localStorage.setItem("W401",$App.W401);};
 $scope.PushButton51_click = function() {$scope.GotoPage( "Index" );};
@@ -3242,7 +3904,7 @@ $App.w4c = localStorage.getItem("w4c");
 $scope.SetObjectStyle("w4","color",$App.w4c);};
 });
 NeoApp.controller("W100-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 49;
+$App.NAB.PageNumber = 53;
 $App.NAB.PageID = "W100-01";
 $scope.w100_change = function() {localStorage.setItem("W100",$App.W100);};
 $scope.PushButton20_click = function() {$scope.GotoPage( "Index" );};
@@ -3266,44 +3928,44 @@ $App.w100c = localStorage.getItem("w100c");
 $scope.SetObjectStyle("w100","color",$App.w100c);};
 });
 NeoApp.controller("W5-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 50;
+$App.NAB.PageNumber = 54;
 $App.NAB.PageID = "W5-01";
 $scope.TextArea3_change = function() {localStorage.setItem("W501",$App.W501);};
 $scope.PushButton9_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("TNeoAppPage11_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 51;
+$App.NAB.PageNumber = 55;
 $App.NAB.PageID = "TNeoAppPage11";
 $scope.TextArea21_change = function() {localStorage.setItem("W501",$App.W501);};
 $scope.PushButton53_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("KnowThyself_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 52;
+$App.NAB.PageNumber = 56;
 $App.NAB.PageID = "KnowThyself";
 $scope.PushButton265_click = function() {$scope.GotoPage( "Index" );};
 $scope.Pager8_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager8_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("W08-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 53;
+$App.NAB.PageNumber = 57;
 $App.NAB.PageID = "W08-01";
 $scope.TextArea6_change = function() {localStorage.setItem("W0801a",$App.W0801a);};
 $scope.PushButton263_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W09-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 54;
+$App.NAB.PageNumber = 58;
 $App.NAB.PageID = "W09-01";
 $scope.w9_change = function() {localStorage.setItem("W0901",$App.W0901);};
 $scope.PushButton36_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("Wnotes_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 55;
+$App.NAB.PageNumber = 59;
 $App.NAB.PageID = "Wnotes";
 $scope.TextArea156_change = function() {localStorage.setItem("Wnotes",$App.Wnotes);};
 $scope.PushButton328_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W11-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 56;
+$App.NAB.PageNumber = 60;
 $App.NAB.PageID = "W11-01";
 $scope.w11_change = function() {localStorage.setItem("W1101",$App.W1101);};
 $scope.PushButton18_click = function() {$scope.GotoPage( "Index" );};
@@ -3327,7 +3989,7 @@ $App.w11c = localStorage.getItem("w11c");
 $scope.SetObjectStyle("w11","color",$App.w11c);};
 });
 NeoApp.controller("W15-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 57;
+$App.NAB.PageNumber = 61;
 $App.NAB.PageID = "W15-01";
 $scope.w15_change = function() {localStorage.setItem("W1501",$App.W1501);};
 $scope.PushButton6_click = function() {$scope.GotoPage( "Index" );};
@@ -3357,7 +4019,7 @@ $scope.PushButton247_click = function() {neoTalkPauseSpeech();};
 $scope.PushButton248_click = function() {neoTalkResumeSpeech();};
 });
 NeoApp.controller("W16-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 58;
+$App.NAB.PageNumber = 62;
 $App.NAB.PageID = "W16-01";
 $scope.PushButton23_click = function() {$App.word01 = "DECISION";
 $App.word02 = "IDEAS";
@@ -3380,7 +4042,7 @@ $scope.TextArea8_change = function() {localStorage.setItem("W1601",$App.W1601);}
 $scope.PushButton24_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W14-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 59;
+$App.NAB.PageNumber = 63;
 $App.NAB.PageID = "W14-01";
 $scope.TextArea15_change = function() {localStorage.setItem("W1401",$App.W1401);};
 $scope.PushButton38_click = function() {$scope.GotoPage( "Index" );};
@@ -3400,7 +4062,7 @@ $scope.SetObjectStyle("Level1","color","Green");
 };};
 });
 NeoApp.controller("W14-01a_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 60;
+$App.NAB.PageNumber = 64;
 $App.NAB.PageID = "W14-01a";
 $scope.TextArea20_change = function() {localStorage.setItem("W1401a",$App.W1401a);};
 $scope.PushButton297_click = function() {$scope.GotoPage( "Index" );};
@@ -3473,7 +4135,7 @@ $scope.SetObjectStyle("Level1","color","Green");
 };};
 });
 NeoApp.controller("W14-02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 61;
+$App.NAB.PageNumber = 65;
 $App.NAB.PageID = "W14-02";
 $scope.PushButton300_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea34_change = function() {localStorage.setItem("W1402b",$App.W1402b);};
@@ -3513,7 +4175,7 @@ $scope.Headline248_click = function() {$App.W1402aL = "M";
 $scope.SetObjectStyle("Level2","color","Blue");};
 });
 NeoApp.controller("W14-03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 62;
+$App.NAB.PageNumber = 66;
 $App.NAB.PageID = "W14-03";
 $scope.PushButton296_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea27_change = function() {localStorage.setItem("W1403b",$App.W1403b);};
@@ -3541,7 +4203,7 @@ $scope.Headline251_click = function() {$App.W1403aL = "M";
 $scope.SetObjectStyle("Level3","color","Blue");};
 });
 NeoApp.controller("W14-04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 63;
+$App.NAB.PageNumber = 67;
 $App.NAB.PageID = "W14-04";
 $scope.PushButton298_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea29_change = function() {localStorage.setItem("W1404b",$App.W1404b);};
@@ -3569,7 +4231,7 @@ $scope.Headline254_click = function() {$App.W1404aL = "M";
 $scope.SetObjectStyle("Level4","color","Blue");};
 });
 NeoApp.controller("W14-05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 64;
+$App.NAB.PageNumber = 68;
 $App.NAB.PageID = "W14-05";
 $scope.PushButton299_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea32_change = function() {localStorage.setItem("W1405b",$App.W1405b);};
@@ -3597,7 +4259,7 @@ $scope.Headline257_click = function() {$App.W1405aL = "M";
 $scope.SetObjectStyle("Level5","color","Blue");};
 });
 NeoApp.controller("W14-06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 65;
+$App.NAB.PageNumber = 69;
 $App.NAB.PageID = "W14-06";
 $scope.PushButton37_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea25_change = function() {localStorage.setItem("W1406b",$App.W1406b);};
@@ -3625,7 +4287,7 @@ $scope.Headline260_click = function() {$App.W1406aL = "M";
 $scope.SetObjectStyle("Level6","color","Blue");};
 });
 NeoApp.controller("W14-07_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 66;
+$App.NAB.PageNumber = 70;
 $App.NAB.PageID = "W14-07";
 $scope.PushButton301_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea36_change = function() {localStorage.setItem("W1407b",$App.W1407b);};
@@ -3653,7 +4315,7 @@ $scope.Headline263_click = function() {$App.W1407aL = "M";
 $scope.SetObjectStyle("Level7","color","Blue");};
 });
 NeoApp.controller("W14-08_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 67;
+$App.NAB.PageNumber = 71;
 $App.NAB.PageID = "W14-08";
 $scope.PushButton302_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea38_change = function() {localStorage.setItem("W1408b",$App.W1408b);};
@@ -3681,7 +4343,7 @@ $scope.Headline266_click = function() {$App.W1408aL = "M";
 $scope.SetObjectStyle("Level8","color","Blue");};
 });
 NeoApp.controller("W14-09_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 68;
+$App.NAB.PageNumber = 72;
 $App.NAB.PageID = "W14-09";
 $scope.PushButton303_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea40_change = function() {localStorage.setItem("W1409b",$App.W1409b);};
@@ -3709,7 +4371,7 @@ $scope.Headline269_click = function() {$App.W1409aL = "M";
 $scope.SetObjectStyle("Level9","color","Blue");};
 });
 NeoApp.controller("W14-10_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 69;
+$App.NAB.PageNumber = 73;
 $App.NAB.PageID = "W14-10";
 $scope.PushButton304_click = function() {$scope.GotoPage( "Index" );};
 $scope.TextArea42_change = function() {localStorage.setItem("W1410b",$App.W1410b);};
@@ -3724,7 +4386,7 @@ $scope.Headline272_click = function() {$App.W1410aL = "M";
 $scope.SetObjectStyle("Level10","color","Blue");};
 });
 NeoApp.controller("QDLists_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 70;
+$App.NAB.PageNumber = 74;
 $App.NAB.PageID = "QDLists";
 $scope.PushButton425_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton427_click = function() {$scope.GotoPage( "QD001" );
@@ -3981,7 +4643,7 @@ $App.Dec05e = localStorage.getItem("Dec05e");
 $App.Dec05f = localStorage.getItem("Dec05f");};
 });
 NeoApp.controller("QD001_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 71;
+$App.NAB.PageNumber = 75;
 $App.NAB.PageID = "QD001";
 $scope.TextArea188_change = function() {localStorage.setItem("Dec01c",$App.Dec01c);};
 $scope.TextArea16_change = function() {localStorage.setItem("Dec01a",$App.Dec01a);};
@@ -3992,7 +4654,7 @@ $scope.TextArea189_change = function() {localStorage.setItem("Dec01f",$App.Dec01
 $scope.PushButton29_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD002_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 72;
+$App.NAB.PageNumber = 76;
 $App.NAB.PageID = "QD002";
 $scope.TextArea106_change = function() {localStorage.setItem("Dec02c",$App.Dec02c);};
 $scope.TextArea107_change = function() {localStorage.setItem("Dec02a",$App.Dec02a);};
@@ -4003,7 +4665,7 @@ $scope.TextArea111_change = function() {localStorage.setItem("Dec02f",$App.Dec02
 $scope.PushButton426_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD003_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 73;
+$App.NAB.PageNumber = 77;
 $App.NAB.PageID = "QD003";
 $scope.TextArea112_change = function() {localStorage.setItem("Dec03c",$App.Dec03c);};
 $scope.TextArea113_change = function() {localStorage.setItem("Dec03a",$App.Dec03a);};
@@ -4014,7 +4676,7 @@ $scope.TextArea191_change = function() {localStorage.setItem("Dec03f",$App.Dec03
 $scope.PushButton16_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD004_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 74;
+$App.NAB.PageNumber = 78;
 $App.NAB.PageID = "QD004";
 $scope.TextArea192_change = function() {localStorage.setItem("Dec04c",$App.Dec04c);};
 $scope.TextArea193_change = function() {localStorage.setItem("Dec04a",$App.Dec04a);};
@@ -4025,7 +4687,7 @@ $scope.TextArea197_change = function() {localStorage.setItem("Dec04f",$App.Dec04
 $scope.PushButton431_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD005_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 75;
+$App.NAB.PageNumber = 79;
 $App.NAB.PageID = "QD005";
 $scope.TextArea198_change = function() {localStorage.setItem("Dec05c",$App.Dec05c);};
 $scope.TextArea199_change = function() {localStorage.setItem("Dec05a",$App.Dec05a);};
@@ -4036,7 +4698,7 @@ $scope.TextArea203_change = function() {localStorage.setItem("Dec05f",$App.Dec05
 $scope.PushButton432_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD006_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 76;
+$App.NAB.PageNumber = 80;
 $App.NAB.PageID = "QD006";
 $scope.TextArea204_change = function() {localStorage.setItem("Dec06c",$App.Dec06c);};
 $scope.TextArea205_change = function() {localStorage.setItem("Dec06a",$App.Dec06a);};
@@ -4047,7 +4709,7 @@ $scope.TextArea209_change = function() {localStorage.setItem("Dec06f",$App.Dec06
 $scope.PushButton428_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD007_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 77;
+$App.NAB.PageNumber = 81;
 $App.NAB.PageID = "QD007";
 $scope.TextArea210_change = function() {localStorage.setItem("Dec07c",$App.Dec07c);};
 $scope.TextArea211_change = function() {localStorage.setItem("Dec07a",$App.Dec07a);};
@@ -4058,7 +4720,7 @@ $scope.TextArea215_change = function() {localStorage.setItem("Dec07f",$App.Dec07
 $scope.PushButton941_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD008_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 78;
+$App.NAB.PageNumber = 82;
 $App.NAB.PageID = "QD008";
 $scope.TextArea216_change = function() {localStorage.setItem("Dec08c",$App.Dec08c);};
 $scope.TextArea217_change = function() {localStorage.setItem("Dec08a",$App.Dec08a);};
@@ -4069,7 +4731,7 @@ $scope.TextArea221_change = function() {localStorage.setItem("Dec08f",$App.Dec08
 $scope.PushButton942_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD009_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 79;
+$App.NAB.PageNumber = 83;
 $App.NAB.PageID = "QD009";
 $scope.TextArea222_change = function() {localStorage.setItem("Dec0c9",$App.Dec09c);};
 $scope.TextArea223_change = function() {localStorage.setItem("Dec09a",$App.Dec09a);};
@@ -4080,7 +4742,7 @@ $scope.TextArea227_change = function() {localStorage.setItem("Dec10f",$App.Dec10
 $scope.PushButton943_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD010_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 80;
+$App.NAB.PageNumber = 84;
 $App.NAB.PageID = "QD010";
 $scope.TextArea228_change = function() {localStorage.setItem("Dec10c",$App.Dec10c);};
 $scope.TextArea229_change = function() {localStorage.setItem("Dec10a",$App.Dec10a);
@@ -4093,7 +4755,7 @@ $scope.TextArea233_change = function() {localStorage.setItem("Dec10f",$App.Dec10
 $scope.PushButton944_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD011_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 81;
+$App.NAB.PageNumber = 85;
 $App.NAB.PageID = "QD011";
 $scope.TextArea234_change = function() {localStorage.setItem("Dec11c",$App.Dec11c);};
 $scope.TextArea235_change = function() {localStorage.setItem("Dec11a",$App.Dec11a);};
@@ -4104,7 +4766,7 @@ $scope.TextArea239_change = function() {localStorage.setItem("Dec11f",$App.Dec11
 $scope.PushButton945_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD012_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 82;
+$App.NAB.PageNumber = 86;
 $App.NAB.PageID = "QD012";
 $scope.TextArea240_change = function() {localStorage.setItem("Dec12c",$App.Dec12c);};
 $scope.TextArea241_change = function() {localStorage.setItem("Dec12a",$App.Dec12a);};
@@ -4115,7 +4777,7 @@ $scope.TextArea245_change = function() {localStorage.setItem("Dec12f",$App.Dec12
 $scope.PushButton946_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD013_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 83;
+$App.NAB.PageNumber = 87;
 $App.NAB.PageID = "QD013";
 $scope.TextArea246_change = function() {localStorage.setItem("Dec13c",$App.Dec13c);};
 $scope.TextArea247_change = function() {localStorage.setItem("Dec13a",$App.Dec13a);};
@@ -4126,7 +4788,7 @@ $scope.TextArea251_change = function() {localStorage.setItem("Dec13f",$App.Dec13
 $scope.PushButton947_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD014_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 84;
+$App.NAB.PageNumber = 88;
 $App.NAB.PageID = "QD014";
 $scope.TextArea252_change = function() {localStorage.setItem("Dec14c",$App.Dec14c);};
 $scope.TextArea253_change = function() {localStorage.setItem("Dec14a",$App.Dec14a);};
@@ -4137,7 +4799,7 @@ $scope.TextArea257_change = function() {localStorage.setItem("Dec14f",$App.Dec14
 $scope.PushButton948_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD015_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 85;
+$App.NAB.PageNumber = 89;
 $App.NAB.PageID = "QD015";
 $scope.TextArea258_change = function() {localStorage.setItem("Dec15c",$App.Dec15c);};
 $scope.TextArea259_change = function() {localStorage.setItem("Dec15a",$App.Dec15a);};
@@ -4148,7 +4810,7 @@ $scope.TextArea263_change = function() {localStorage.setItem("Dec15f",$App.Dec15
 $scope.PushButton949_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD016_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 86;
+$App.NAB.PageNumber = 90;
 $App.NAB.PageID = "QD016";
 $scope.TextArea264_change = function() {localStorage.setItem("Dec16c",$App.Dec16c);};
 $scope.TextArea265_change = function() {localStorage.setItem("Dec16a",$App.Dec16a);};
@@ -4159,7 +4821,7 @@ $scope.TextArea269_change = function() {localStorage.setItem("Dec16f",$App.Dec16
 $scope.PushButton950_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD017_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 87;
+$App.NAB.PageNumber = 91;
 $App.NAB.PageID = "QD017";
 $scope.TextArea270_change = function() {localStorage.setItem("Dec17c",$App.Dec17c);};
 $scope.TextArea271_change = function() {localStorage.setItem("Dec17a",$App.Dec17a);};
@@ -4170,7 +4832,7 @@ $scope.TextArea275_change = function() {localStorage.setItem("Dec17f",$App.Dec17
 $scope.PushButton951_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD018_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 88;
+$App.NAB.PageNumber = 92;
 $App.NAB.PageID = "QD018";
 $scope.TextArea276_change = function() {localStorage.setItem("Dec18c",$App.Dec18c);};
 $scope.TextArea277_change = function() {localStorage.setItem("Dec18a",$App.Dec18a);};
@@ -4181,7 +4843,7 @@ $scope.TextArea281_change = function() {localStorage.setItem("Dec18f",$App.Dec18
 $scope.PushButton952_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD019_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 89;
+$App.NAB.PageNumber = 93;
 $App.NAB.PageID = "QD019";
 $scope.TextArea282_change = function() {localStorage.setItem("Dec19c",$App.Dec19c);};
 $scope.TextArea283_change = function() {localStorage.setItem("Dec19a",$App.Dec19a);};
@@ -4192,7 +4854,7 @@ $scope.TextArea287_change = function() {localStorage.setItem("Dec19f",$App.Dec19
 $scope.PushButton953_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("QD020_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 90;
+$App.NAB.PageNumber = 94;
 $App.NAB.PageID = "QD020";
 $scope.TextArea288_change = function() {localStorage.setItem("Dec20c",$App.Dec20c);};
 $scope.TextArea289_change = function() {localStorage.setItem("Dec20a",$App.Dec20a);};
@@ -4203,7 +4865,7 @@ $scope.TextArea293_change = function() {localStorage.setItem("Dec20f",$App.Dec20
 $scope.PushButton954_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W18-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 91;
+$App.NAB.PageNumber = 95;
 $App.NAB.PageID = "W18-01";
 $scope.w18_change = function() {localStorage.setItem("W1801",$App.W1801);};
 $scope.PushButton27_click = function() {localStorage.setItem("w18font","15pt");
@@ -4227,7 +4889,7 @@ $scope.SetObjectStyle("w18","color",$App.w18c);};
 $scope.PushButton28_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W19-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 92;
+$App.NAB.PageNumber = 96;
 $App.NAB.PageID = "W19-01";
 $scope.W1901_change = function() {localStorage.setItem("W1901",$App.W1901);};
 $scope.PushButton30_click = function() {$scope.GotoPage( "Index" );};
@@ -4251,7 +4913,7 @@ $App.w18c = localStorage.getItem("w18c");
 $scope.SetObjectStyle("w18","color",$App.w18c);};
 });
 NeoApp.controller("W20-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 93;
+$App.NAB.PageNumber = 97;
 $App.NAB.PageID = "W20-01";
 $scope.w20_change = function() {localStorage.setItem("W2001",$App.W2001);};
 $scope.PushButton55_click = function() {$scope.GotoPage( "Index" );};
@@ -4275,7 +4937,7 @@ $App.w20c = localStorage.getItem("w20c");
 $scope.SetObjectStyle("w20","color",$App.w20c);};
 });
 NeoApp.controller("w21-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 94;
+$App.NAB.PageNumber = 98;
 $App.NAB.PageID = "w21-01";
 $scope.w21_change = function() {localStorage.setItem("W2101",$App.W2101);};
 $scope.PushButton57_click = function() {$scope.GotoPage( "Index" );};
@@ -4299,7 +4961,7 @@ $App.w21c = localStorage.getItem("w21c");
 $scope.SetObjectStyle("w21","color",$App.w21c);};
 });
 NeoApp.controller("w24-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 95;
+$App.NAB.PageNumber = 99;
 $App.NAB.PageID = "w24-01";
 $scope.w24_change = function() {localStorage.setItem("W2401",$App.W2401);};
 $scope.PushButton172_click = function() {$scope.GotoPage( "Index" );};
@@ -4374,7 +5036,7 @@ neoTalkSpeak("Timer, 30 min", $App.voice, $App.a, $App.b);
 },1800000);};
 });
 NeoApp.controller("w25-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 96;
+$App.NAB.PageNumber = 100;
 $App.NAB.PageID = "w25-01";
 $scope.w25_change = function() {localStorage.setItem("W2501",$App.W2501);};
 $scope.PushButton231_click = function() {$scope.GotoPage( "Index" );};
@@ -4463,7 +5125,7 @@ neoTalkSpeak("Timer, 30 min", $App.voice, $App.a, $App.b);
 },1800000);};
 });
 NeoApp.controller("W22-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 97;
+$App.NAB.PageNumber = 101;
 $App.NAB.PageID = "W22-01";
 $scope.w22a_change = function() {localStorage.setItem("W2201a",$App.W2201a);};
 $scope.PushButton56_click = function() {$scope.GotoPage( "Index" );};
@@ -4504,13 +5166,13 @@ $App.w22ec = localStorage.getItem("w22ec");
 $scope.SetObjectStyle("w22e","color",$App.w22ec);};
 });
 NeoApp.controller("W23-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 98;
+$App.NAB.PageNumber = 102;
 $App.NAB.PageID = "W23-01";
 $scope.TextArea19_change = function() {localStorage.setItem("W2301",$App.W2301);};
 $scope.PushButton66_click = function() {$scope.GotoPage( "Index" );};
 });
 NeoApp.controller("W2-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 99;
+$App.NAB.PageNumber = 103;
 $App.NAB.PageID = "W2-01";
 $scope.w2_change = function() {localStorage.setItem("W201",$App.W201);};
 $scope.PushButton47_click = function() {$scope.GotoPage( "Index" );};
@@ -4526,7 +5188,7 @@ $App.w2c = localStorage.getItem("w2c");
 $scope.SetObjectStyle("w2","color",$App.w2c);};
 });
 NeoApp.controller("W10-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 100;
+$App.NAB.PageNumber = 104;
 $App.NAB.PageID = "W10-01";
 $scope.w10_change = function() {localStorage.setItem("W1001",$App.W1001);};
 $scope.PushButton15_click = function() {$scope.GotoPage( "Index" );};
@@ -4555,7 +5217,7 @@ $scope.A001BC_click = function() {$App.A001BC = 3;};
 $scope.A001BE_click = function() {$App.A001BE = 5;};
 });
 NeoApp.controller("W12-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 101;
+$App.NAB.PageNumber = 105;
 $App.NAB.PageID = "W12-01";
 $scope.w12a_change = function() {localStorage.setItem("W1201",$App.W1201);};
 $scope.PushButton44_click = function() {$scope.GotoPage( "Index" );};
@@ -4579,7 +5241,7 @@ $App.w12ac = localStorage.getItem("w12ac");
 $scope.SetObjectStyle("w12a","color",$App.w12ac);};
 });
 NeoApp.controller("Q001_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 102;
+$App.NAB.PageNumber = 106;
 $App.NAB.PageID = "Q001";
 $scope.PushButton306_click = function() {$scope.GotoPage( "Index" );};
 $scope.q001a_click = function() {$scope.SetObjectStyle("q001a","color","Blue");
@@ -4686,7 +5348,7 @@ $scope.Pager14_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager14_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Q002_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 103;
+$App.NAB.PageNumber = 107;
 $App.NAB.PageID = "Q002";
 $scope.PushButton308_click = function() {$scope.GotoPage( "Index" );};
 $scope.q006a_click = function() {$scope.SetObjectStyle("q006a","color","Blue");
@@ -4793,7 +5455,7 @@ $scope.Pager24_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager24_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("W13-01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 104;
+$App.NAB.PageNumber = 108;
 $App.NAB.PageID = "W13-01";
 $scope.TextArea12_change = function() {localStorage.setItem("W1303",$App.W1303);};
 $scope.PushButton31_click = function() {$scope.GotoPage( "Index" );};
@@ -4876,7 +5538,7 @@ $scope.TextArea154_change = function() {localStorage.setItem("W1303",$App.W1303)
 $scope.TextArea155_change = function() {localStorage.setItem("W1303",$App.W1303);};
 });
 NeoApp.controller("Option1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 105;
+$App.NAB.PageNumber = 109;
 $App.NAB.PageID = "Option1";
 $scope.PushButton467_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton485_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -4904,7 +5566,7 @@ $App.Option1c = localStorage.getItem("Option1c");
 $scope.SetObjectStyle("Option1c","font-size",$App.Option1c);};
 });
 NeoApp.controller("Option2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 106;
+$App.NAB.PageNumber = 110;
 $App.NAB.PageID = "Option2";
 $scope.PushButton469_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton470_click = function() {$scope.GotoPage( "Editmlist" );};
@@ -4932,7 +5594,7 @@ $App.Option1c = localStorage.getItem("Option2c");
 $scope.SetObjectStyle("Option2c","color",$App.Option2c);};
 });
 NeoApp.controller("Option3_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 107;
+$App.NAB.PageNumber = 111;
 $App.NAB.PageID = "Option3";
 $scope.PushButton487_click = function() {$scope.GotoPage( "Index" );};
 $scope.PushButton488_click = function() {$scope.GotoPage( "Editmlist" );};
